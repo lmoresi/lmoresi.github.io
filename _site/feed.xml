@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-09-05T08:13:34+10:00</updated>
+<updated>2015-09-05T08:13:55+10:00</updated>
 <id>/</id>
 <author>
   <name>Louis Moresi</name>
@@ -606,6 +606,8 @@ T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} 
 &lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
 
 &lt;p&gt;Code highlighting is also platform dependent. Markdown does this in a variety of ways, with Github using fenced code blocks and logdown adopting their strategy. In Jekyll, I found it hard to have consistent code block detection and highlighting without using the &lt;code&gt;liquid&lt;/code&gt;  &lt;code&gt;{ % highlight language % }&lt;/code&gt; and &lt;code&gt;{ % endhighlight % }&lt;/code&gt; tags&lt;/p&gt;
+
+&lt;p&gt;Code highlighting works for \( \LaTeX \),&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-latex&quot; data-lang=&quot;latex&quot;&gt;&lt;span class=&quot;k&quot;&gt;\frac&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\partial&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\bf&lt;/span&gt; u&lt;span class=&quot;nb&quot;&gt;}}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\partial&lt;/span&gt; t&lt;span class=&quot;nb&quot;&gt;}&lt;/span&gt;  +
     &lt;span class=&quot;k&quot;&gt;\left&lt;/span&gt;( . &lt;span class=&quot;k&quot;&gt;\nabla&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\right&lt;/span&gt;)   =

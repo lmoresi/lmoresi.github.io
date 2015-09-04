@@ -10,6 +10,7 @@ categories: [Python, Mathematics, Underworld]
 This post was originally written for the "logdown" platform but I recently ported the whole lot across to github and their jekyll-based environment. I have therefore generalised my comments and I am showing only what works on github too. [ **Sept 4, 2015** ]
 {: .notice}
 
+
 We've had a frantic phase of development in `Underworld` recently with a new `python` and `ipython` compatible version in the wings. Using the `ipython notebook` environment exclusively for a couple of weeks has rekindled my appreciation of `(multi)markdown` for documentation and the power of rendering mathematics with `mathjax`. I even gave a lecture this week using `ipython` to make slides _(I wouldn't actually recommend this, but it was interesting to be able do live demonstrations where I could modify my code to show off some numerical instabilities)_.
 
 I wondered if there was a web-hosting or blogging site that had the  markdown, mathematics, code-highlighting capabilities of ipython notebooks, and I found [www.logdown.com](www.logdown.com "logdown"). This is what it can do:
@@ -48,6 +49,8 @@ Although  `mathjax` will parse `\begin{equation}` and `\end{equation}` (etc) mar
 ## Code
 
 Code highlighting is also platform dependent. Markdown does this in a variety of ways, with Github using fenced code blocks and logdown adopting their strategy. In Jekyll, I found it hard to have consistent code block detection and highlighting without using the `liquid`  `{ % highlight language % }` and `{ % endhighlight % }` tags
+
+Code highlighting works for \\( \LaTeX \\),
 
 {% highlight latex %}
     \frac{\partial {\bf u}}{\partial t}  +
