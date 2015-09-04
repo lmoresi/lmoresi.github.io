@@ -73,7 +73,10 @@
     <lastmod>2011-03-10T00:00:00+11:00</lastmod>
   </url>
   <url>
-    <loc>/about/</loc>
+    <loc>/pages/CV.html</loc>
+  </url>
+  <url>
+    <loc>/</loc>
   </url>
   <url>
     <loc>/theme-setup/</loc>
@@ -82,10 +85,6 @@
     <loc>/posts/</loc>
   </url>
   <url>
-    <loc>/</loc>
-  </url>
-  <url>
-    <loc>/OldSite/index.html</loc>
-    <lastmod>2015-09-03T09:43:32+10:00</lastmod>
+    <loc>/about/</loc>
   </url>
 </urlset>
