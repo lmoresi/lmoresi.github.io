@@ -5,8 +5,8 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Mathematics and Code &#8211; Site Title</title>
-<meta name="description" content="We&#39;ve had a frantic phase of development in Underworld recently with a new python and ipython compatible version in the wings. Using the ipython notebook environment exclusively for a couple of weeks has rekindled my appreciation of (multi)markdown for documentation and the power of rendering mathematics with mathjax. I even gave a lecture this week using ipython to make slides (I wouldn&#39;t actually recommend this, but it was interesting to be able do live demonstrations where I could modify my code to show off some numerical instabilities).
+<title>Mathematics and Code &#8211; Home</title>
+<meta name="description" content="We’ve had a frantic phase of development in Underworld recently with a new python and ipython compatible version in the wings. Using the ipython notebook environment exclusively for a couple of weeks has rekindled my appreciation of (multi)markdown for documentation and the power of rendering mathematics with mathjax. I even gave a lecture this week using ipython to make slides (I wouldn’t actually recommend this, but it was interesting to be able do live demonstrations where I could modify my code to show off some numerical instabilities).
 
 I wondered if there was a web-hosting or blogging site that had the  markdown, mathematics, code-highlighting capabilities of ipython notebooks, and I found www.logdown.com. This is what it can do:
 
@@ -19,33 +19,25 @@ Display equations rendered with mathjax, first as a raw displayed equation
   \underbrace{\left( - K \frac{\partial h}{\partial x} \right)}_\text{flux}
  \]
 
-$$
-   \xi
 
-$$
 
 
   \\[
   S \frac{\partial h}{\partial t} + H = -\frac{\partial }{\partial x}
   \underbrace{\left( - K \frac{\partial h}{\partial x} \right)}_\text{flux}
   \\]
+
+
+and you can use inline equations so that you can explain what \( {\partial h}/{\partial t} \) means. In logdown: a blockquoted equation also works (it’s probably a bug that this gets parsed as mathematics, but it is quite a nice way to add a label).
+
+
   
-
-and you can use inline equations so that you can explain what \( {\partial h}/{\partial t} \) means. In logdown: a blockquoted equation also works (it&#39;s probably a bug that this gets parsed as mathematics, but it is quite a nice way to add a label).
-
-
-$$
-  \frac{\partial {\mathbf u}}{\partial t}  +
-  \left( . \nabla } \right)   =
-  -\frac{1}{\rho }\nabla p  +  \textbf{F}  + \nu \nabla ^2{\mathbf u}
-   $$
 Navier-Stokes equation
 
 
 Recent versions of mathjax will parse \begin{equation} and \end{equation} (etc) tags successfully most of the time but this is not standard markup in any of the markdown extensions (including the logdown platform or iPython notebooks (based on github), pandoc, multimarkdown, etc. and so there is a competition between the different markup strategies.
 
-The advantage of using the \( \LaTeX \) tags is that mathjax 2 will do equation numbering and cross references correctly within the document. At the moment, the best solution seems to be to double up the tags and use \\[ \begin{equation} and \end{equation} \\]. I can&#39;t comment on whether this violates how mathjax + markdown is supposed to work, but it does seem to be the most robust combination that I have tried. \\( \ref{eq:blah} \\) also seems the safest strategy.
-
+The advantage of using the \( \LaTeX \) tags is that mathjax 2 will do equation numbering and cross references correctly within the document. At the moment, the best solution seems to be to double up the tags and use \\[ \begin{equation} and \end{equation} \\]. I can’t comment on whether this violates how mathjax + markdown is supposed to work, but it does seem to be the most robust combination that I have tried. \\( \ref{eq:blah} \\) also seems the safest strategy.
 
 
 \begin{equation}
@@ -53,50 +45,54 @@ The advantage of using the \( \LaTeX \) tags is that mathjax 2 will do equation 
     \int{\Gamma} \rho \phi \mathbf{v} \cdot d\Gamma =
     \int_\Omega \nabla \cdot (\mathbf{F} + \rho \phi \mathbf{v}) d\Omega
 \end{equation}
-&lt;!--\]--&gt;
+
 
 Code
 
 Highlighted source code of equations in \(\LaTeX\) using the same \\( \\) and \\[ \\] tags which are commonly used to extend markdown for mathematics (including ipython notebook):
+
 \frac{\partial {\bf u}}{\partial t}  +
-\left( . \nabla } \right)   =
--\frac{1}{\rho }\nabla p  +  \textbf{F}  + \nu \nabla ^2{\bf u}
+    \left( . \nabla } \right)   =
+    -\frac{1}{\rho }\nabla p  +  \textbf{F}  + \nu \nabla ^2{\bf u}
 
 scripts
+
 #!/usr/bin/env python
-&#39;&#39;&#39;
-    This example shows how you can add a set of particles to a swarm.
-  Here the particles are layed out in a spiral configuration.
-  Note that Scipy / Numpy are required for this example
-&#39;&#39;&#39;  
-import uwpytools
+    &#39;&#39;&#39;
+      This example shows how you can add a set of particles to a swarm.
+      Here the particles are layed out in a spiral configuration.
+      Note that Scipy / Numpy are required for this example
+    &#39;&#39;&#39;  
+    import uwpytools
 
-# init using underworld 1.x XML files
-uwpytools.InitWithArgs(&quot;BuoyancyDrivenVanilla.xml PICellerator/PassiveTracerSwarm.xml&quot;)
+    # init using underworld 1.x XML files
+    uwpytools.InitWithArgs(&quot;BuoyancyDrivenVanilla.xml PICellerator/PassiveTracerSwarm.xml&quot;)
 
-stgdict = uwpytools.GetCurrentDictionary()
+    stgdict = uwpytools.GetCurrentDictionary()
 
-# set to initialise and solve
-stgdict[&quot;maxTimeSteps&quot;]=-1
-stgdict[&quot;pauseToAttachDebugger&quot;]=0
-stgdict[&quot;checkpointEvery&quot;]=1
+    # set to initialise and solve
+    stgdict[&quot;maxTimeSteps&quot;]=-1
+    stgdict[&quot;pauseToAttachDebugger&quot;]=0
+    stgdict[&quot;checkpointEvery&quot;]=1
 
-and C code (C-like code ... this is StGermain after all)
-#include &lt;math.h&gt;
-#include &lt;mpi.h&gt;
+and C code (C-like code … this is StGermain after all)
+
+```C
+#include 
+#include 
 #include &lt;StGermain/StGermain.h&gt;
 #include &lt;StgDomain/StgDomain.h&gt;
 #include &lt;StgFEM/StgFEM.h&gt;
 #include &lt;PICellerator/PICellerator.h&gt;
 
-#include &quot;types.h&quot;
-#include &quot;RheologyClass.h&quot;
-#include &quot;StrainWeakening.h&quot;
-#include &quot;YieldRheology.h&quot;
-#include &quot;VonMises.h&quot;
-#include &quot;ConstitutiveMatrix.h&quot;
+include “types.h”
+#include “RheologyClass.h”
+#include “StrainWeakening.h”
+#include “YieldRheology.h”
+#include “VonMises.h”
+#include “ConstitutiveMatrix.h”
 
-#include &lt;assert.h&gt;
+include 
 
 /*
  * Textual name of this class -
@@ -104,10 +100,10 @@ and C code (C-like code ... this is StGermain after all)
  * class and not a particular instance of a class.
  */
 
-const Type VonMises_Type = &quot;VonMises&quot;;
+const Type VonMises_Type = “VonMises”;
 
-/* Public Constructor */
-VonMises* VonMises_New(
+/* Public Constructor /
+VonMises VonMises_New(
    Name                 name,
    AbstractContext*     context,
    StrainWeakening*     strainWeakening,
@@ -118,7 +114,10 @@ VonMises* VonMises_New(
    double               cohesionAfterSoftening,
    Bool                 strainRateSoftening )
 
-I think this is pretty impressive as a platform. I suppose the other question is how reliable the service actually turns out to be. We&#39;ll see ... but, if nothing else, the content is all in standard formats and can be re-used in many other places.
+```
+
+I think this is pretty impressive as a platform. I suppose the other question is how reliable the service actually turns out to be. We’ll see … but, if nothing else, the content is all in standard formats and can be re-used in many other places.
+
 ">
 <meta name="keywords" content="">
 
@@ -126,7 +125,7 @@ I think this is pretty impressive as a platform. I suppose the other question is
 
 <!-- Twitter Cards -->
 <meta name="twitter:title" content="Mathematics and Code">
-<meta name="twitter:description" content="We&#39;ve had a frantic phase of development in Underworld recently with a new python and ipython compatible version in the wings. Using the ipython notebook environment exclusively for a couple of weeks has rekindled my appreciation of (multi)markdown for documentation and the power of rendering mathematics with mathjax. I even gave a lecture this week using ipython to make slides (I wouldn&#39;t actually recommend this, but it was interesting to be able do live demonstrations where I could modify my code to show off some numerical instabilities).
+<meta name="twitter:description" content="We’ve had a frantic phase of development in Underworld recently with a new python and ipython compatible version in the wings. Using the ipython notebook environment exclusively for a couple of weeks has rekindled my appreciation of (multi)markdown for documentation and the power of rendering mathematics with mathjax. I even gave a lecture this week using ipython to make slides (I wouldn’t actually recommend this, but it was interesting to be able do live demonstrations where I could modify my code to show off some numerical instabilities).
 
 I wondered if there was a web-hosting or blogging site that had the  markdown, mathematics, code-highlighting capabilities of ipython notebooks, and I found www.logdown.com. This is what it can do:
 
@@ -139,33 +138,25 @@ Display equations rendered with mathjax, first as a raw displayed equation
   \underbrace{\left( - K \frac{\partial h}{\partial x} \right)}_\text{flux}
  \]
 
-$$
-   \xi
 
-$$
 
 
   \\[
   S \frac{\partial h}{\partial t} + H = -\frac{\partial }{\partial x}
   \underbrace{\left( - K \frac{\partial h}{\partial x} \right)}_\text{flux}
   \\]
+
+
+and you can use inline equations so that you can explain what \( {\partial h}/{\partial t} \) means. In logdown: a blockquoted equation also works (it’s probably a bug that this gets parsed as mathematics, but it is quite a nice way to add a label).
+
+
   
-
-and you can use inline equations so that you can explain what \( {\partial h}/{\partial t} \) means. In logdown: a blockquoted equation also works (it&#39;s probably a bug that this gets parsed as mathematics, but it is quite a nice way to add a label).
-
-
-$$
-  \frac{\partial {\mathbf u}}{\partial t}  +
-  \left( . \nabla } \right)   =
-  -\frac{1}{\rho }\nabla p  +  \textbf{F}  + \nu \nabla ^2{\mathbf u}
-   $$
 Navier-Stokes equation
 
 
 Recent versions of mathjax will parse \begin{equation} and \end{equation} (etc) tags successfully most of the time but this is not standard markup in any of the markdown extensions (including the logdown platform or iPython notebooks (based on github), pandoc, multimarkdown, etc. and so there is a competition between the different markup strategies.
 
-The advantage of using the \( \LaTeX \) tags is that mathjax 2 will do equation numbering and cross references correctly within the document. At the moment, the best solution seems to be to double up the tags and use \\[ \begin{equation} and \end{equation} \\]. I can&#39;t comment on whether this violates how mathjax + markdown is supposed to work, but it does seem to be the most robust combination that I have tried. \\( \ref{eq:blah} \\) also seems the safest strategy.
-
+The advantage of using the \( \LaTeX \) tags is that mathjax 2 will do equation numbering and cross references correctly within the document. At the moment, the best solution seems to be to double up the tags and use \\[ \begin{equation} and \end{equation} \\]. I can’t comment on whether this violates how mathjax + markdown is supposed to work, but it does seem to be the most robust combination that I have tried. \\( \ref{eq:blah} \\) also seems the safest strategy.
 
 
 \begin{equation}
@@ -173,50 +164,54 @@ The advantage of using the \( \LaTeX \) tags is that mathjax 2 will do equation 
     \int{\Gamma} \rho \phi \mathbf{v} \cdot d\Gamma =
     \int_\Omega \nabla \cdot (\mathbf{F} + \rho \phi \mathbf{v}) d\Omega
 \end{equation}
-&lt;!--\]--&gt;
+
 
 Code
 
 Highlighted source code of equations in \(\LaTeX\) using the same \\( \\) and \\[ \\] tags which are commonly used to extend markdown for mathematics (including ipython notebook):
+
 \frac{\partial {\bf u}}{\partial t}  +
-\left( . \nabla } \right)   =
--\frac{1}{\rho }\nabla p  +  \textbf{F}  + \nu \nabla ^2{\bf u}
+    \left( . \nabla } \right)   =
+    -\frac{1}{\rho }\nabla p  +  \textbf{F}  + \nu \nabla ^2{\bf u}
 
 scripts
+
 #!/usr/bin/env python
-&#39;&#39;&#39;
-    This example shows how you can add a set of particles to a swarm.
-  Here the particles are layed out in a spiral configuration.
-  Note that Scipy / Numpy are required for this example
-&#39;&#39;&#39;  
-import uwpytools
+    &#39;&#39;&#39;
+      This example shows how you can add a set of particles to a swarm.
+      Here the particles are layed out in a spiral configuration.
+      Note that Scipy / Numpy are required for this example
+    &#39;&#39;&#39;  
+    import uwpytools
 
-# init using underworld 1.x XML files
-uwpytools.InitWithArgs(&quot;BuoyancyDrivenVanilla.xml PICellerator/PassiveTracerSwarm.xml&quot;)
+    # init using underworld 1.x XML files
+    uwpytools.InitWithArgs(&quot;BuoyancyDrivenVanilla.xml PICellerator/PassiveTracerSwarm.xml&quot;)
 
-stgdict = uwpytools.GetCurrentDictionary()
+    stgdict = uwpytools.GetCurrentDictionary()
 
-# set to initialise and solve
-stgdict[&quot;maxTimeSteps&quot;]=-1
-stgdict[&quot;pauseToAttachDebugger&quot;]=0
-stgdict[&quot;checkpointEvery&quot;]=1
+    # set to initialise and solve
+    stgdict[&quot;maxTimeSteps&quot;]=-1
+    stgdict[&quot;pauseToAttachDebugger&quot;]=0
+    stgdict[&quot;checkpointEvery&quot;]=1
 
-and C code (C-like code ... this is StGermain after all)
-#include &lt;math.h&gt;
-#include &lt;mpi.h&gt;
+and C code (C-like code … this is StGermain after all)
+
+```C
+#include 
+#include 
 #include &lt;StGermain/StGermain.h&gt;
 #include &lt;StgDomain/StgDomain.h&gt;
 #include &lt;StgFEM/StgFEM.h&gt;
 #include &lt;PICellerator/PICellerator.h&gt;
 
-#include &quot;types.h&quot;
-#include &quot;RheologyClass.h&quot;
-#include &quot;StrainWeakening.h&quot;
-#include &quot;YieldRheology.h&quot;
-#include &quot;VonMises.h&quot;
-#include &quot;ConstitutiveMatrix.h&quot;
+include “types.h”
+#include “RheologyClass.h”
+#include “StrainWeakening.h”
+#include “YieldRheology.h”
+#include “VonMises.h”
+#include “ConstitutiveMatrix.h”
 
-#include &lt;assert.h&gt;
+include 
 
 /*
  * Textual name of this class -
@@ -224,10 +219,10 @@ and C code (C-like code ... this is StGermain after all)
  * class and not a particular instance of a class.
  */
 
-const Type VonMises_Type = &quot;VonMises&quot;;
+const Type VonMises_Type = “VonMises”;
 
-/* Public Constructor */
-VonMises* VonMises_New(
+/* Public Constructor /
+VonMises VonMises_New(
    Name                 name,
    AbstractContext*     context,
    StrainWeakening*     strainWeakening,
@@ -238,7 +233,10 @@ VonMises* VonMises_New(
    double               cohesionAfterSoftening,
    Bool                 strainRateSoftening )
 
-I think this is pretty impressive as a platform. I suppose the other question is how reliable the service actually turns out to be. We&#39;ll see ... but, if nothing else, the content is all in standard formats and can be re-used in many other places.
+```
+
+I think this is pretty impressive as a platform. I suppose the other question is how reliable the service actually turns out to be. We’ll see … but, if nothing else, the content is all in standard formats and can be re-used in many other places.
+
 ">
 <meta name="twitter:site" content="@louismoresi">
 <meta name="twitter:creator" content="@louismoresi">
@@ -250,7 +248,7 @@ I think this is pretty impressive as a platform. I suppose the other question is
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Mathematics and Code">
-<meta property="og:description" content="We&#39;ve had a frantic phase of development in Underworld recently with a new python and ipython compatible version in the wings. Using the ipython notebook environment exclusively for a couple of weeks has rekindled my appreciation of (multi)markdown for documentation and the power of rendering mathematics with mathjax. I even gave a lecture this week using ipython to make slides (I wouldn&#39;t actually recommend this, but it was interesting to be able do live demonstrations where I could modify my code to show off some numerical instabilities).
+<meta property="og:description" content="We’ve had a frantic phase of development in Underworld recently with a new python and ipython compatible version in the wings. Using the ipython notebook environment exclusively for a couple of weeks has rekindled my appreciation of (multi)markdown for documentation and the power of rendering mathematics with mathjax. I even gave a lecture this week using ipython to make slides (I wouldn’t actually recommend this, but it was interesting to be able do live demonstrations where I could modify my code to show off some numerical instabilities).
 
 I wondered if there was a web-hosting or blogging site that had the  markdown, mathematics, code-highlighting capabilities of ipython notebooks, and I found www.logdown.com. This is what it can do:
 
@@ -263,33 +261,25 @@ Display equations rendered with mathjax, first as a raw displayed equation
   \underbrace{\left( - K \frac{\partial h}{\partial x} \right)}_\text{flux}
  \]
 
-$$
-   \xi
 
-$$
 
 
   \\[
   S \frac{\partial h}{\partial t} + H = -\frac{\partial }{\partial x}
   \underbrace{\left( - K \frac{\partial h}{\partial x} \right)}_\text{flux}
   \\]
+
+
+and you can use inline equations so that you can explain what \( {\partial h}/{\partial t} \) means. In logdown: a blockquoted equation also works (it’s probably a bug that this gets parsed as mathematics, but it is quite a nice way to add a label).
+
+
   
-
-and you can use inline equations so that you can explain what \( {\partial h}/{\partial t} \) means. In logdown: a blockquoted equation also works (it&#39;s probably a bug that this gets parsed as mathematics, but it is quite a nice way to add a label).
-
-
-$$
-  \frac{\partial {\mathbf u}}{\partial t}  +
-  \left( . \nabla } \right)   =
-  -\frac{1}{\rho }\nabla p  +  \textbf{F}  + \nu \nabla ^2{\mathbf u}
-   $$
 Navier-Stokes equation
 
 
 Recent versions of mathjax will parse \begin{equation} and \end{equation} (etc) tags successfully most of the time but this is not standard markup in any of the markdown extensions (including the logdown platform or iPython notebooks (based on github), pandoc, multimarkdown, etc. and so there is a competition between the different markup strategies.
 
-The advantage of using the \( \LaTeX \) tags is that mathjax 2 will do equation numbering and cross references correctly within the document. At the moment, the best solution seems to be to double up the tags and use \\[ \begin{equation} and \end{equation} \\]. I can&#39;t comment on whether this violates how mathjax + markdown is supposed to work, but it does seem to be the most robust combination that I have tried. \\( \ref{eq:blah} \\) also seems the safest strategy.
-
+The advantage of using the \( \LaTeX \) tags is that mathjax 2 will do equation numbering and cross references correctly within the document. At the moment, the best solution seems to be to double up the tags and use \\[ \begin{equation} and \end{equation} \\]. I can’t comment on whether this violates how mathjax + markdown is supposed to work, but it does seem to be the most robust combination that I have tried. \\( \ref{eq:blah} \\) also seems the safest strategy.
 
 
 \begin{equation}
@@ -297,50 +287,54 @@ The advantage of using the \( \LaTeX \) tags is that mathjax 2 will do equation 
     \int{\Gamma} \rho \phi \mathbf{v} \cdot d\Gamma =
     \int_\Omega \nabla \cdot (\mathbf{F} + \rho \phi \mathbf{v}) d\Omega
 \end{equation}
-&lt;!--\]--&gt;
+
 
 Code
 
 Highlighted source code of equations in \(\LaTeX\) using the same \\( \\) and \\[ \\] tags which are commonly used to extend markdown for mathematics (including ipython notebook):
+
 \frac{\partial {\bf u}}{\partial t}  +
-\left( . \nabla } \right)   =
--\frac{1}{\rho }\nabla p  +  \textbf{F}  + \nu \nabla ^2{\bf u}
+    \left( . \nabla } \right)   =
+    -\frac{1}{\rho }\nabla p  +  \textbf{F}  + \nu \nabla ^2{\bf u}
 
 scripts
+
 #!/usr/bin/env python
-&#39;&#39;&#39;
-    This example shows how you can add a set of particles to a swarm.
-  Here the particles are layed out in a spiral configuration.
-  Note that Scipy / Numpy are required for this example
-&#39;&#39;&#39;  
-import uwpytools
+    &#39;&#39;&#39;
+      This example shows how you can add a set of particles to a swarm.
+      Here the particles are layed out in a spiral configuration.
+      Note that Scipy / Numpy are required for this example
+    &#39;&#39;&#39;  
+    import uwpytools
 
-# init using underworld 1.x XML files
-uwpytools.InitWithArgs(&quot;BuoyancyDrivenVanilla.xml PICellerator/PassiveTracerSwarm.xml&quot;)
+    # init using underworld 1.x XML files
+    uwpytools.InitWithArgs(&quot;BuoyancyDrivenVanilla.xml PICellerator/PassiveTracerSwarm.xml&quot;)
 
-stgdict = uwpytools.GetCurrentDictionary()
+    stgdict = uwpytools.GetCurrentDictionary()
 
-# set to initialise and solve
-stgdict[&quot;maxTimeSteps&quot;]=-1
-stgdict[&quot;pauseToAttachDebugger&quot;]=0
-stgdict[&quot;checkpointEvery&quot;]=1
+    # set to initialise and solve
+    stgdict[&quot;maxTimeSteps&quot;]=-1
+    stgdict[&quot;pauseToAttachDebugger&quot;]=0
+    stgdict[&quot;checkpointEvery&quot;]=1
 
-and C code (C-like code ... this is StGermain after all)
-#include &lt;math.h&gt;
-#include &lt;mpi.h&gt;
+and C code (C-like code … this is StGermain after all)
+
+```C
+#include 
+#include 
 #include &lt;StGermain/StGermain.h&gt;
 #include &lt;StgDomain/StgDomain.h&gt;
 #include &lt;StgFEM/StgFEM.h&gt;
 #include &lt;PICellerator/PICellerator.h&gt;
 
-#include &quot;types.h&quot;
-#include &quot;RheologyClass.h&quot;
-#include &quot;StrainWeakening.h&quot;
-#include &quot;YieldRheology.h&quot;
-#include &quot;VonMises.h&quot;
-#include &quot;ConstitutiveMatrix.h&quot;
+include “types.h”
+#include “RheologyClass.h”
+#include “StrainWeakening.h”
+#include “YieldRheology.h”
+#include “VonMises.h”
+#include “ConstitutiveMatrix.h”
 
-#include &lt;assert.h&gt;
+include 
 
 /*
  * Textual name of this class -
@@ -348,10 +342,10 @@ and C code (C-like code ... this is StGermain after all)
  * class and not a particular instance of a class.
  */
 
-const Type VonMises_Type = &quot;VonMises&quot;;
+const Type VonMises_Type = “VonMises”;
 
-/* Public Constructor */
-VonMises* VonMises_New(
+/* Public Constructor /
+VonMises VonMises_New(
    Name                 name,
    AbstractContext*     context,
    StrainWeakening*     strainWeakening,
@@ -362,10 +356,13 @@ VonMises* VonMises_New(
    double               cohesionAfterSoftening,
    Bool                 strainRateSoftening )
 
-I think this is pretty impressive as a platform. I suppose the other question is how reliable the service actually turns out to be. We&#39;ll see ... but, if nothing else, the content is all in standard formats and can be re-used in many other places.
+```
+
+I think this is pretty impressive as a platform. I suppose the other question is how reliable the service actually turns out to be. We’ll see … but, if nothing else, the content is all in standard formats and can be re-used in many other places.
+
 ">
 <meta property="og:url" content="/python/mathematics/underworld/free-expression/">
-<meta property="og:site_name" content="Site Title">
+<meta property="og:site_name" content="Home">
 
 <meta property="og:image" content="/images/default-thumb.png">
 
@@ -375,7 +372,7 @@ I think this is pretty impressive as a platform. I suppose the other question is
 
 
 <link rel="canonical" href="/python/mathematics/underworld/free-expression/">
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Site Title Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Home Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -420,7 +417,7 @@ I think this is pretty impressive as a platform. I suppose the other question is
 
 <div class="navigation-wrapper">
 	<div class="site-name">
-		<a href="/">Site Title</a>
+		<a href="/">Home</a>
 	</div><!-- /.site-name -->
 	<div class="top-navigation">
 		<nav role="navigation" id="site-nav" class="nav">
@@ -429,17 +426,22 @@ I think this is pretty impressive as a platform. I suppose the other question is
 				    
 				        
 				    
-				    <li><a href="/about/" >About</a></li>
+				    <li><a href="/pages/ListOfPosts/" >posts</a></li>
 				
 				    
 				        
 				    
-				    <li><a href="/pages/CV.md" >CV</a></li>
+				    <li><a href="/pages/CV/" >CV</a></li>
 				
 				    
 				        
 				    
-				    <li><a href="/theme-setup/" >Theme Setup</a></li>
+				    <li><a href="/pages/Pubs/" >Publications</a></li>
+				
+				    
+				        
+				    
+				    <li><a href="/pages/Research/" >Research</a></li>
 				
 				    
 				        
@@ -497,11 +499,11 @@ I think this is pretty impressive as a platform. I suppose the other question is
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <p>We&#39;ve had a frantic phase of development in <code>Underworld</code> recently with a new <code>python</code> and <code>ipython</code> compatible version in the wings. Using the <code>ipython notebook</code> environment exclusively for a couple of weeks has rekindled my appreciation of <code>(multi)markdown</code> for documentation and the power of rendering mathematics with <code>mathjax</code>. I even gave a lecture this week using <code>ipython</code> to make slides <em>(I wouldn&#39;t actually recommend this, but it was interesting to be able do live demonstrations where I could modify my code to show off some numerical instabilities)</em>.</p>
+      <p>We’ve had a frantic phase of development in <code>Underworld</code> recently with a new <code>python</code> and <code>ipython</code> compatible version in the wings. Using the <code>ipython notebook</code> environment exclusively for a couple of weeks has rekindled my appreciation of <code>(multi)markdown</code> for documentation and the power of rendering mathematics with <code>mathjax</code>. I even gave a lecture this week using <code>ipython</code> to make slides <em>(I wouldn’t actually recommend this, but it was interesting to be able do live demonstrations where I could modify my code to show off some numerical instabilities)</em>.</p>
 
 <p>I wondered if there was a web-hosting or blogging site that had the  markdown, mathematics, code-highlighting capabilities of ipython notebooks, and I found <a href="www.logdown.com" title="logdown">www.logdown.com</a>. This is what it can do:</p>
 
-<h2>Mathematics</h2>
+<h2 id="mathematics">Mathematics</h2>
 
 <p>Display equations rendered with mathjax, first as a raw displayed equation</p>
 
@@ -510,106 +512,111 @@ I think this is pretty impressive as a platform. I suppose the other question is
   \underbrace{\left( - K \frac{\partial h}{\partial x} \right)}_\text{flux}
  \]</p>
 
-<p>$$
-   \xi</p>
+<script type="math/tex; mode=display">
+   \xi
 
-<p>$$</p>
+</script>
 
 <pre>
   \\[
   S \frac{\partial h}{\partial t} + H = -\frac{\partial }{\partial x}
   \underbrace{\left( - K \frac{\partial h}{\partial x} \right)}_\text{flux}
   \\]
-</pre>  
+</pre>
 
-<p>and you can use inline equations so that you can explain what \( {\partial h}/{\partial t} \) means. In logdown: a blockquoted equation also works (it&#39;s probably a bug that this gets parsed as mathematics, but it is quite a nice way to add a label).</p>
+<p>and you can use inline equations so that you can explain what \( {\partial h}/{\partial t} \) means. In logdown: a blockquoted equation also works (it’s probably a bug that this gets parsed as mathematics, but it is quite a nice way to add a label).</p>
 
 <blockquote>
-<p>$$
+  <p><script type="math/tex">
   \frac{\partial {\mathbf u}}{\partial t}  +
   \left( . \nabla } \right)   =
   -\frac{1}{\rho }\nabla p  +  \textbf{F}  + \nu \nabla ^2{\mathbf u}
-   $$
+   </script>
 Navier-Stokes equation</p>
 </blockquote>
 
 <p>Recent versions of <code>mathjax</code> will parse <code>\begin{equation}</code> and <code>\end{equation}</code> (etc) tags successfully most of the time but this is not standard markup in any of the markdown extensions (including the logdown platform or iPython notebooks (based on github), pandoc, multimarkdown, etc. and so there is a competition between the different markup strategies.</p>
 
-<p>The advantage of using the \( \LaTeX \) tags is that mathjax 2 will do equation numbering and cross references correctly within the document. At the moment, the best solution seems to be to double up the tags and use <code>\\[ \begin{equation}</code> and <code>\end{equation} \\]</code>. I can&#39;t comment on whether this violates how mathjax + markdown is supposed to work, but it does seem to be the most robust combination that I have tried. <code>\\( \ref{eq:blah} \\)</code> also seems the safest strategy.</p>
+<p>The advantage of using the \( \LaTeX \) tags is that mathjax 2 will do equation numbering and cross references correctly within the document. At the moment, the best solution seems to be to double up the tags and use <code>\\[ \begin{equation}</code> and <code>\end{equation} \\]</code>. I can’t comment on whether this violates how mathjax + markdown is supposed to work, but it does seem to be the most robust combination that I have tried. <code>\\( \ref{eq:blah} \\)</code> also seems the safest strategy.</p>
 
 <!--\\[-->
-
 <p>\begin{equation}
     \int<em>{\Gamma} \mathbf{F} \cdot d\Gamma +
     \int</em>{\Gamma} \rho \phi \mathbf{v} \cdot d\Gamma =
     \int_\Omega \nabla \cdot (\mathbf{F} + \rho \phi \mathbf{v}) d\Omega
 \end{equation}
-&lt;!--\]--&gt;</p>
+<!--\\]--></p>
 
-<h2>Code</h2>
+<h2 id="code">Code</h2>
 
 <p>Highlighted source code of equations in \(\LaTeX\) using the same \\( \\) and \\[ \\] tags which are commonly used to extend markdown for mathematics (including <code>ipython notebook</code>):</p>
+
 <div class="highlight"><pre><code class="language-latex" data-lang="latex"><span class="k">\frac</span><span class="nb">{</span><span class="k">\partial</span> <span class="nb">{</span><span class="k">\bf</span> u<span class="nb">}}{</span><span class="k">\partial</span> t<span class="nb">}</span>  +
-<span class="k">\left</span>( . <span class="k">\nabla</span> <span class="nb">}</span> <span class="k">\right</span>)   =
--<span class="k">\frac</span><span class="nb">{</span>1<span class="nb">}{</span><span class="k">\rho</span> <span class="nb">}</span><span class="k">\nabla</span> p  +  <span class="k">\textbf</span><span class="nb">{</span>F<span class="nb">}</span>  + <span class="k">\nu</span> <span class="k">\nabla</span> <span class="nb">^</span>2<span class="nb">{</span><span class="k">\bf</span> u<span class="nb">}</span>
-</code></pre></div>
+    <span class="k">\left</span>( . <span class="k">\nabla</span> <span class="nb">}</span> <span class="k">\right</span>)   =
+    -<span class="k">\frac</span><span class="nb">{</span>1<span class="nb">}{</span><span class="k">\rho</span> <span class="nb">}</span><span class="k">\nabla</span> p  +  <span class="k">\textbf</span><span class="nb">{</span>F<span class="nb">}</span>  + <span class="k">\nu</span> <span class="k">\nabla</span> <span class="nb">^</span>2<span class="nb">{</span><span class="k">\bf</span> u<span class="nb">}</span></code></pre></div>
+
 <p>scripts</p>
+
 <div class="highlight"><pre><code class="language-python" data-lang="python"><span class="c">#!/usr/bin/env python</span>
-<span class="sd">&#39;&#39;&#39;</span>
-<span class="sd">    This example shows how you can add a set of particles to a swarm.</span>
-<span class="sd">  Here the particles are layed out in a spiral configuration.</span>
-<span class="sd">  Note that Scipy / Numpy are required for this example</span>
-<span class="sd">&#39;&#39;&#39;</span>  
-<span class="kn">import</span> <span class="nn">uwpytools</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">      This example shows how you can add a set of particles to a swarm.</span>
+<span class="sd">      Here the particles are layed out in a spiral configuration.</span>
+<span class="sd">      Note that Scipy / Numpy are required for this example</span>
+<span class="sd">    &#39;&#39;&#39;</span>  
+    <span class="kn">import</span> <span class="nn">uwpytools</span>
 
-<span class="c"># init using underworld 1.x XML files</span>
-<span class="n">uwpytools</span><span class="o">.</span><span class="n">InitWithArgs</span><span class="p">(</span><span class="s">&quot;BuoyancyDrivenVanilla.xml PICellerator/PassiveTracerSwarm.xml&quot;</span><span class="p">)</span>
+    <span class="c"># init using underworld 1.x XML files</span>
+    <span class="n">uwpytools</span><span class="o">.</span><span class="n">InitWithArgs</span><span class="p">(</span><span class="s">&quot;BuoyancyDrivenVanilla.xml PICellerator/PassiveTracerSwarm.xml&quot;</span><span class="p">)</span>
 
-<span class="n">stgdict</span> <span class="o">=</span> <span class="n">uwpytools</span><span class="o">.</span><span class="n">GetCurrentDictionary</span><span class="p">()</span>
+    <span class="n">stgdict</span> <span class="o">=</span> <span class="n">uwpytools</span><span class="o">.</span><span class="n">GetCurrentDictionary</span><span class="p">()</span>
 
-<span class="c"># set to initialise and solve</span>
-<span class="n">stgdict</span><span class="p">[</span><span class="s">&quot;maxTimeSteps&quot;</span><span class="p">]</span><span class="o">=-</span><span class="mi">1</span>
-<span class="n">stgdict</span><span class="p">[</span><span class="s">&quot;pauseToAttachDebugger&quot;</span><span class="p">]</span><span class="o">=</span><span class="mi">0</span>
-<span class="n">stgdict</span><span class="p">[</span><span class="s">&quot;checkpointEvery&quot;</span><span class="p">]</span><span class="o">=</span><span class="mi">1</span>
-</code></pre></div>
-<p>and C code (C-like code ... this is StGermain after all)</p>
-<div class="highlight"><pre><code class="language-C" data-lang="C"><span class="cp">#include &lt;math.h&gt;</span>
-<span class="cp">#include &lt;mpi.h&gt;</span>
-<span class="cp">#include &lt;StGermain/StGermain.h&gt;</span>
-<span class="cp">#include &lt;StgDomain/StgDomain.h&gt;</span>
-<span class="cp">#include &lt;StgFEM/StgFEM.h&gt;</span>
-<span class="cp">#include &lt;PICellerator/PICellerator.h&gt;</span>
+    <span class="c"># set to initialise and solve</span>
+    <span class="n">stgdict</span><span class="p">[</span><span class="s">&quot;maxTimeSteps&quot;</span><span class="p">]</span><span class="o">=-</span><span class="mi">1</span>
+    <span class="n">stgdict</span><span class="p">[</span><span class="s">&quot;pauseToAttachDebugger&quot;</span><span class="p">]</span><span class="o">=</span><span class="mi">0</span>
+    <span class="n">stgdict</span><span class="p">[</span><span class="s">&quot;checkpointEvery&quot;</span><span class="p">]</span><span class="o">=</span><span class="mi">1</span></code></pre></div>
 
-<span class="cp">#include &quot;types.h&quot;</span>
-<span class="cp">#include &quot;RheologyClass.h&quot;</span>
-<span class="cp">#include &quot;StrainWeakening.h&quot;</span>
-<span class="cp">#include &quot;YieldRheology.h&quot;</span>
-<span class="cp">#include &quot;VonMises.h&quot;</span>
-<span class="cp">#include &quot;ConstitutiveMatrix.h&quot;</span>
+<p>and C code (C-like code … this is StGermain after all)</p>
 
-<span class="cp">#include &lt;assert.h&gt;</span>
+<p>```C
+#include <math.h>
+#include <mpi.h>
+#include &lt;StGermain/StGermain.h&gt;
+#include &lt;StgDomain/StgDomain.h&gt;
+#include &lt;StgFEM/StgFEM.h&gt;
+#include &lt;PICellerator/PICellerator.h&gt;</mpi.h></math.h></p>
 
-<span class="cm">/*</span>
-<span class="cm"> * Textual name of this class -</span>
-<span class="cm"> * This is a global pointer which is used for times when you need to refer to</span>
-<span class="cm"> * class and not a particular instance of a class.</span>
-<span class="cm"> */</span>
+<h1 id="include-typesh">include “types.h”</h1>
+<p>#include “RheologyClass.h”
+#include “StrainWeakening.h”
+#include “YieldRheology.h”
+#include “VonMises.h”
+#include “ConstitutiveMatrix.h”</p>
 
-<span class="k">const</span> <span class="n">Type</span> <span class="n">VonMises_Type</span> <span class="o">=</span> <span class="s">&quot;VonMises&quot;</span><span class="p">;</span>
+<h1 id="include-asserth">include <assert.h></assert.h></h1>
 
-<span class="cm">/* Public Constructor */</span>
-<span class="n">VonMises</span><span class="o">*</span> <span class="n">VonMises_New</span><span class="p">(</span>
-   <span class="n">Name</span>                 <span class="n">name</span><span class="p">,</span>
-   <span class="n">AbstractContext</span><span class="o">*</span>     <span class="n">context</span><span class="p">,</span>
-   <span class="n">StrainWeakening</span><span class="o">*</span>     <span class="n">strainWeakening</span><span class="p">,</span>
-   <span class="n">MaterialPointsSwarm</span><span class="o">*</span> <span class="n">materialPointsSwarm</span><span class="p">,</span>
-   <span class="kt">double</span>               <span class="n">minVisc</span><span class="p">,</span>
-   <span class="kt">int</span>                   <span class="n">strainRateTag</span><span class="p">,</span>
-   <span class="kt">double</span>               <span class="n">cohesion</span><span class="p">,</span>
-   <span class="kt">double</span>               <span class="n">cohesionAfterSoftening</span><span class="p">,</span>
-   <span class="n">Bool</span>                 <span class="n">strainRateSoftening</span> <span class="p">)</span>
-</code></pre></div>
-<p>I think this is pretty impressive as a platform. I suppose the other question is how reliable the service actually turns out to be. We&#39;ll see ... but, if nothing else, the content is all in standard formats and can be re-used in many other places.</p>
+<p>/*
+ * Textual name of this class -
+ * This is a global pointer which is used for times when you need to refer to
+ * class and not a particular instance of a class.
+ */</p>
+
+<p>const Type VonMises_Type = “VonMises”;</p>
+
+<p>/* Public Constructor <em>/
+VonMises</em> VonMises_New(
+   Name                 name,
+   AbstractContext*     context,
+   StrainWeakening*     strainWeakening,
+   MaterialPointsSwarm* materialPointsSwarm,
+   double               minVisc,
+   int                   strainRateTag,
+   double               cohesion,
+   double               cohesionAfterSoftening,
+   Bool                 strainRateSoftening )</p>
+
+<p>```</p>
+
+<p>I think this is pretty impressive as a platform. I suppose the other question is how reliable the service actually turns out to be. We’ll see … but, if nothing else, the content is all in standard formats and can be re-used in many other places.</p>
 
       <hr />
       <footer role="contentinfo">

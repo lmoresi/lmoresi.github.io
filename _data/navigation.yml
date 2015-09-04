@@ -1,13 +1,16 @@
 # Site navigation links
 
-- title: About
-  url: /about/
+- title: posts
+  url: /pages/ListOfPosts/
 
 - title: CV
-  url: /pages/CV.md
+  url: /pages/CV/
 
-- title: Theme Setup
-  url: /theme-setup/
+- title: Publications
+  url: /pages/Pubs/
+
+- title: Research
+  url: /pages/Research/
 
 - title: Underworld News
   url: http://www.facebook.com/underworldcode

@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>A Post with Images &#8211; Site Title</title>
+<title>A Post with Images &#8211; Home</title>
 <meta name="description" content="Examples and code for displaying images in posts.">
 <meta name="keywords" content="sample post, images, test">
 
@@ -26,7 +26,7 @@
 <meta property="og:title" content="A Post with Images">
 <meta property="og:description" content="Examples and code for displaying images in posts.">
 <meta property="og:url" content="/sample-post-images/">
-<meta property="og:site_name" content="Site Title">
+<meta property="og:site_name" content="Home">
 
 <meta property="og:image" content="/images/default-thumb.png">
 
@@ -36,7 +36,7 @@
 
 
 <link rel="canonical" href="/sample-post-images/">
-<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Site Title Feed">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Home Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -81,7 +81,7 @@
 
 <div class="navigation-wrapper">
 	<div class="site-name">
-		<a href="/">Site Title</a>
+		<a href="/">Home</a>
 	</div><!-- /.site-name -->
 	<div class="top-navigation">
 		<nav role="navigation" id="site-nav" class="nav">
@@ -90,17 +90,22 @@
 				    
 				        
 				    
-				    <li><a href="/about/" >About</a></li>
+				    <li><a href="/pages/ListOfPosts/" >posts</a></li>
 				
 				    
 				        
 				    
-				    <li><a href="/pages/CV.md" >CV</a></li>
+				    <li><a href="/pages/CV/" >CV</a></li>
 				
 				    
 				        
 				    
-				    <li><a href="/theme-setup/" >Theme Setup</a></li>
+				    <li><a href="/pages/Pubs/" >Publications</a></li>
+				
+				    
+				        
+				    
+				    <li><a href="/pages/Research/" >Research</a></li>
 				
 				    
 				        
@@ -160,18 +165,18 @@
     <div class="article-wrap">
       <p>Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use <code>figure</code> with the appropriate <code>class</code>. Each instance of <code>figure</code> is auto-numbered and displayed in the caption.</p>
 
-<h3>Figures (for images or video)</h3>
+<h3 id="figures-for-images-or-video">Figures (for images or video)</h3>
 
-<h4>One Up</h4>
+<h4 id="one-up">One Up</h4>
 
 <figure>
-    <a href="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg"></a>
-    <figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
+	<a href="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg" /></a>
+	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
 </figure>
 
 <p>Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.</p>
 
-<h4>Two Up</h4>
+<h4 id="two-up">Two Up</h4>
 
 <p>Apply the <code>half</code> class like so to display two images side by side that share the same caption.</p>
 
@@ -181,32 +186,32 @@
     <span class="nt">&lt;figcaption&gt;</span>Caption describing these two images.<span class="nt">&lt;/figcaption&gt;</span>
 <span class="nt">&lt;/figure&gt;</span></code></pre></div>
 
-<p>And you&#39;ll get something that looks like this:</p>
+<p>And you’ll get something that looks like this:</p>
 
 <figure class="half">
-    <a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>
-    <a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg"></a>
-    <figcaption>Two images.</figcaption>
+	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg" /></a>
+	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg" /></a>
+	<figcaption>Two images.</figcaption>
 </figure>
 
-<h4>Three Up</h4>
+<h4 id="three-up">Three Up</h4>
 
 <p>Apply the <code>third</code> class like so to display three images side by side that share the same caption.</p>
 
 <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;figure</span> <span class="na">class=</span><span class="s">&quot;third&quot;</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;/images/image-filename-1.jpg&quot;</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;/images/image-filename-2.jpg&quot;</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;/images/image-filename-3.jpg&quot;</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;figcaption&gt;</span>Caption describing these three images.<span class="nt">&lt;/figcaption&gt;</span>
+	<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;/images/image-filename-1.jpg&quot;</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;/images/image-filename-2.jpg&quot;</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;/images/image-filename-3.jpg&quot;</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;figcaption&gt;</span>Caption describing these three images.<span class="nt">&lt;/figcaption&gt;</span>
 <span class="nt">&lt;/figure&gt;</span></code></pre></div>
 
-<p>And you&#39;ll get something that looks like this:</p>
+<p>And you’ll get something that looks like this:</p>
 
 <figure class="third">
-    <img src="http://placehold.it/600x300.jpg">
-    <img src="http://placehold.it/600x300.jpg">
-    <img src="http://placehold.it/600x300.jpg">
-    <figcaption>Three images.</figcaption>
+	<img src="http://placehold.it/600x300.jpg" />
+	<img src="http://placehold.it/600x300.jpg" />
+	<img src="http://placehold.it/600x300.jpg" />
+	<figcaption>Three images.</figcaption>
 </figure>
 
       <hr />

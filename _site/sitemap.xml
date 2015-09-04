@@ -73,18 +73,18 @@
     <lastmod>2011-03-10T00:00:00+11:00</lastmod>
   </url>
   <url>
-    <loc>/pages/CV.html</loc>
+    <loc>/pages/ListOfPosts/</loc>
+  </url>
+  <url>
+    <loc>/pages/CV/</loc>
   </url>
   <url>
     <loc>/</loc>
   </url>
   <url>
-    <loc>/theme-setup/</loc>
+    <loc>/pages/Research/</loc>
   </url>
   <url>
-    <loc>/posts/</loc>
-  </url>
-  <url>
-    <loc>/about/</loc>
+    <loc>/pages/Pubs/</loc>
   </url>
 </urlset>

@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Home
 locale:           en_US
 url:
 
@@ -9,7 +9,7 @@ port: 4444
 # Jekyll configuration
 
 permalink:   /:categories/:title/
-markdown:    redcarpet
+markdown:    kramdown
 highlighter: pygments
 sass:
   sass_dir: _sass
@@ -17,13 +17,8 @@ sass:
 gems:
   - jekyll-sitemap
 
-# kramdown:
-#   input: GFM
-#   auto_ids: true
-#   footnote_nr: 1
-#   entity_output: as_char
-#   toc_levels: 1..6
-#   use_coderay: false
+# redcarpet:
+#     extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
 
 mathjax: on
     # activated !

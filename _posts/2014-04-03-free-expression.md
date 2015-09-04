@@ -14,7 +14,6 @@ I wondered if there was a web-hosting or blogging site that had the  markdown, m
 
 Display equations rendered with mathjax, first as a raw displayed equation
 
-
 \\[
   S \frac{\partial h}{\partial t} + H = -\frac{\partial }{\partial x}
   \underbrace{\left( - K \frac{\partial h}{\partial x} \right)}_\text{flux}
@@ -63,32 +62,35 @@ The advantage of using the \\( \LaTeX \\) tags is that mathjax 2 will do equatio
 
 Highlighted source code of equations in \\(\LaTeX\\) using the same \\\\( \\\\) and \\\\[ \\\\] tags which are commonly used to extend markdown for mathematics (including `ipython notebook`):
 
-```latex
-\frac{\partial {\bf u}}{\partial t}  +
-\left( {{{\bf u}}. \nabla } \right){{\bf u}}   =
--\frac{1}{\rho }\nabla p  +  \textbf{F}  + \nu \nabla ^2{\bf u}
-```
+{% highlight latex %}
+    \frac{\partial {\bf u}}{\partial t}  +
+    \left( {{{\bf u}}. \nabla } \right){{\bf u}}   =
+    -\frac{1}{\rho }\nabla p  +  \textbf{F}  + \nu \nabla ^2{\bf u}
+{% endhighlight %}
+
+
 scripts
 
-```python
-#!/usr/bin/env python
-'''
-	This example shows how you can add a set of particles to a swarm.
-  Here the particles are layed out in a spiral configuration.
-  Note that Scipy / Numpy are required for this example
-'''  
-import uwpytools
+{% highlight python %}
+    #!/usr/bin/env python
+    '''
+      This example shows how you can add a set of particles to a swarm.
+      Here the particles are layed out in a spiral configuration.
+      Note that Scipy / Numpy are required for this example
+    '''  
+    import uwpytools
 
-# init using underworld 1.x XML files
-uwpytools.InitWithArgs("BuoyancyDrivenVanilla.xml PICellerator/PassiveTracerSwarm.xml")
+    # init using underworld 1.x XML files
+    uwpytools.InitWithArgs("BuoyancyDrivenVanilla.xml PICellerator/PassiveTracerSwarm.xml")
 
-stgdict = uwpytools.GetCurrentDictionary()
+    stgdict = uwpytools.GetCurrentDictionary()
 
-# set to initialise and solve
-stgdict["maxTimeSteps"]=-1
-stgdict["pauseToAttachDebugger"]=0
-stgdict["checkpointEvery"]=1
-```
+    # set to initialise and solve
+    stgdict["maxTimeSteps"]=-1
+    stgdict["pauseToAttachDebugger"]=0
+    stgdict["checkpointEvery"]=1
+{% endhighlight %}
+
 and C code (C-like code ... this is StGermain after all)
 
 ```C

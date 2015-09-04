@@ -12,13 +12,16 @@ image:
 
 <!-- # CV - Louis Moresi -->
 
-School of Earth Sciences
-University of Melbourne
-Victoria 3010 AUSTRALIA
+|                            |
+|----------------------------|
+|School of Earth Sciences    |
+|University of Melbourne     |
+|Victoria 3010 AUSTRALIA     |
+|mobile (AU) +61 4 0333 1413 |
+|cell (US): +1 505 349 4425  |
+|louis.moresi@unimelb.edu.au |
 
-mobile (AU) +61 4 0333 1413
-cell (US): +1 505 349 4425
-louis.moresi@unimelb.edu.au
+
 
 **Professorial Chair of Earth Sciences (Geophysics), University of Melbourne.** Research in computational geodynamics with application areas in mineral, petroleum and geothermal exploration,  planetary evolution, geology and industrial flows. Expert in finite element software, algorithm design, numerical solvers, parallelism, and efficient implementation.
 
