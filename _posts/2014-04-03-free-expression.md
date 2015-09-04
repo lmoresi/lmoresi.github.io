@@ -49,6 +49,8 @@ Although  `mathjax` will parse `\begin{equation}` and `\end{equation}` (etc) mar
 
 Code highlighting is also platform dependent. Markdown does this in a variety of ways, with Github using fenced code blocks and logdown adopting their strategy. In Jekyll, I found it hard to have consistent code block detection and highlighting without using the `liquid`  `{ % highlight language % }` and `{ % endhighlight % }` tags
 
+Code highlighting works for \\( \LaTeX \\), 
+
 {% highlight latex %}
     \frac{\partial {\bf u}}{\partial t}  +
     \left( {{{\bf u}}. \nabla } \right){{\bf u}}   =
