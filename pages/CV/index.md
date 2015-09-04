@@ -9,8 +9,17 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
+<section id="table-of-contents" class="toc">
+  <header>
+    <h3>Overview</h3>
+  </header>
+<div id="drawer" markdown="1">
+*  Auto generated table of contents
+{:toc}
+</div>
+</section><!-- /#table-of-contents -->
 
-<!-- # CV - Louis Moresi -->
+---
 
 |                            |
 |----------------------------|
@@ -20,7 +29,6 @@ image:
 |mobile (AU) +61 4 0333 1413 |
 |cell (US): +1 505 349 4425  |
 |louis.moresi@unimelb.edu.au |
-
 
 
 **Professorial Chair of Earth Sciences (Geophysics), University of Melbourne.** Research in computational geodynamics with application areas in mineral, petroleum and geothermal exploration,  planetary evolution, geology and industrial flows. Expert in finite element software, algorithm design, numerical solvers, parallelism, and efficient implementation.
@@ -46,8 +54,6 @@ image:
 
   -  1988-1992:     DPhil, Department of Earth Sciences, Oxford University.
   -  1985-1988:     BA (Hons), Natural Science, Cambridge University.
-
-
 
 ## Current position & Responsibilities
 
