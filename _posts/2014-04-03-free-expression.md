@@ -7,7 +7,8 @@ comments: true
 categories: [Python, Mathematics, Underworld]
 ---
 
-This post was originally written for the "logdown" platform but I recently ported the whole lot across to github and their jekyll-based environment. I have therefore generalised my comments and I am showing only what works on github too. [ **Sept 4, 2015** ] {: .notice}
+This post was originally written for the "logdown" platform but I recently ported the whole lot across to github and their jekyll-based environment. I have therefore generalised my comments and I am showing only what works on github too. [ **Sept 4, 2015** ]
+{: .notice}
 
 We've had a frantic phase of development in `Underworld` recently with a new `python` and `ipython` compatible version in the wings. Using the `ipython notebook` environment exclusively for a couple of weeks has rekindled my appreciation of `(multi)markdown` for documentation and the power of rendering mathematics with `mathjax`. I even gave a lecture this week using `ipython` to make slides _(I wouldn't actually recommend this, but it was interesting to be able do live demonstrations where I could modify my code to show off some numerical instabilities)_.
 

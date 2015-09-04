@@ -4,9 +4,8 @@ title: Louis Moresi CV
 modified: 2015-09-04
 excerpt: "My CV"
 image:
-  feature: sample-image-3.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: SmallGokWan.jpg
+  credit: Louis Moresi
 ---
 
 <section id="table-of-contents" class="toc">
@@ -33,27 +32,27 @@ image:
 
 **Professorial Chair of Earth Sciences (Geophysics), University of Melbourne.** Research in computational geodynamics with application areas in mineral, petroleum and geothermal exploration,  planetary evolution, geology and industrial flows. Expert in finite element software, algorithm design, numerical solvers, parallelism, and efficient implementation.
 
-## History of Employment
+##Employment
 
-  - 2014-Present:    Professorial Chair of Earth Sciences (Geophysics), University of Melbourne
-  - 2014-Present:    Senior Research Scientist (part time), Dept of Earth Sciences, University of Southern California
-  - 2013-Present:    Visiting Associate, Seismological Laboratory, California Institute of Technology
-  - 2012-2014:    Australian Research Council College of Experts
-  - 2008-2013:       Professor, Computational Mathematics & Geophysics, Monash University
-  - 2010:            Erasmus Mundus Visiting Scholar in Computational Mechanics, University of Nantes, France
-  - 2009:            Visiting Professor, Geophysical Fluid Dynamics, ETH, Zürich, Switzerland
-  - 2002-2008:       Associate Professor, Computational Mathematics & Geophysics, Monash University
-  - 2002-2004:       Co-director Monash Cluster Computing
-  - 2000:            Visiting Research Fellow, Material Fabrication Lab, RIKEN, Tokyo, Japan
-  - 1997-2002:       Research Scientist & Senior Research Scientist, CSIRO Exploration & Mining
-  - 1996-1997:       Postdoctoral Fellow, Research School of Earth Sciences, Australian National University.
-  - 1994-1995:     Assistant Scientist, Geophysics, Caltech.
-  - 1992-1994:     Schlumberger Fellow, and Fellow in Geophysics, Caltech
+ **2014-Present:**    Professorial Chair of Earth Sciences (Geophysics), University of Melbourne <br>
+ **2014-Present:**    Senior Research Scientist (part time), Dept of Earth Sciences, University of Southern California <br>
+ **2013-Present:**    Visiting Associate, Seismological Laboratory, California Institute of Technology <br>
+ **2012-2014:**       Australian Research Council College of Experts <br>
+ **2008-2013:**       Professor, Computational Mathematics & Geophysics, Monash University <br>
+ **2010:**            Erasmus Mundus Visiting Scholar in Computational Mechanics, University of Nantes, France <br>
+ **2009:**            Visiting Professor, Geophysical Fluid Dynamics, ETH, Zürich, Switzerland <br>
+ **2002-2008:**       Associate Professor, Computational Mathematics & Geophysics, Monash University <br>
+ **2002-2004:**       Co-director Monash Cluster Computing <br>
+ **2000:**            Visiting Research Fellow, Material Fabrication Lab, RIKEN, Tokyo, Japan <br>
+ **1997-2002:**       Research Scientist & Senior Research Scientist, CSIRO Exploration & Mining <br>
+ **1996-1997:**       Postdoctoral Fellow, Research School of Earth Sciences, Australian National University. <br>
+ **1994-1995:**       Assistant Scientist, Geophysics, Caltech. <br>
+ **1992-1994:**       Schlumberger Fellow, and Fellow in Geophysics, Caltech
 
 ## Degrees
 
-  -  1988-1992:     DPhil, Department of Earth Sciences, Oxford University.
-  -  1985-1988:     BA (Hons), Natural Science, Cambridge University.
+**1988-1992:**     DPhil, Department of Earth Sciences, Oxford University. <br>
+**1985-1988:**     BA (Hons), Natural Science, Cambridge University.
 
 ## Current position & Responsibilities
 
