@@ -1,7 +1,7 @@
 ---
 layout: home
-excerpt: "A minimal Jekyll theme for your blog by designer Michael Rose."
-tags: [Jekyll, theme, responsive, blog, template]
+excerpt: "Louis Moresi, Professor of Geophysics."
+tags: [Bio, Geodynamics, Computation ]
 image:
   feature: sample-image-1.jpg
   credit: WeGraphics

@@ -4,13 +4,239 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-09-03T14:05:27+10:00</updated>
+<updated>2015-09-04T11:09:37+10:00</updated>
 <id>/</id>
 <author>
   <name>Louis Moresi</name>
   <uri>/</uri>
   <email>louis.moresi@unimelb.edu.au</email>
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Underworld 2 ]]></title>
+  <link rel="alternate" type="text/html" href="/underworld-2/" />
+  <id>/underworld-2</id>
+  <published>2015-08-11T22:33:00+10:00</published>
+  <updated>2015-08-11T22:33:00+10:00</updated>
+  <author>
+    <name>Louis Moresi</name>
+    <uri></uri>
+    <email>louis.moresi@unimelb.edu.au</email>
+  </author>
+  <content type="html">
+    &lt;h1&gt;Underworld 2&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;www.facebook.com/underworldcode&quot;&gt;Underworld&lt;/a&gt; is our parallel, particle-in-cell, finite element geodynamics code. The code base has been around for 10 or so years now and has been largely debugged and is known to work well on hundreds to thousands of processors. We have engineered some pretty robust solver methods and lots of flexibility in dealing with complex rheology. The underlying code structure is modular and object oriented; all important entities within the code (meshes, for example) being objects that allow proper inheritance &lt;/p&gt;
+
+&lt;p&gt;On the other hand, the code is also well known for it&amp;#39;s none-too-friendly &lt;code&gt;xml&lt;/code&gt; based user interface and developers lament the complexity of the object model implemented in C. We have wondered for some time how to improve the user experience for newcomers and experts alike. We partnered with &lt;a href=&quot;www.geodynamics.org&quot;&gt;CIG&lt;/a&gt; to try to build a user-friendly version of underworld but, in the end, our various experiments with different approaches to running models have not significantly changed in ten years.&lt;/p&gt;
+
+&lt;p&gt;The entire underworld team has been busy working on a new front end for &lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/underworld-2/&quot;&gt;Underworld 2 &lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on August 11, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Viscoelasticity in Underworld]]></title>
+  <link rel="alternate" type="text/html" href="/viscoelasticity-in-underworld/" />
+  <id>/viscoelasticity-in-underworld</id>
+  <published>2015-03-24T06:10:00+11:00</published>
+  <updated>2015-03-24T06:10:00+11:00</updated>
+  <author>
+    <name>Louis Moresi</name>
+    <uri></uri>
+    <email>louis.moresi@unimelb.edu.au</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Viscoelasticity has been a hidden feature of &lt;strong&gt;Underworld&lt;/strong&gt; for some time now, initially in the &lt;em&gt;experimental&lt;/em&gt; branch (alpha testing) and more recently, in the mainstream version. We did not officially release or document this implementation because it had not gone through peer review. Now, however, with Rebecca Farrington&amp;#39;s recent paper on viscoelastic stresses in subducting plates, the benchmarking has been published and it is time to let everyone have a go with the implementation.&lt;/p&gt;
+
+&lt;p&gt;The implementation itself is very similar to that in &lt;strong&gt;Ellipsis&lt;/strong&gt; but I think we simplified the flow of the code considerably this time. The Underworld version is both 2D and 3D, and has a second order stress update (see benchmarks). Rebecca&amp;#39;s paper has a streamlined notation which, I think, is much closer to the physics of the problem even though we realise it is a bit dense !&lt;/p&gt;
+
+&lt;p&gt;If you want to try out these models, then you should first contact &lt;a href=&quot;mailto:rebecca.farrington@monash.edu&quot;&gt;Rebecca&lt;/a&gt;. As usual, any problems should be addressed to the &lt;a href=&quot;https://underworldproject.org/forums/&quot;&gt;underworld forum&lt;/a&gt; first of all. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Farrington, R.J., Moresi, L.N., Capitanio, F.A., 2014. The role of viscoelasticity in subducting plates. Geochemistry, Geophysics, Geosystems 15, 4291–4304. doi:10.1002/2014GC005507&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2&gt;Summary of the science results&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258347/wSpwDgEbQEiZBh4cfNLO_FarringtonEtAl.png&quot; height=&quot;500&quot; align=&quot;right&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Subduction of tectonic plates into Earth’s mantle occurs when one plate bends beneath another at convergent plate boundaries. The characteristic time of deformation at these convergent boun- daries approximates the Maxwell relaxation time for olivine at lithospheric temperatures and pressures, it is therefore by definition a viscoelastic process. While this is widely acknowledged, the large-scale features of subduction can, and have been, successfully reproduced assuming the plate deforms by a viscous mecha- nism alone. However, the energy rates and stress profile within convergent margins are influenced by visco- elastic deformation. In this study, viscoelastic stresses have been systematically introduced into numerical models of free subduction, using both the viscosity and shear modulus to control the Maxwell relaxation time. The introduction of an elastic deformation mechanism into subduction models produces deviations in both the stress profile and energy rates within the subduction hinge when compared to viscous only mod- els. These variations result in an apparent viscosity that is variable throughout the length of the plate, decreasing upon approach and increasing upon leaving the hinge. At realistic Earth parameters, we show that viscoelastic stresses have a minor effect on morphology yet are less dissipative at depth and result in an energy transfer between the energy stored during bending and the energy released during unbending. We conclude that elasticity is important during both bending and unbending within the slab hinge with the resulting stress loading and energy profile indicating that slabs maintain larger deformation rates at smaller stresses during bending and retain their strength during unbending at depth.&lt;/p&gt;
+
+&lt;h2&gt;Summary of the implementation&lt;/h2&gt;
+
+&lt;h3&gt;Stress History&lt;/h3&gt;
+
+&lt;p&gt;The numerical implementation of the FEM-PIC integration within Underworld requires the stress history to be carried on a particle that is immersed in the fluid and is advected and rotated as required by the velocity  \( \mathbf{u} \).  As such the stress history tensor must be transported into the current reference frame. This is possible by introducing a new operator \( \mathcal{T} \) that ensures the stress on the transported particle, p, at location \( \mathbf{x} \) and time \(t\) is objective under advection and rotation over the interval \(\Delta t\).&lt;/p&gt;
+
+&lt;p&gt;\[
+\stackrel{\vee}{\tau} _{ij} ^{t} (t, \mathbf{x}, \mathbf{u})&lt;br&gt;
+=  \mathcal{T} _{\Delta t}^{x _p ^{t}}\big(\tau _{ij}^{t-\Delta t}\;(\mathbf{x} _p^{t-\Delta t}), \mathbf{x}, \mathbf{u} \big)
+= \mathcal{L} _{1}( \tau _{ij} ^{t-\Delta t},\mathbf{x},\mathbf{u}) +
+ \mathcal{L} _{2}( \tau _{ij} ^{t-\Delta t},\mathbf{x},\mathbf{u})
+  \]   &lt;/p&gt;
+
+&lt;p&gt;where \( \mathcal{L} _1 = u _k . \partial\tau _{ij} / \partial x _k \) accounts for advection through a velocity field given by \(u _k\) and \(\mathcal{L} _2 = \tau _{ik} w _{kj} + \tau _{jk} w _{ki}\) is the Jaumann stress rate and accounts for rotation.  &lt;/p&gt;
+
+&lt;p&gt;Taking a first order integration of the rotation term, \(\mathcal{L} _2\), produces values tangential to the rotation, thus providing an unconditionally unstable solution.
+Integration of the Jaumann derivative with a minimum 2nd order accurate method is required to produce stable solutions to the rotation of the stress history term through a velocity field.&lt;/p&gt;
+
+&lt;p&gt;It should also be noted that there are other terms which may be added to this definition accounting for other changes in reference frame including stretching by way of the Oldroyd derivative as discussed at length by Harder in 1991.&lt;/p&gt;
+
+&lt;p&gt;Including these additional terms couples stress and pressure adding a considerable complication that is not required for mathematical consistency (See Eringen) and  are not addressed further in this study.&lt;/p&gt;
+
+&lt;h3&gt;The Elastic Timestep&lt;/h3&gt;
+
+&lt;p&gt;A decoupling of the observation time and numerical time step is required.
+This can be achieved by introducing an elastic timestep, \( \Delta t&lt;em&gt;e \), that ensures the required observation time is resolved, distinct from the smaller numerical timestep, \(\Delta t&lt;/em&gt;c\).&lt;/p&gt;
+
+&lt;p&gt;Since \( \Delta t _e &amp;gt; \Delta t _c \), we must store the stress history over several timesteps.  This can be achieved by introducing a new term, \( \tilde{\mathcal{T}} 
+\), being the stress history term defined across \(n\) numerical time steps of size \( \Delta t _c\).
+The stress at current time \( t \) is then defined as&lt;/p&gt;
+
+&lt;p&gt;\[
+\tau _{ij}(\mathbf{x} _p^t) = 2\eta _{\rm{eff}}D _{ij}(\mathbf{x} _p^t) + \frac{\eta _{\rm{eff}}}{\mu\Delta t _e} \tilde{\mathcal{T}} _{\Delta t _e}^{\,x _p^t}(\stackrel{\vee}{\tau} _{ij}^{t-\Delta t _e})
+\]&lt;/p&gt;
+
+&lt;p&gt;Note the presence of \( \Delta t _ e \) in both the definition of \( \tilde{\mathcal{T}} \) and in the denominator of the preceding term, with \( \eta _ {\rm{eff}} \) now defined as \( ( \eta\Delta t _e ) / ( \alpha + \Delta t _e) \). Moresi et al, 2003, showed that a running average of the stress history could be used, defined as&lt;/p&gt;
+
+&lt;p&gt;\[
+T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} _{\Delta t _c}^{\,x _p^t} \Big( T _{ij}^{t-\Delta t _c}(\mathbf{x} _p^{\,t-\Delta t _c}) \Big)  + \phi \tau _{ij}^{\,t}(\mathbf{x} _p^{\,t})
+\]&lt;/p&gt;
+
+&lt;p&gt;where \(\phi = \Delta t _c / \Delta t _e &amp;lt; 1 \), recalling here that the transport operator has ensured the stresses are advected and rotated into the current reference frame. &lt;/p&gt;
+
+&lt;h2&gt;References&lt;/h2&gt;
+
+&lt;p&gt;Eringen, A.C., 1980. Mechanics of continua /2nd edition/. Huntington, NY, Robert E. Krieger Publishing Co., 1980. 606pp.&lt;/p&gt;
+
+&lt;p&gt;Farrington, R.J., Moresi, L.N., Capitanio, F.A., 2014. The role of viscoelasticity in subducting plates. Geochemistry, Geophysics, Geosystems 15, 4291–4304. doi:10.1002/2014GC005507&lt;/p&gt;
+
+&lt;p&gt;Harder, H., 1991. Numerical simulation of thermal convection with Maxwellian viscoelasticity. J. Non-Newtonian Fluid Mech. 39, 67–88.&lt;/p&gt;
+
+&lt;p&gt;Moresi, L.N., Dufour, F., Muhlhaus, H.B., 2002. Mantle convection modeling with viscoelastic/brittle lithosphere: Numerical methodology and plate tectonic modeling. Pure And Applied Geophysics 159, 2335–2356. doi:10.1007/s00024-002-8738-3&lt;/p&gt;
+
+&lt;p&gt;Moresi, L.N., Dufour, F., Muhlhaus, H.B., 2003. A Lagrangian integration point finite element method for large deformation modeling of viscoelastic geomaterials. Journal of Computational Physics 184, 476–497. doi:10.1016/S0021-9991(02)00031-1&lt;/p&gt;
+
+&lt;p&gt;Moresi, L.N., Quenette, S., Lemiale, V., Mériaux, C., Appelbe, W., Mühlhaus, 2007. Computational approaches to studying non-linear dynamics of the crust and mantle. Phys. Earth Planet. Inter. 163, 69–82. doi:10.1016/j.pepi.2007.06.009&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/viscoelasticity-in-underworld/&quot;&gt;Viscoelasticity in Underworld&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on March 24, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Visiting Timor]]></title>
+  <link rel="alternate" type="text/html" href="/visiting-timor/" />
+  <id>/visiting-timor</id>
+  <published>2015-03-23T01:03:00+11:00</published>
+  <updated>2015-03-23T01:03:00+11:00</updated>
+  <author>
+    <name>Louis Moresi</name>
+    <uri></uri>
+    <email>louis.moresi@unimelb.edu.au</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;I was fortunate to have the opportunity to tag along to visit the island of Timor (both West and East) to observe the seismic deployment led by the University of Southern California  to study &lt;em&gt;&amp;quot;Transitions in the Banda Arc-Australia continental collision as a bridge to understanding mantle and lithospheric controls on surface tectonics.&amp;quot;&lt;/em&gt;  You can read all about the installation and operation of the array at &lt;a href=&quot;http://bandaarc.blogspot.com&quot;&gt;bandaarc.blogspot.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://www.google.com/maps/d/embed?mid=z1y-m-yrp_78.k22BEA17vvR4&quot; width=&quot;640&quot; height=&quot;400&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;This is a really fascinating part of the world for many, many reasons but the one which fascinates me from a scientific point of view is that it is an active collision / accretion event on Australia&amp;#39;s doorstep. This is a case where active tectonics is influencing the state of the Australian plate very directly and one where the kinds of models we do with Underworld can be useful in disentangling the nature of the collision and the fate of the slab and the plate boundary as the collision progresses. &lt;/p&gt;
+
+&lt;h1&gt;Some images / thoughts from a very inspiring couple of visits to the region.&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/tWgzCrouST6ovKndmaYJ_14-09-15-DSCF3516.png&quot; height=&quot;200&quot; &gt; &lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/KtyF9jA7SO6Vrh3fCYED_14-09-15-DSCF3499.png&quot;  height=&quot;200&quot; &gt; &lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/VEZpWcdlSg6vSAmzdgQt_14-09-15-DSCF3510.png&quot;  height=&quot;200&quot; &gt;&lt;/p&gt;
+
+&lt;p&gt;Meghan Miller of USC spent many months working on the logistics of the seismic deployment in Indonesia, including many weeks living in Jakarta. In late 2014, when all the permits were in place, we travelled to Kupang to discuss some potential sites. We visited the magnetic observatory in Kupang where there is a second world war bunker converted to a test ban monitoring station. For obvious reasons it is in a tamper-proof box and it is probably fortunate that we didn&amp;#39;t actually manage to get inside.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/NoDmSol5QoKjVKfS5z2E_14-09-16-DSCF3587.png&quot; height=&quot;200&quot;&gt; &lt;/p&gt;
+
+&lt;p&gt;The infrastructure in West Timor is basic and sometimes baffling. This is a filling station, for example ! Kupang is busy and chaotic and I was struck by the contrast with the smaller villages outside the town which were scrupulously tidy despite the very evident poverty. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/fm69rDVVTYCt584QYlhE_14-09-17-DSCF3595.png&quot; height=&quot;200&quot;&gt;  &lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/77MKHyR2OeyBurJognBA_14-09-17-DSCF3593.png&quot; height=200&gt;&lt;/p&gt;
+
+&lt;p&gt;Rote island is off the South Western tip of the Timor mainland and very remote by any standard. It&amp;#39;s just the spot to put an instrument or two. Searching for places to install seismometers is a lesson in compromise: away from people and noise but somewhere that somebody can keep an eye out to keep prying fingers and hungry animals at bay. &lt;/p&gt;
+
+&lt;p&gt;Rote has amazing surf and, consequently, plenty of infrastructure to cater for a large flux of alarminingly scraped-and-stitched tourists. Here the advanced party is busy testing some of the non-medical infrastructure.&lt;/p&gt;
+
+&lt;h2&gt;Timor Leste&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/3Jfx607tQBi2qD8e2vG5_2015-03-20%2008.01.16.png&quot; height=&quot;200&quot;&gt; &lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/CH4OjeBjT2udH4xsxhW3_2015-03-20%2008.30.48.png&quot; height=&quot;200&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The network in Timor Leste was installed around a year ago (the advantages of an immature bureaucracy) and the team were collecting data and checking the instruments. Check &lt;a href=&quot;http://bandaarc.blogspot.com&quot;&gt;bandaarc.blogspot.com&lt;/a&gt; for a rundown on the technical details and many wonderful images of the seismometer sites. The roads in TL are pretty rugged by anyone&amp;#39;s standard and transporting delicate machinery to such beautiful but isolated locations is always something of a worry (check out the road on the map above !) In these photos Leland O&amp;#39;Driscoll is preoccupied with the exhumation of the instrument in Same (in central TL) somewhat concerned that the original road trip might have been a bit hard on it.&lt;/p&gt;
+
+&lt;!-- &lt;img class=&quot;right&quot; src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/205529/P4k6RvMITIGCPOzTPsh8_SampleImage.png&quot; width=&quot;40%&quot;&gt; 
+--&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/c0XOwMMCRzq4VQu4s7u0_2015-03-20%2009.32.56%201.png&quot; height=&quot;200&quot;&gt; &lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/XPdvntPGStVkWOpvQOSl_2015-03-20%2009.39.30%201.png&quot; height=&quot;200&quot;&gt;   &lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/meSOoGtpQmemlbPcD9n7_2015-03-20%2009.45.30%201.png&quot; height=&quot;200&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;On the way back to Dili from Same, the views of the topography along the main highway are perfectly spectacular with many opportunities to look down shear drops from the window of the rapidly moving car. Two intense days of driving were beginning to wear on everyone and everything. The landcruiser was flashing oil-pressure warning signs as our driver raced up the hills. With a nod to the medieval surgeons, the driver decided that this meant we should bleed off some oil. Having pulled out the oil filter and run the engine for a while, and satisfied himself that the car was cured, he drove a few hundred metres before the engine threatened to die. We coasted to a nearby house and transfused a bottle or two of fresh oil.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/2oUdElJnT7GB0iLrJhpV_2015-03-20%2010.03.39%201.png&quot; height=&quot;200&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/cNzckt7OTuSumDhzWCPU_2015-03-20%2010.27.39%201.png&quot; height=&quot;200&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;There are spectacular views as the road hugs the mountainsides and crosses the high passes between broad valleys. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/vWkA1Go6Qcag8EHDRDSf_2015-03-20%2010.38.59%201.png&quot; height=&quot;200&quot;&gt; &lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/h15TrXWHREeSNNiAbSc1_2015-03-20%2010.49.46%201.png&quot; height=&quot;200&quot;&gt; !&lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/7OHiW7R4Tau35wieToDo_2015-03-20%2010.50.18%201.png&quot; height=&quot;200&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;All along the way, life takes places in very small towns and villages that are barely discernable from the car even though there are dots on the map. It was very encouraging to see all the kids heading out to school and back but nailbiting to see how fast and close the trucks and cars are to the crowds of students. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/N7ZEefYtSmKdqWWKoVdc_2015-03-20%2010.50.33%201.png&quot; height=&quot;200&quot;&gt; &lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/ut11Ti9TRre5alR9J3wQ_2015-03-20%2012.11.35%201.png&quot; height=&quot;200&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;As we finally came within sight of Dili at the top of a long descent, the car began to show signs of succumbing to abuse. The clutch began to malfunction and we coasted downhill for a few kilometres. Finally we ground to a halt in the middle of the street but by that stage we were only a few hundred metres to our destination. I was the most relieved because my flight was the following morning.&lt;/p&gt;
+
+&lt;!-- ![2015-03-21 08.15.56 1.png](http://user-image.logdown.io/user/7331/blog/7268/post/258172/pfvCVqmSQUCZthuSmhZc_2015-03-21%2008.15.56%201.png) --&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/258172/FGVK0KGbT1qTnMSNCosd_2015-03-21%2008.15.50%201.png&quot; height=&quot;400&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;And I headed out to Darwin from Dili, flying over the Eastern tip of the island. The view was inspiring. Look at these valleys drowning in sediment ! Very interesting for me since I have been working on the &lt;strong&gt;Badlands&lt;/strong&gt; code during the brief moments of quiet on this trip. &lt;/p&gt;
+
+&lt;p&gt;So, for the third time, let me plug the &lt;a href=&quot;http://bandaarc.blogspot.com&quot;&gt;official site&lt;/a&gt; for this project and thank the USC team for their tolerance in letting me come along to observe and learn.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/visiting-timor/&quot;&gt;Visiting Timor&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on March 23, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Cogent Geoscience]]></title>
+  <link rel="alternate" type="text/html" href="/cogent-geoscience/" />
+  <id>/cogent-geoscience</id>
+  <published>2015-03-05T23:42:00+11:00</published>
+  <updated>2015-03-05T23:42:00+11:00</updated>
+  <author>
+    <name>Louis Moresi</name>
+    <uri></uri>
+    <email>louis.moresi@unimelb.edu.au</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;For the past six months or so, I have been working on the launch of a new Open Access journal &lt;a href=&quot;http://cogentoa.tandfonline.com/journal/oage20&quot;&gt;&lt;em&gt;Cogent Geoscience&lt;/em&gt;&lt;/a&gt;. My first thought when I was asked if I would be interested in leading this project was &lt;em&gt;&amp;quot;another journal ... really ?&amp;quot;&lt;/em&gt; but I did spend some time to discuss the whole idea with the staff at Taylor &amp;amp; Francis and my friends and colleagues, and I thought that there might indeed be an opportunity to do something new. &lt;/p&gt;
+
+&lt;p&gt;The publishing landscape has shifted significantly over the past decade or so. The availability of publication-quality preprints (e.g. &lt;a href=&quot;http://www.arxiv.org&quot;&gt;www.arxiv.org&lt;/a&gt; and datasets on the web has forced the peer-review publication process to become significantly more responsive. Academic social-media sites like &lt;a href=&quot;http://www.academia.edu&quot;&gt;academia.edu&lt;/a&gt;, &lt;a href=&quot;http://www.researchgate.net&quot;&gt;researchgate&lt;/a&gt; and &lt;a href=&quot;http://www.figshare.com&quot;&gt;figshare&lt;/a&gt; have created a grey-market in scientific results which have not been formally peer reviewed but which are available for discussion and comment. Traditional journals are rapidly evolving to compete in this environment and it is not entirely clear what the outcome will be !&lt;/p&gt;
+
+&lt;p&gt;Cogent Geoscience is emerging into this uncertain environment with very little baggage from the previous era, but also very little momentum. What do we have to offer authors of high-impact research ? For one thing, the entire Cogent series is Open Access which means that all content is available for redistribution and re-publication under a creative commons licence. This is very much in keeping with the way people tend to use information - sharing and commenting, distributing and linking. Open Access is increasingly required for research supported by public funds. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Open Access&lt;/em&gt; has, in the past, tended to be an expensive option for authors but we are now offering a different approach which allows authors to contribute whatever they consider reasonable towards the cost of publication. Specifically: &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;every author will have the option to make a contribution towards the costs of open access publication if their article is accepted, but no one will have the obligation to pay anything. Authors will be free to choose exactly how much they wish to contribute based on their own specific circumstances, and their choice will be accepted on a ‘no questions asked’ basis&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I also hope that we can add to this platform an editorial enthusiasm for the discipline which will provide a platform to highlight the best and most exciting research in the field, relevant commentary, and links to re-use of our material. In other words, a great place to learn about the latest developments in the geosciences in the very broadest sense.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/cogent-geoscience/&quot;&gt;Cogent Geoscience&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on March 05, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 
   
@@ -54,12 +280,390 @@
   &lt;span class=&quot;l-Scalar-Plain&quot;&gt;google&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
     &lt;span class=&quot;l-Scalar-Plain&quot;&gt;plus&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;CorneliusFiddlebone&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;To assign Billy Rick as an author for our post. You’d add the following YAML front matter to a post:&lt;/p&gt;
+&lt;p&gt;To assign Billy Rick as an author for our post. You&amp;#39;d add the following YAML front matter to a post:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;l-Scalar-Plain&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;billy_rick&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
     &lt;p&gt;&lt;a href=&quot;/author-override/&quot;&gt;Author Override&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on July 31, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Deep Carbon Modeling ]]></title>
+  <link rel="alternate" type="text/html" href="/deep-carbon-cycle-modeling-workshop/" />
+  <id>/deep-carbon-cycle-modeling-workshop</id>
+  <published>2014-06-09T21:35:00+10:00</published>
+  <updated>2014-06-09T21:35:00+10:00</updated>
+  <author>
+    <name>Louis Moresi</name>
+    <uri></uri>
+    <email>louis.moresi@unimelb.edu.au</email>
+  </author>
+  <content type="html">
+    &lt;h1&gt;Overview of global modeling of plate behaviour &amp;amp; the eating habits of subduction zones&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;right&quot; src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/205529/P4k6RvMITIGCPOzTPsh8_SampleImage.png&quot; width=&quot;40%&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;The Deep Carbon Observatory hosted a workshop at the Carnegie Institute in Washington DC to learn about the state of the art in modeling of the deep, long-term, global carbon cycle. There is a lot of information coming from the field of geochemistry which provides information on local fluxes, the existence of reservoirs and the relation to other large-scale geochemical cycles. The modeling community is, however, faced with a horrible difficulty — to get this right we first have to be able to have well-constrained global models of plate tectonics, these then we need really high-fidelity physical / chemical models of the multiphase flow in subduction zones and mid-ocean ridges. Having done that, we should put those together and try to work back through all of geological time. That would give a rough basic machinery to bolt together with ocean, atmosphere, surface process modeling, computational petrology etc etc. &lt;/p&gt;
+
+&lt;p&gt;That&amp;#39;s a pretty big challenge, but if there is any hope in making it tractable, it is in the fact that this is not a unique challenge to this particular problem but actually is a good summary of the leading edge of geodynamics today and the outstanding problems we are collectively trying to address. &lt;/p&gt;
+
+&lt;p&gt;Overall, an intense meeting with lots of interesting discussion and great conversation. My contribution (the slides, anyway) can be found &lt;a href=&quot;https://www.dropbox.com/s/680da6e6xtys8za/SubductionAppetite-Z.pdf&quot;&gt;at this link&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/deep-carbon-cycle-modeling-workshop/&quot;&gt;Deep Carbon Modeling &lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on June 09, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[CIG talks 2013 / 2014]]></title>
+  <link rel="alternate" type="text/html" href="/cig-talks-2013-2014/" />
+  <id>/cig-talks-2013-2014</id>
+  <published>2014-05-07T17:09:00+10:00</published>
+  <updated>2014-05-07T17:09:00+10:00</updated>
+  <author>
+    <name>Louis Moresi</name>
+    <uri></uri>
+    <email>louis.moresi@unimelb.edu.au</email>
+  </author>
+  <content type="html">
+    &lt;h1&gt;Summary of lessons learned in developing Underworld and building an Underworld community&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;right&quot; src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/197648/UDIa932hTZCMhQD18HZJ_Screen%20Shot%202014-05-08%20at%206.18.42%20am.png&quot; width=&quot;40%&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;I gave a presentations at the Fall AGU meeting to the computational geodynamics community and to the GeoPrisms meeting to provide a summary of lessons learned in building Underworld, supporting the user community, and our plans for the future. This is a good time to take a snapshot of the code because the timing is the end of the NeCTAR investment into making Underworld integrate with geological workflow tools (such as GPlates, GoCAD, Litmod3D, LeCode). This presentation includes many contributions from users of those tools and I have given contact details for the people responsible. The slides are here: &lt;a href=&quot;https://dl.dropboxusercontent.com/u/1342538/Talks/AGU-SF-2013/Underworld%E2%80%94AncoraImparo.pdf&quot;&gt;Talks/AGU-SF-2013/Underworld-AncoraImparo.pdf&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;I gave a modified version of this talk as a starter for discussion at the CIG long-term tectonics / Earthscope workshop in February 2014. The slides for this talk are available from CIG, but are essentially the same as the AGU slides above. &lt;/p&gt;
+
+&lt;p&gt;At the CIG workshop in Banff, Canada, May 2014, I gave a talk to reflect on 20 years of the CITCOM family of codes. Dave May asked me to include a look-forward of 20 years as well as all the &amp;quot;back in my day, sonny&amp;quot;, reminiscing. I tried to take this seriously. My argument is this: if you want to know what the landscape is going to look at in 5 years, just be more realistic about how long it is actually going to take to get all the things working that you are busy coding today. But 20 years ? I&amp;#39;m arguing for us to be more vigilant about carrying uncertainty information, make a big effort to treat &amp;quot;a model&amp;quot; as meaning a whole collection of models plus their fitness-for-purpose for a given application(i.e. in some sense, having model derivatives). I believe this will give us the possibility to calculate metrics in model space and build comparisons and that this will allow us to put models in categories and develop searchable libraries. That could take some time even if it is not 20 years: &lt;a href=&quot;https://dl.dropboxusercontent.com/u/1342538/Talks/CIG-Banff-2014/CIG-CitcomBirthdayParty.pdf&quot;&gt;Talks/CIG-Banff-2014/CIG-CitcomBirthdayParty.pdf&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/cig-talks-2013-2014/&quot;&gt;CIG talks 2013 / 2014&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on May 07, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[EGU / CGU 2014]]></title>
+  <link rel="alternate" type="text/html" href="/egu-2014/" />
+  <id>/egu-2014</id>
+  <published>2014-04-30T16:41:00+10:00</published>
+  <updated>2014-04-30T16:41:00+10:00</updated>
+  <author>
+    <name>Louis Moresi</name>
+    <uri></uri>
+    <email>louis.moresi@unimelb.edu.au</email>
+  </author>
+  <content type="html">
+    &lt;h1&gt;EGU Meeting,Vienna, Austria, April 2014 &amp;amp; CGU Meeting, Banff, Canada, May 2014&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;right&quot; src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/196560/MDZd6v0QFOp92FfinebT_ConjestedSubduction-MoresiEtAl.png&quot; width=&quot;50%&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Our talk on congested subduction zones for the EGU session on subduction. The slides are available as a pdf file here: &lt;a href=&quot;https://dl.dropboxusercontent.com/u/1342538/Talks/EGU-2014/ConjestedSubduction-MoresiEtAl.pdf&quot;&gt;Talks/EGU-2014/ConjestedSubduction-MoresiEtAl.pdf&lt;/a&gt; (movies - browse this site for links / examples). This talk covers the interaction of buoyant material with subduction zones and draws out the differences between large lumps colliding (ribbons) with smaller collisions such as plateaux. &lt;/p&gt;
+
+&lt;p&gt;The first part of the session was focused on methods and how assumptions in models influence outcomes. My take on this is that it is possible to ask questions which can be answered independent of contingencies in the setup / simplifications. Other features of different models change according to different assumptions and these need to be examined more carefully (and maybe these are the more interesting questions). Collisions of anomolous lithosphere with subduction was an important theme of the talks - lots of new ideas !&lt;/p&gt;
+
+&lt;p&gt;At the CGU meeting, we added some interpretation of the NW US margin in the context of our model (Thanks to Leland O&amp;#39;Driscoll for help on this). The &amp;quot;Great Alaskan Terrane Wreck&amp;quot; paper by Johnston was one of the inspirations for the models we ran for the SE Australia accretion study and, even though we don&amp;#39;t have a specific model for the NW US margin, we wanted to start up the discussion. The slides for this talk are found here: &lt;a href=&quot;https://dl.dropboxusercontent.com/u/1342538/Talks/CGU-Banff-2014/ConjestedSubduction-MoresiEtAl.pdf&quot;&gt;Talks/CGU-Banff-2014/ConjestedSubduction-MoresiEtAl.pdf&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/egu-2014/&quot;&gt;EGU / CGU 2014&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on April 30, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[LAB workshop - slides]]></title>
+  <link rel="alternate" type="text/html" href="/lab-workshop-slides/" />
+  <id>/lab-workshop-slides</id>
+  <published>2014-04-28T15:06:00+10:00</published>
+  <updated>2014-04-28T15:06:00+10:00</updated>
+  <author>
+    <name>Louis Moresi</name>
+    <uri></uri>
+    <email>louis.moresi@unimelb.edu.au</email>
+  </author>
+  <content type="html">
+    &lt;h1&gt;LABPAX workshop, Hainberg, Austria, April 2014&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class=&quot;right&quot; src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/196181/12usvk8MS8mqmSFq9SAD_TBL.001.png&quot; width=&quot;50%&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;At the ILP Task Force LABPAX workshop in Austria, 2014, I gave an overview of thermal boundary layers and scaling for the sub-continental lithosphere. The talk slides in pdf format are at the following link: &lt;a href=&quot;https://dl.dropboxusercontent.com/u/1342538/Talks/LABPAX-2014/TBLs.pdf&quot;&gt;Talks/LABPAX-2014/TBLs.pdf&lt;/a&gt;. Chiefly, this presentation is a summary of some of the relevant papers intended to promote discussion amongst a group mostly consisting of experts in seismological imaging of the deep lithosphere. &lt;/p&gt;
+
+&lt;p&gt;As someone with a background in geodynamics, it is very clear that there are well-imaged discontinuities in the mid and deep lithosphere, but it is not always clear which of these can be attributed to the LAB. In fact, it is not at all clear to me that we have the same expectations of what the Lithosphere and Asthenosphere really are among our different communities. &lt;/p&gt;
+
+&lt;p&gt;Note, the PDF file has some movie snapshots - you can find links for these by browsing through my posts on continental accretion and my geodynamics videos.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/lab-workshop-slides/&quot;&gt;LAB workshop - slides&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on April 28, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Geodynamics videos ]]></title>
+  <link rel="alternate" type="text/html" href="/geodynamics/something-to-share/" />
+  <id>/geodynamics/something-to-share</id>
+  <published>2014-04-12T22:51:00+10:00</published>
+  <updated>2014-04-12T22:51:00+10:00</updated>
+  <author>
+    <name>Louis Moresi</name>
+    <uri></uri>
+    <email>louis.moresi@unimelb.edu.au</email>
+  </author>
+  <content type="html">
+    &lt;h2&gt;Earth seismicity&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;left&quot; src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/193447/CVtyKhbVQRKPzvW55Zwk_internal_03_1000x697.png&quot; width=&quot;25%&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;These renderings were made by Jerico Revote of the &lt;a href=&quot;http://www.monash.edu.au/news/monashmemo/assets/includes/content/20100707/stories-lead.html&quot;&gt;Monash 3D-Alive&lt;/a&gt; facility.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;div name=&quot;you-tube-video&quot;&gt;
+    &lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/-Agnmrhv9M4?rel=0&quot; 
+                frameborder=&quot;0&quot; allowfullscreen&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The Earth&amp;#39;s seismicity from a few hundred kilometres down, looking back up. Not an unfamiliar view for a geophysicist, but it may take a while to become familiar with where you are if you are not used to thinking about the Earth from the inside. The subduction zones stand out from this angle. 3D-alive also had head tracking and this view happens to be one of the best ways to view the models because you just have to stand on tip-toes to see above the surface. &lt;/p&gt;
+
+&lt;div name=&quot;you-tube-video&quot;&gt;
+&lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/IhlaQF6N7_s?rel=0&quot; 
+        frameborder=&quot;0&quot; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;This is the same data but rendered from outside the Earth looking down. It&amp;#39;s easier to see the plate boundaries in this case but the structure of the subduction zones is not as well outlined.&lt;/p&gt;
+
+&lt;h2&gt;Continental Collision and Lateral Slab Rollback&lt;/h2&gt;
+
+&lt;div name=&quot;you-tube-video&quot;&gt;
+    &lt;iframe width=&quot;420&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/cVulRP2tUGM?rel=0&quot; 
+                frameborder=&quot;0&quot; allowfullscreen&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The &amp;quot;missing video&amp;quot; from our &lt;a href=&quot;http://dx.doi.org/10.1038/nature13033&quot;&gt;paper&lt;/a&gt; — we made 6 videos, but there is also a seventh which we only showed as a snapshot. Here is the missing movie of model &lt;em&gt;&amp;quot;80s&amp;quot;&lt;/em&gt;. There is more info &lt;a href=&quot;http://www.moresi.info/posts/2014/04/02/models-of-subduction-collision-and-re-initiation&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Video presentations&lt;/h2&gt;
+
+&lt;p&gt;This is the presentation I gave at the CSDMS meeting in Boulder, CO, in 2013. They made a video and there is a transcript too (autogenerated - for those who enjoy those voice-to-email messages from google voice). Thanks to a cascade of delays on the way from Australia to Denver, I ended up giving this talk 10 minutes after getting into town ... the long and frantic journey shows, unfortunately. Luckily I rented a Fiat 500 with the espresso-machine aesthetic which was painted in go-faster red !&lt;/p&gt;
+
+&lt;div name=&quot;you-tube-video&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/dDBZrFiyGlM?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/geodynamics/something-to-share/&quot;&gt;Geodynamics videos &lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on April 12, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Mathematics and Code]]></title>
+  <link rel="alternate" type="text/html" href="/python/mathematics/underworld/free-expression/" />
+  <id>/python/mathematics/underworld/free-expression</id>
+  <updated>2015-09-03T00:00:00-00:00</updated>
+  <published>2014-04-03T10:47:00+11:00</published>
+  
+  <author>
+    <name>Louis Moresi</name>
+    <uri></uri>
+    <email>louis.moresi@unimelb.edu.au</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;We&amp;#39;ve had a frantic phase of development in &lt;code&gt;Underworld&lt;/code&gt; recently with a new &lt;code&gt;python&lt;/code&gt; and &lt;code&gt;ipython&lt;/code&gt; compatible version in the wings. Using the &lt;code&gt;ipython notebook&lt;/code&gt; environment exclusively for a couple of weeks has rekindled my appreciation of &lt;code&gt;(multi)markdown&lt;/code&gt; for documentation and the power of rendering mathematics with &lt;code&gt;mathjax&lt;/code&gt;. I even gave a lecture this week using &lt;code&gt;ipython&lt;/code&gt; to make slides &lt;em&gt;(I wouldn&amp;#39;t actually recommend this, but it was interesting to be able do live demonstrations where I could modify my code to show off some numerical instabilities)&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I wondered if there was a web-hosting or blogging site that had the  markdown, mathematics, code-highlighting capabilities of ipython notebooks, and I found &lt;a href=&quot;www.logdown.com&quot; title=&quot;logdown&quot;&gt;www.logdown.com&lt;/a&gt;. This is what it can do:&lt;/p&gt;
+
+&lt;h2&gt;Mathematics&lt;/h2&gt;
+
+&lt;p&gt;Display equations rendered with mathjax, first as a raw displayed equation&lt;/p&gt;
+
+&lt;p&gt;\[
+  S \frac{\partial h}{\partial t} + H = -\frac{\partial }{\partial x}
+  \underbrace{\left( - K \frac{\partial h}{\partial x} \right)}_\text{flux}
+ \]&lt;/p&gt;
+
+&lt;p&gt;$$
+   \xi&lt;/p&gt;
+
+&lt;p&gt;$$&lt;/p&gt;
+
+&lt;pre&gt;
+  \\[
+  S \frac{\partial h}{\partial t} + H = -\frac{\partial }{\partial x}
+  \underbrace{\left( - K \frac{\partial h}{\partial x} \right)}_\text{flux}
+  \\]
+&lt;/pre&gt;  
+
+&lt;p&gt;and you can use inline equations so that you can explain what \( {\partial h}/{\partial t} \) means. In logdown: a blockquoted equation also works (it&amp;#39;s probably a bug that this gets parsed as mathematics, but it is quite a nice way to add a label).&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;$$
+  \frac{\partial {\mathbf u}}{\partial t}  +
+  \left( . \nabla } \right)   =
+  -\frac{1}{\rho }\nabla p  +  \textbf{F}  + \nu \nabla ^2{\mathbf u}
+   $$
+Navier-Stokes equation&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Recent versions of &lt;code&gt;mathjax&lt;/code&gt; will parse &lt;code&gt;\begin{equation}&lt;/code&gt; and &lt;code&gt;\end{equation}&lt;/code&gt; (etc) tags successfully most of the time but this is not standard markup in any of the markdown extensions (including the logdown platform or iPython notebooks (based on github), pandoc, multimarkdown, etc. and so there is a competition between the different markup strategies.&lt;/p&gt;
+
+&lt;p&gt;The advantage of using the \( \LaTeX \) tags is that mathjax 2 will do equation numbering and cross references correctly within the document. At the moment, the best solution seems to be to double up the tags and use &lt;code&gt;\\[ \begin{equation}&lt;/code&gt; and &lt;code&gt;\end{equation} \\]&lt;/code&gt;. I can&amp;#39;t comment on whether this violates how mathjax + markdown is supposed to work, but it does seem to be the most robust combination that I have tried. &lt;code&gt;\\( \ref{eq:blah} \\)&lt;/code&gt; also seems the safest strategy.&lt;/p&gt;
+
+&lt;!--\\[--&gt;
+
+&lt;p&gt;\begin{equation}
+    \int&lt;em&gt;{\Gamma} \mathbf{F} \cdot d\Gamma +
+    \int&lt;/em&gt;{\Gamma} \rho \phi \mathbf{v} \cdot d\Gamma =
+    \int_\Omega \nabla \cdot (\mathbf{F} + \rho \phi \mathbf{v}) d\Omega
+\end{equation}
+&amp;lt;!--\]--&amp;gt;&lt;/p&gt;
+
+&lt;h2&gt;Code&lt;/h2&gt;
+
+&lt;p&gt;Highlighted source code of equations in \(\LaTeX\) using the same \\( \\) and \\[ \\] tags which are commonly used to extend markdown for mathematics (including &lt;code&gt;ipython notebook&lt;/code&gt;):&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-latex&quot; data-lang=&quot;latex&quot;&gt;&lt;span class=&quot;k&quot;&gt;\frac&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\partial&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\bf&lt;/span&gt; u&lt;span class=&quot;nb&quot;&gt;}}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\partial&lt;/span&gt; t&lt;span class=&quot;nb&quot;&gt;}&lt;/span&gt;  +
+&lt;span class=&quot;k&quot;&gt;\left&lt;/span&gt;( . &lt;span class=&quot;k&quot;&gt;\nabla&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\right&lt;/span&gt;)   =
+-&lt;span class=&quot;k&quot;&gt;\frac&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;{&lt;/span&gt;1&lt;span class=&quot;nb&quot;&gt;}{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\rho&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\nabla&lt;/span&gt; p  +  &lt;span class=&quot;k&quot;&gt;\textbf&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;{&lt;/span&gt;F&lt;span class=&quot;nb&quot;&gt;}&lt;/span&gt;  + &lt;span class=&quot;k&quot;&gt;\nu&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;\nabla&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;^&lt;/span&gt;2&lt;span class=&quot;nb&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;\bf&lt;/span&gt; u&lt;span class=&quot;nb&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;scripts&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;c&quot;&gt;#!/usr/bin/env python&lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;    This example shows how you can add a set of particles to a swarm.&lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;  Here the particles are layed out in a spiral configuration.&lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;  Note that Scipy / Numpy are required for this example&lt;/span&gt;
+&lt;span class=&quot;sd&quot;&gt;&amp;#39;&amp;#39;&amp;#39;&lt;/span&gt;  
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;uwpytools&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# init using underworld 1.x XML files&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;uwpytools&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;InitWithArgs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;BuoyancyDrivenVanilla.xml PICellerator/PassiveTracerSwarm.xml&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;stgdict&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;uwpytools&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GetCurrentDictionary&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# set to initialise and solve&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;stgdict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;maxTimeSteps&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;stgdict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;pauseToAttachDebugger&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;stgdict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;checkpointEvery&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;and C code (C-like code ... this is StGermain after all)&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-C&quot; data-lang=&quot;C&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;math.h&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;mpi.h&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;StGermain/StGermain.h&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;StgDomain/StgDomain.h&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;StgFEM/StgFEM.h&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;PICellerator/PICellerator.h&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;cp&quot;&gt;#include &amp;quot;types.h&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#include &amp;quot;RheologyClass.h&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#include &amp;quot;StrainWeakening.h&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#include &amp;quot;YieldRheology.h&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#include &amp;quot;VonMises.h&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#include &amp;quot;ConstitutiveMatrix.h&amp;quot;&lt;/span&gt;
+
+&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;assert.h&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/*&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt; * Textual name of this class -&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt; * This is a global pointer which is used for times when you need to refer to&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt; * class and not a particular instance of a class.&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt; */&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Type&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;VonMises_Type&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;VonMises&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/* Public Constructor */&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;VonMises&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;VonMises_New&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
+   &lt;span class=&quot;n&quot;&gt;Name&lt;/span&gt;                 &lt;span class=&quot;n&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+   &lt;span class=&quot;n&quot;&gt;AbstractContext&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+   &lt;span class=&quot;n&quot;&gt;StrainWeakening&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;strainWeakening&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+   &lt;span class=&quot;n&quot;&gt;MaterialPointsSwarm&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;materialPointsSwarm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+   &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt;               &lt;span class=&quot;n&quot;&gt;minVisc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+   &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;                   &lt;span class=&quot;n&quot;&gt;strainRateTag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+   &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt;               &lt;span class=&quot;n&quot;&gt;cohesion&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+   &lt;span class=&quot;kt&quot;&gt;double&lt;/span&gt;               &lt;span class=&quot;n&quot;&gt;cohesionAfterSoftening&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+   &lt;span class=&quot;n&quot;&gt;Bool&lt;/span&gt;                 &lt;span class=&quot;n&quot;&gt;strainRateSoftening&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;I think this is pretty impressive as a platform. I suppose the other question is how reliable the service actually turns out to be. We&amp;#39;ll see ... but, if nothing else, the content is all in standard formats and can be re-used in many other places.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/python/mathematics/underworld/free-expression/&quot;&gt;Mathematics and Code&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on April 03, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[The Dynamics of Continental Accretion]]></title>
+  <link rel="alternate" type="text/html" href="/underworld/geodynamics/models-of-subduction-collision-and-re-initiation/" />
+  <id>/underworld/geodynamics/models-of-subduction-collision-and-re-initiation</id>
+  <published>2014-04-01T13:00:00+11:00</published>
+  <updated>2014-04-01T13:00:00+11:00</updated>
+  <author>
+    <name>Louis Moresi</name>
+    <uri></uri>
+    <email>louis.moresi@unimelb.edu.au</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;&lt;img class=&quot;right&quot; src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/192386/GkFmdzbSQ0O394T7Muc4_Congestion.png&quot; alt=&quot;Cartoon of collision / congestion&quot; width=&quot;30%&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;In a recent paper*, we used Underworld models to examine subduction congestion associated with the ingestion of a continental ribbon. The SE Australian geological record turned out to be a wonderful place to study this process. Here is a short summary of the work for a relatively non-technical audiencethat we put together and some additional figures which I prepared.&lt;/p&gt;
+
+&lt;p&gt;*Moresi, L.N., Betts, P.G., Miller, M.S., and Cayley, R.A., 2014, The Dynamics of Continental Accretion: Nature, &lt;a href=&quot;http://dx.doi.org/10.1038/nature13033&quot;&gt;doi:10.1038/nature13033&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;(The original paper, supplementary information and &lt;a href=&quot;http://www.nature.com/nature/journal/vaop/ncurrent/full/nature13033.html#supplementary-information&quot; title=&quot;(nature animation links)&quot;&gt;animations&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;The Earth’s continents drift at a speed of just a few centimetres per year driven by the sinking of the cold tectonic plates at subduction zones. As they drift, continents collide to form great mountain belts and, in the process, incorporate an assortment of geological debris. This activity has shaped the geological record for billions of years and geologist are accustomed to finding “exotic” material mashed up in ancient mountain belts. &lt;/p&gt;
+
+&lt;p&gt;The paper by Louis Moresi, Peter Betts, Meghan Miller and Ross Cayley shows how continental collisions work - how subduction zones stutter and recover when they are hit by a drifting continental fragment, and how evidence of such collisions may remain preserved largely intact in the Earth’s crust for hundreds of millions of years. The research shows how the subduction zone and the exotic continent dance around each other during the collision leaving a distinctive pattern in the rock record. The researchers predict that regions where collisions occur, crumpling up the crust into mountain belts, are flanked by low-lying zones of stretching and extension, characterised by intense localised heating, volcanic activity and fresh sediments that, till now, appeared enigmatic.  Rocks caught up in the collision  are swept around in a huge arcing path, stretched, rotated and dragged hundreds of kilometres from their original location as they chase a curved subduction zone trench retreating oceanward - a process called ‘subduction roll-back’. &lt;/p&gt;
+
+&lt;p&gt;One place in the world where evidence of this unusual pattern had already been observed happens to be on our own doorstep. The geology of  Victoria, Tasmania, and New South Wales shows an embedded block of older continental crust which collided with SE Australia between 450 and 380 million years ago. The collision started a cascade of geological processes that resulted in a swirling pattern preserved in the surrounding rocks, exactly as predicted by the computer model.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;center&quot; src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/192386/WXDOHuPTeahzWe7TyFGA_Figure1.png&quot; alt=&quot;Figure1 of our paper&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Figure 1.&lt;/strong&gt; &lt;em&gt;Reconstruction of the Tasmanide accretionary event, showing indentation of continental ribbon material and lateral subduction. a, Stable Ordovician convergent margin immediately after accretion of VanDieland microcontinent. b, Trench advance in the southern Tasmanides and subduction rollback in the central Tasmanides during the Early Silurian resulted in a transitional configuration of back-arc extension, and high temperature metamorphism in the back arc. c, Margin parallel trench retreat behind VanDieland during the Late Silurian. Extensive arc and back-arc magmatism, and basins systems above the retreating plate leading to a Banda- type sea outboard of VanDieland. d, Re-establishment of a stable, linear convergent margin during the Early Devonian. e, Present distribution of major tectonic elements of the southern and central Tasmanides superimposed on a magnetic map of eastern Australia&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The results of the research may explain complex geological relationships in the modern Earth, including the contorted geological patterns where the northern margin of Australian tectonic plate is colliding with smaller micro-plates of SE Asia.  Geometries predicted by the models are also seen in the tectonically active Mediterranean region in Europe, and contorted Mountain belts preserved throughout western North America.&lt;/p&gt;
+
+&lt;p&gt;The results of the research will help geologists interpret ancient Mountain belts.  This includes other parts of Eastern Australia as well as Central Asia, which are the sites of some of the largest accumulation of the Earths continents in the last 500 million years of Earth&amp;#39;s history. The results may prove most useful as a template to interpret regions where preservation of evidence for past collisions is incomplete - a common, and often frustrating, challenge for geologists working in fragmented ancient terranes. Geometries predicted by the models will radically redirect the focus of exploration for buried mineral systems already known to be intimately linked to the plate-tectonic process — they will occur in places not previously suspected. &lt;/p&gt;
+
+&lt;p&gt;The results will also likely provoke significant re-interpretation of some ancient deeply-buried geology, for example beneath the Antarctic icecap, where the accumulated geological history is tantalisingly revealed only as patterns in regional-scale geophysical datasets.  &lt;/p&gt;
+
+&lt;h2&gt;Glossary&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Plate tectonics&lt;/strong&gt; — the process by which the Earth turns itself inside out, creating new sea-floor at the mid-ocean ridge and swallowing it again at subduction zones.  This process turns the Earth’s internal heat into surface motion of a few centimetres per year and provides the energy for geological change.  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Continental Drift&lt;/strong&gt; — the continents are shuffled, deformed, and dragged around by plate tectonics but are not recycled into the Earth by subduction zones because they are made of generally lighter rocks.  The geological record clearly records the fact that for billions of years continents have migrated continuously around the Earth’s surface: colliding with each other, rifting apart, and drifting to different climatic zones. Modern satellite-based Global Positioning System measurements confirm beyond all doubt that this process continues today. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mountain Belts&lt;/strong&gt; — Mountains usually occur in long, relatively narrow chains across the Earth’s surface. This reflects the fact that subduction tends to occur along a wide region of a plate boundary and that subduction is the driving force for mountain building. So much so, that breaks in mountain belts invite special explanations such as collision of exotic crust.  Actual mountains erode very quickly in geological time, so ancient mountain belts are recognised by geology characteristic of deeply eroded mountain roots, compared directly to modern examples.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Subduction Zone&lt;/strong&gt; — A convergent boundary between two of the Earth’s tectonic plates, whereby a denser oceanic plate sinks into the Earth’s mantle, moving beneath an overriding plate of either continental or oceanic character.  Active subduction zones are sites of volcanism, earthquakes and mountain building. Fossil subduction zones can be challenging to recognise in the rock record.&lt;/p&gt;
+
+&lt;h2&gt;Additional Figures&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;center&quot; src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/192386/cfU0Y2uSpOJOl3Ygh0bv_AdditionalImages1.png&quot; alt=&quot;Additional Images # 1&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;center&quot; src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/192386/tbheDw9bTmG3iMln5ptm_AdditionalImages2.png&quot; alt=&quot;Additional Images # 2&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;center&quot; src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/192386/ImpKS6BgT4WPS9aLFRjq_AdditionalImages3.png&quot; alt=&quot;Additional Images #3&quot;&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/underworld/geodynamics/models-of-subduction-collision-and-re-initiation/&quot;&gt;The Dynamics of Continental Accretion&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on April 01, 2014.&lt;/p&gt;
   </content>
 </entry>
 
@@ -79,9 +683,9 @@
     <email>louis.moresi@unimelb.edu.au</email>
   </author>
   <content type="html">
-    &lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+    &lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;^1&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;pygments-code-blocks&quot;&gt;Pygments Code Blocks&lt;/h3&gt;
+&lt;h3&gt;Pygments Code Blocks&lt;/h3&gt;
 
 &lt;p&gt;To modify styling and highlight colors edit &lt;code&gt;/_sass/_pygments.scss&lt;/code&gt;.&lt;/p&gt;
 
@@ -118,100 +722,83 @@
   &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h3 id=&quot;standard-code-block&quot;&gt;Standard Code Block&lt;/h3&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&amp;gt;
+&lt;h3&gt;Standard Code Block&lt;/h3&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&amp;lt;nav class=&amp;quot;pagination&amp;quot; role=&amp;quot;navigation&amp;quot;&amp;gt;
     {% if page.previous %}
-        &amp;lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;
+        &amp;lt;a href=&amp;quot;{{ site.url }}{{ page.previous.url }}&amp;quot; class=&amp;quot;btn&amp;quot; title=&amp;quot;{{ page.previous.title }}&amp;quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;
     {% endif %}
     {% if page.next %}
-        &amp;lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&amp;gt;Next article&amp;lt;/a&amp;gt;
+        &amp;lt;a href=&amp;quot;{{ site.url }}{{ page.next.url }}&amp;quot; class=&amp;quot;btn&amp;quot; title=&amp;quot;{{ page.next.title }}&amp;quot;&amp;gt;Next article&amp;lt;/a&amp;gt;
     {% endif %}
 &amp;lt;/nav&amp;gt;&amp;lt;!-- /.pagination --&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;Fenced Code Blocks&lt;/h3&gt;
 
-&lt;h3 id=&quot;fenced-code-blocks&quot;&gt;Fenced Code Blocks&lt;/h3&gt;
-
-&lt;p&gt;To modify styling and highlight colors edit &lt;code&gt;/_sass/_coderay.scss&lt;/code&gt;. Line numbers and a few other things can be modified in &lt;code&gt;_config.yml&lt;/code&gt;. Consult &lt;a href=&quot;http://jekyllrb.com/docs/configuration/&quot;&gt;Jekyll’s documentation&lt;/a&gt; for more information.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-css&quot;&gt;#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-html&quot;&gt;&amp;lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&amp;gt;
+&lt;p&gt;To modify styling and highlight colors edit &lt;code&gt;/_sass/_coderay.scss&lt;/code&gt;. Line numbers and a few other things can be modified in &lt;code&gt;_config.yml&lt;/code&gt;. Consult &lt;a href=&quot;http://jekyllrb.com/docs/configuration/&quot;&gt;Jekyll&amp;#39;s documentation&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;pagination&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;navigation&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
     {% if page.previous %}
-        &amp;lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ site.url }}{{ page.previous.url }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;btn&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ page.previous.title }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Previous article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
     {% endif %}
     {% if page.next %}
-        &amp;lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&amp;gt;Next article&amp;lt;/a&amp;gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ site.url }}{{ page.next.url }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;btn&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ page.next.title }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Next article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
     {% endif %}
-&amp;lt;/nav&amp;gt;&amp;lt;!-- /.pagination --&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-ruby&quot;&gt;module Jekyll
-  class TagIndex &amp;lt; Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = &#39;index.html&#39;
-      self.process(@name)
-      self.read_yaml(File.join(base, &#39;_layouts&#39;), &#39;tag_index.html&#39;)
-      self.data[&#39;tag&#39;] = tag
-      tag_title_prefix = site.config[&#39;tag_title_prefix&#39;] || &#39;Tagged: &#39;
-      tag_title_suffix = site.config[&#39;tag_title_suffix&#39;] || &#39;&amp;amp;#8211;&#39;
-      self.data[&#39;title&#39;] = &quot;#{tag_title_prefix}#{tag}&quot;
-      self.data[&#39;description&#39;] = &quot;An archive of posts tagged #{tag}.&quot;
-    end
-  end
-end
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&quot;github-gist-embed&quot;&gt;GitHub Gist Embed&lt;/h3&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- /.pagination --&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Jekyll&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TagIndex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Page&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@site&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@base&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;
+      &lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;index.html&amp;#39;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read_yaml&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;_layouts&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;tag_index.html&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;tag&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;tag_title_prefix&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;Tagged: &amp;#39;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;tag_title_suffix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;tag_title_suffix&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;&amp;amp;#8211;&amp;#39;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;title&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;description&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;An archive of posts tagged &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.&amp;quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3&gt;GitHub Gist Embed&lt;/h3&gt;
 
 &lt;p&gt;An example of a Gist embed below.&lt;/p&gt;
 
-&lt;noscript&gt;&lt;pre&gt;---
+&lt;p&gt;&lt;noscript&gt;&lt;pre&gt;---
 layout: page
-title: Tag Index
-description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
----
+title: Tag Index&lt;/p&gt;
 
-{% capture tags %}
+&lt;h2&gt;description: &amp;quot;An archive of posts sorted by tag.&amp;quot;&lt;/h2&gt;
+
+&lt;p&gt;{% capture tags %}
   {% for tag in site.tags %}
     {{ tag[0] | replace: &amp;#39; &amp;#39;, &amp;#39;&amp;amp;nbsp;&amp;#39; }}
   {% endfor %}
 {% endcapture %}
-{% assign sortedtags = tags | split: &amp;#39; &amp;#39; | sort %}
+{% assign sortedtags = tags | split: &amp;#39; &amp;#39; | sort %}&lt;/p&gt;
 
-&amp;lt;ul class=&amp;quot;tag-box inline&amp;quot;&amp;gt;
+&lt;p&gt;&amp;lt;ul class=&amp;quot;tag-box inline&amp;quot;&amp;gt;
 {% for tag in sortedtags %}
   {% for post in site.tags[tag] %}
-		&amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#{{ tag }}&amp;quot;&amp;gt;{{ tag }}&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-	{% endfor %}
+        &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;#{{ tag }}&amp;quot;&amp;gt;{{ tag }}&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    {% endfor %}
 {% endfor %}
-&amp;lt;/ul&amp;gt;
+&amp;lt;/ul&amp;gt;&lt;/p&gt;
 
-{% for tag in sortedtags %}
-	&amp;lt;h2 id=&amp;quot;{{ tag }}&amp;quot;&amp;gt;{{ tag }}&amp;lt;/h2&amp;gt;
-	&amp;lt;ul class=&amp;quot;post-list&amp;quot;&amp;gt;
-	{% for post in site.tags[tag] %}
-		&amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ site.url }}{{ post.url }}&amp;quot;&amp;gt;{{ post.title }}&amp;lt;span class=&amp;quot;entry-date&amp;quot;&amp;gt;&amp;lt;time datetime=&amp;quot;{{ post.date | date_to_xmlschema }}&amp;quot; itemprop=&amp;quot;datePublished&amp;quot;&amp;gt;{{ post.date | date: &amp;quot;%B %d, %Y&amp;quot; }}&amp;lt;/time&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-	{% endfor %}
-	&amp;lt;/ul&amp;gt;
-{% endfor %}&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/mmistakes/6589546.js&quot;&gt; &lt;/script&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;http://en.wikipedia.org/wiki/Syntax_highlighting&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
+&lt;p&gt;{% for tag in sortedtags %}
+    &amp;lt;h2 id=&amp;quot;{{ tag }}&amp;quot;&amp;gt;{{ tag }}&amp;lt;/h2&amp;gt;
+    &amp;lt;ul class=&amp;quot;post-list&amp;quot;&amp;gt;
+    {% for post in site.tags[tag] %}
+        &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;{{ site.url }}{{ post.url }}&amp;quot;&amp;gt;{{ post.title }}&amp;lt;span class=&amp;quot;entry-date&amp;quot;&amp;gt;&amp;lt;time datetime=&amp;quot;{{ post.date | date&lt;em&gt;to&lt;/em&gt;xmlschema }}&amp;quot; itemprop=&amp;quot;datePublished&amp;quot;&amp;gt;{{ post.date | date: &amp;quot;%B %d, %Y&amp;quot; }}&amp;lt;/time&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    {% endfor %}
+    &amp;lt;/ul&amp;gt;
+{% endfor %}&lt;/pre&gt;&lt;/noscript&gt;&lt;script src=&quot;https://gist.github.com/mmistakes/6589546.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;/code-highlighting-post/&quot;&gt;Syntax Highlighting Post&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on August 16, 2013.&lt;/p&gt;
   </content>
@@ -232,10 +819,10 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
     <email>louis.moresi@unimelb.edu.au</email>
   </author>
   <content type="html">
-    &lt;p&gt;This theme supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To use, just add &lt;code&gt;link: http://url-you-want-linked&lt;/code&gt; to the post’s YAML front matter and you’re done.&lt;/p&gt;
+    &lt;p&gt;This theme supports &lt;strong&gt;link posts&lt;/strong&gt;, made famous by John Gruber. To use, just add &lt;code&gt;link: http://url-you-want-linked&lt;/code&gt; to the post&amp;#39;s YAML front matter and you&amp;#39;re done.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;And this is how a quote looks.&lt;/p&gt;
+&lt;p&gt;And this is how a quote looks.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Some &lt;a href=&quot;http://www.mademistakes.com&quot;&gt;link&lt;/a&gt; can also be shown.&lt;/p&gt;
@@ -259,54 +846,48 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
     <email>louis.moresi@unimelb.edu.au</email>
   </author>
   <content type="html">
-    &lt;p&gt;This is a sample post with a large feature image&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; up top and tons of text. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
+    &lt;p&gt;This is a sample post with a large feature image[^1] up top and tons of text. Odio ad blue bottle vinyl, 90&amp;#39;s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney&amp;#39;s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
 
 &lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
 
-&lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot;&gt;Cupidatat 90’s lo-fi authentic try-hard&lt;/h2&gt;
+&lt;h2&gt;Cupidatat 90&amp;#39;s lo-fi authentic try-hard&lt;/h2&gt;
 
-&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s.&lt;/p&gt;
+&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90&amp;#39;s.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Sartorial hoodie&lt;/li&gt;
-  &lt;li&gt;Labore viral forage&lt;/li&gt;
-  &lt;li&gt;Tote bag selvage&lt;/li&gt;
-  &lt;li&gt;DIY exercitation et id ugh tumblr church-key&lt;/li&gt;
+&lt;li&gt;Sartorial hoodie&lt;/li&gt;
+&lt;li&gt;Labore viral forage&lt;/li&gt;
+&lt;li&gt;Tote bag selvage&lt;/li&gt;
+&lt;li&gt;DIY exercitation et id ugh tumblr church-key&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.&lt;/p&gt;
 
-&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven’t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney’s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
+&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven&amp;#39;t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney&amp;#39;s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
 
-&lt;h2 id=&quot;forage-occaecat-cardigan-qui&quot;&gt;Forage occaecat cardigan qui&lt;/h2&gt;
+&lt;h2&gt;Forage occaecat cardigan qui&lt;/h2&gt;
 
-&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90’s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.&lt;/p&gt;
+&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90&amp;#39;s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
+&lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney’s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney’s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
+&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney&amp;#39;s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney&amp;#39;s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
 
-&lt;h2 id=&quot;hoodie-duis&quot;&gt;Hoodie Duis&lt;/h2&gt;
+&lt;h2&gt;Hoodie Duis&lt;/h2&gt;
 
-&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90’s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
+&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90&amp;#39;s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
 
-&lt;h3 id=&quot;thundercats-ho&quot;&gt;Thundercats Ho!&lt;/h3&gt;
+&lt;h3&gt;Thundercats Ho!&lt;/h3&gt;
 
-&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney’s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
+&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney&amp;#39;s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
 
-&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney’s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
+&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney&amp;#39;s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
 
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Texture image courtesty of &lt;a href=&quot;http://www.lovetextures.com/&quot;&gt;Lovetextures&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
+&lt;p&gt;[^1]: Texture image courtesty of &lt;a href=&quot;http://www.lovetextures.com/&quot;&gt;Lovetextures&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;/readability-feature-post/&quot;&gt;Post with Large Feature Image and Text&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on May 23, 2013.&lt;/p&gt;
   </content>
@@ -329,18 +910,18 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
   <content type="html">
     &lt;p&gt;Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use &lt;code&gt;figure&lt;/code&gt; with the appropriate &lt;code&gt;class&lt;/code&gt;. Each instance of &lt;code&gt;figure&lt;/code&gt; is auto-numbered and displayed in the caption.&lt;/p&gt;
 
-&lt;h3 id=&quot;figures-for-images-or-video&quot;&gt;Figures (for images or video)&lt;/h3&gt;
+&lt;h3&gt;Figures (for images or video)&lt;/h3&gt;
 
-&lt;h4 id=&quot;one-up&quot;&gt;One Up&lt;/h4&gt;
+&lt;h4&gt;One Up&lt;/h4&gt;
 
 &lt;figure&gt;
-	&lt;a href=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;&lt;a href=&quot;http://www.flickr.com/photos/80901381@N04/7758832526/&quot; title=&quot;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&quot;&gt;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&lt;/a&gt;.&lt;/figcaption&gt;
+    &lt;a href=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg&quot;&gt;&lt;img src=&quot;http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg&quot;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;&lt;a href=&quot;http://www.flickr.com/photos/80901381@N04/7758832526/&quot; title=&quot;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&quot;&gt;Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr&lt;/a&gt;.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
 
-&lt;h4 id=&quot;two-up&quot;&gt;Two Up&lt;/h4&gt;
+&lt;h4&gt;Two Up&lt;/h4&gt;
 
 &lt;p&gt;Apply the &lt;code&gt;half&lt;/code&gt; class like so to display two images side by side that share the same caption.&lt;/p&gt;
 
@@ -350,32 +931,32 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these two images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
+&lt;p&gt;And you&amp;#39;ll get something that looks like this:&lt;/p&gt;
 
 &lt;figure class=&quot;half&quot;&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.JPG&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;a href=&quot;http://placehold.it/1200x600.jpeg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;&lt;/a&gt;
-	&lt;figcaption&gt;Two images.&lt;/figcaption&gt;
+    &lt;a href=&quot;http://placehold.it/1200x600.JPG&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot;&gt;&lt;/a&gt;
+    &lt;a href=&quot;http://placehold.it/1200x600.jpeg&quot;&gt;&lt;img src=&quot;http://placehold.it/600x300.jpg&quot;&gt;&lt;/a&gt;
+    &lt;figcaption&gt;Two images.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h4 id=&quot;three-up&quot;&gt;Three Up&lt;/h4&gt;
+&lt;h4&gt;Three Up&lt;/h4&gt;
 
 &lt;p&gt;Apply the &lt;code&gt;third&lt;/code&gt; class like so to display three images side by side that share the same caption.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;figure&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;third&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-1.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-2.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-3.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these three images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-1.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-2.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/images/image-filename-3.jpg&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;figcaption&amp;gt;&lt;/span&gt;Caption describing these three images.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/figcaption&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;And you’ll get something that looks like this:&lt;/p&gt;
+&lt;p&gt;And you&amp;#39;ll get something that looks like this:&lt;/p&gt;
 
 &lt;figure class=&quot;third&quot;&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
-	&lt;img src=&quot;http://placehold.it/600x300.jpg&quot; /&gt;
-	&lt;figcaption&gt;Three images.&lt;/figcaption&gt;
+    &lt;img src=&quot;http://placehold.it/600x300.jpg&quot;&gt;
+    &lt;img src=&quot;http://placehold.it/600x300.jpg&quot;&gt;
+    &lt;img src=&quot;http://placehold.it/600x300.jpg&quot;&gt;
+    &lt;figcaption&gt;Three images.&lt;/figcaption&gt;
 &lt;/figure&gt;
 
     &lt;p&gt;&lt;a href=&quot;/sample-post-images/&quot;&gt;A Post with Images&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on May 22, 2013.&lt;/p&gt;
@@ -397,44 +978,44 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
     <email>louis.moresi@unimelb.edu.au</email>
   </author>
   <content type="html">
-    &lt;p&gt;Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
+    &lt;p&gt;Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90&amp;#39;s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney&amp;#39;s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
 
 &lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
 
-&lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot;&gt;Cupidatat 90’s lo-fi authentic try-hard&lt;/h2&gt;
+&lt;h2&gt;Cupidatat 90&amp;#39;s lo-fi authentic try-hard&lt;/h2&gt;
 
-&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s.&lt;/p&gt;
+&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90&amp;#39;s.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Sartorial hoodie&lt;/li&gt;
-  &lt;li&gt;Labore viral forage&lt;/li&gt;
-  &lt;li&gt;Tote bag selvage&lt;/li&gt;
-  &lt;li&gt;DIY exercitation et id ugh tumblr church-key&lt;/li&gt;
+&lt;li&gt;Sartorial hoodie&lt;/li&gt;
+&lt;li&gt;Labore viral forage&lt;/li&gt;
+&lt;li&gt;Tote bag selvage&lt;/li&gt;
+&lt;li&gt;DIY exercitation et id ugh tumblr church-key&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.&lt;/p&gt;
 
-&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven’t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney’s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
+&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven&amp;#39;t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney&amp;#39;s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
 
-&lt;h2 id=&quot;forage-occaecat-cardigan-qui&quot;&gt;Forage occaecat cardigan qui&lt;/h2&gt;
+&lt;h2&gt;Forage occaecat cardigan qui&lt;/h2&gt;
 
-&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90’s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.&lt;/p&gt;
+&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90&amp;#39;s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
+&lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney’s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney’s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
+&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney&amp;#39;s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney&amp;#39;s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
 
-&lt;h2 id=&quot;hoodie-duis&quot;&gt;Hoodie Duis&lt;/h2&gt;
+&lt;h2&gt;Hoodie Duis&lt;/h2&gt;
 
-&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90’s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
+&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90&amp;#39;s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
 
-&lt;h3 id=&quot;thundercats-ho&quot;&gt;Thundercats Ho!&lt;/h3&gt;
+&lt;h3&gt;Thundercats Ho!&lt;/h3&gt;
 
-&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney’s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
+&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney&amp;#39;s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
 
-&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney’s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
+&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney&amp;#39;s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
 
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 
@@ -458,145 +1039,86 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
     <email>louis.moresi@unimelb.edu.au</email>
   </author>
   <content type="html">
-    &lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
+    &lt;p&gt;&lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
   &lt;header&gt;
     &lt;h3&gt;Overview&lt;/h3&gt;
   &lt;/header&gt;
-&lt;div id=&quot;drawer&quot;&gt;
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#html-elements&quot;&gt;HTML Elements&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#heading-1&quot;&gt;Heading 1&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#heading-2&quot;&gt;Heading 2&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#heading-3&quot;&gt;Heading 3&lt;/a&gt;            &lt;ul&gt;
-              &lt;li&gt;&lt;a href=&quot;#heading-4&quot;&gt;Heading 4&lt;/a&gt;                &lt;ul&gt;
-                  &lt;li&gt;&lt;a href=&quot;#heading-5&quot;&gt;Heading 5&lt;/a&gt;                    &lt;ul&gt;
-                      &lt;li&gt;&lt;a href=&quot;#heading-6&quot;&gt;Heading 6&lt;/a&gt;&lt;/li&gt;
-                    &lt;/ul&gt;
-                  &lt;/li&gt;
-                &lt;/ul&gt;
-              &lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#body-text&quot;&gt;Body text&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#blockquotes&quot;&gt;Blockquotes&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#list-types&quot;&gt;List Types&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#ordered-lists&quot;&gt;Ordered Lists&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#unordered-lists&quot;&gt;Unordered Lists&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#tables&quot;&gt;Tables&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#code-snippets&quot;&gt;Code Snippets&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#buttons&quot;&gt;Buttons&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#notices&quot;&gt;Notices&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;div id=&quot;drawer&quot; markdown=&quot;1&quot;&gt;
+*  Auto generated table of contents
+{:toc}
+&lt;/div&gt;
+&lt;/section&gt;&amp;lt;!-- /#table-of-contents --&amp;gt;&lt;/p&gt;
 
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;!-- /#table-of-contents --&gt;
+&lt;h2&gt;HTML Elements&lt;/h2&gt;
 
-&lt;h2 id=&quot;html-elements&quot;&gt;HTML Elements&lt;/h2&gt;
+&lt;p&gt;Below is just about everything you&amp;#39;ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
 
-&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
+&lt;h1&gt;Heading 1&lt;/h1&gt;
 
-&lt;h1 id=&quot;heading-1&quot;&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
 
-&lt;h2 id=&quot;heading-2&quot;&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
 
-&lt;h3 id=&quot;heading-3&quot;&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
 
-&lt;h4 id=&quot;heading-4&quot;&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
 
-&lt;h5 id=&quot;heading-5&quot;&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;
 
-&lt;h6 id=&quot;heading-6&quot;&gt;Heading 6&lt;/h6&gt;
-
-&lt;h3 id=&quot;body-text&quot;&gt;Body text&lt;/h3&gt;
+&lt;h3&gt;Body text&lt;/h3&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. &lt;strong&gt;This is strong&lt;/strong&gt;. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
 
-&lt;p class=&quot;image-pull-right&quot;&gt;&lt;img src=&quot;/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/3953273590_704e3899d5_m.jpg&quot; alt=&quot;Smithsonian Image&quot;&gt;
+{: .image-pull-right}&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;This is emphasized&lt;/em&gt;. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.&lt;/p&gt;
 
 &lt;p&gt;HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.&lt;/p&gt;
 
-&lt;h3 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h3&gt;
+&lt;h3&gt;Blockquotes&lt;/h3&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;list-types&quot;&gt;List Types&lt;/h2&gt;
+&lt;h2&gt;List Types&lt;/h2&gt;
 
-&lt;h3 id=&quot;ordered-lists&quot;&gt;Ordered Lists&lt;/h3&gt;
+&lt;h3&gt;Ordered Lists&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Item one
-    &lt;ol&gt;
-      &lt;li&gt;sub item one&lt;/li&gt;
-      &lt;li&gt;sub item two&lt;/li&gt;
-      &lt;li&gt;sub item three&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
+&lt;li&gt;Item one
+
+&lt;ol&gt;
+&lt;li&gt;sub item one&lt;/li&gt;
+&lt;li&gt;sub item two&lt;/li&gt;
+&lt;li&gt;sub item three&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;Item two&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&quot;unordered-lists&quot;&gt;Unordered Lists&lt;/h3&gt;
+&lt;h3&gt;Unordered Lists&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Item one&lt;/li&gt;
-  &lt;li&gt;Item two&lt;/li&gt;
-  &lt;li&gt;Item three&lt;/li&gt;
+&lt;li&gt;Item one&lt;/li&gt;
+&lt;li&gt;Item two&lt;/li&gt;
+&lt;li&gt;Item three&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
+&lt;h2&gt;Tables&lt;/h2&gt;
 
-&lt;table rules=&quot;groups&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Header1&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Header2&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Header3&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Foot1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Foot2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Foot3&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-&lt;/table&gt;
+&lt;p&gt;| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|----
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|=====
+| Foot1   | Foot2   | Foot3
+{: rules=&amp;quot;groups&amp;quot;}&lt;/p&gt;
 
-&lt;h2 id=&quot;code-snippets&quot;&gt;Code Snippets&lt;/h2&gt;
+&lt;h2&gt;Code Snippets&lt;/h2&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
   &lt;span class=&quot;k&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -604,21 +1126,26 @@ description: &amp;quot;An archive of posts sorted by tag.&amp;quot;
   &lt;span class=&quot;k&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;buttons&quot;&gt;Buttons&lt;/h2&gt;
+&lt;h2&gt;Buttons&lt;/h2&gt;
 
 &lt;p&gt;Make any link standout more when applying the &lt;code&gt;.btn&lt;/code&gt; class.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;#&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;btn btn-success&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Success Button&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Primary Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-success&quot;&gt;Success Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-warning&quot;&gt;Warning Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-danger&quot;&gt;Danger Button&lt;/a&gt;&lt;/div&gt;
-&lt;div&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-info&quot;&gt;Info Button&lt;/a&gt;&lt;/div&gt;
+&lt;div markdown=&quot;0&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;btn&quot;&gt;Primary Button&lt;/a&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;notices&quot;&gt;Notices&lt;/h2&gt;
+&lt;div markdown=&quot;0&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-success&quot;&gt;Success Button&lt;/a&gt;&lt;/div&gt;
 
-&lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; You can also add notices by appending &lt;code&gt;{: .notice}&lt;/code&gt; to a paragraph.&lt;/p&gt;
+&lt;div markdown=&quot;0&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-warning&quot;&gt;Warning Button&lt;/a&gt;&lt;/div&gt;
+
+&lt;div markdown=&quot;0&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-danger&quot;&gt;Danger Button&lt;/a&gt;&lt;/div&gt;
+
+&lt;div markdown=&quot;0&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;btn btn-info&quot;&gt;Info Button&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2&gt;Notices&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; You can also add notices by appending &lt;code&gt;{: .notice}&lt;/code&gt; to a paragraph.
+{: .notice}&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;/sample-post/&quot;&gt;Sample Post&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Site Title&lt;/a&gt; on March 10, 2011.&lt;/p&gt;
   </content>

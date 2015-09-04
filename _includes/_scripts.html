@@ -18,6 +18,14 @@
   })();
 </script>
 {% endif %}
+
+{% if site.mathjax %}
+
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+{% endif %}
+
 {% if page.comments %}
   {% include _disqus_comments.html %}
 {% endif %}

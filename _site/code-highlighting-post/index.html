@@ -158,9 +158,9 @@
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <p>Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+      <p>Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.<a href="http://en.wikipedia.org/wiki/Syntax_highlighting">^1</a></p>
 
-<h3 id="pygments-code-blocks">Pygments Code Blocks</h3>
+<h3>Pygments Code Blocks</h3>
 
 <p>To modify styling and highlight colors edit <code>/_sass/_pygments.scss</code>.</p>
 
@@ -197,100 +197,83 @@
   <span class="k">end</span>
 <span class="k">end</span></code></pre></div>
 
-<h3 id="standard-code-block">Standard Code Block</h3>
-
-<pre><code>&lt;nav class="pagination" role="navigation"&gt;
+<h3>Standard Code Block</h3>
+<div class="highlight"><pre><code class="language-text" data-lang="text">&lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&gt;
     {% if page.previous %}
-        &lt;a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}"&gt;Previous article&lt;/a&gt;
+        &lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&gt;Previous article&lt;/a&gt;
     {% endif %}
     {% if page.next %}
-        &lt;a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}"&gt;Next article&lt;/a&gt;
+        &lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&gt;Next article&lt;/a&gt;
     {% endif %}
 &lt;/nav&gt;&lt;!-- /.pagination --&gt;
-</code></pre>
+</code></pre></div>
+<h3>Fenced Code Blocks</h3>
 
-<h3 id="fenced-code-blocks">Fenced Code Blocks</h3>
-
-<p>To modify styling and highlight colors edit <code>/_sass/_coderay.scss</code>. Line numbers and a few other things can be modified in <code>_config.yml</code>. Consult <a href="http://jekyllrb.com/docs/configuration/">Jekyll’s documentation</a> for more information.</p>
-
-<pre><code class="language-css">#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
-</code></pre>
-
-<pre><code class="language-html">&lt;nav class="pagination" role="navigation"&gt;
+<p>To modify styling and highlight colors edit <code>/_sass/_coderay.scss</code>. Line numbers and a few other things can be modified in <code>_config.yml</code>. Consult <a href="http://jekyllrb.com/docs/configuration/">Jekyll&#39;s documentation</a> for more information.</p>
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nf">#container</span> <span class="p">{</span>
+    <span class="k">float</span><span class="o">:</span> <span class="k">left</span><span class="p">;</span>
+    <span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="m">-240px</span> <span class="m">0</span> <span class="m">0</span><span class="p">;</span>
+    <span class="k">width</span><span class="o">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">&quot;pagination&quot;</span> <span class="na">role=</span><span class="s">&quot;navigation&quot;</span><span class="nt">&gt;</span>
     {% if page.previous %}
-        &lt;a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}"&gt;Previous article&lt;/a&gt;
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;{{ site.url }}{{ page.previous.url }}&quot;</span> <span class="na">class=</span><span class="s">&quot;btn&quot;</span> <span class="na">title=</span><span class="s">&quot;{{ page.previous.title }}&quot;</span><span class="nt">&gt;</span>Previous article<span class="nt">&lt;/a&gt;</span>
     {% endif %}
     {% if page.next %}
-        &lt;a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}"&gt;Next article&lt;/a&gt;
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;{{ site.url }}{{ page.next.url }}&quot;</span> <span class="na">class=</span><span class="s">&quot;btn&quot;</span> <span class="na">title=</span><span class="s">&quot;{{ page.next.title }}&quot;</span><span class="nt">&gt;</span>Next article<span class="nt">&lt;/a&gt;</span>
     {% endif %}
-&lt;/nav&gt;&lt;!-- /.pagination --&gt;
-</code></pre>
-
-<pre><code class="language-ruby">module Jekyll
-  class TagIndex &lt; Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&amp;#8211;'
-      self.data['title'] = "#{tag_title_prefix}#{tag}"
-      self.data['description'] = "An archive of posts tagged #{tag}."
-    end
-  end
-end
-</code></pre>
-
-<h3 id="github-gist-embed">GitHub Gist Embed</h3>
+<span class="nt">&lt;/nav&gt;</span><span class="c">&lt;!-- /.pagination --&gt;</span>
+</code></pre></div><div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">module</span> <span class="nn">Jekyll</span>
+  <span class="k">class</span> <span class="nc">TagIndex</span> <span class="o">&lt;</span> <span class="no">Page</span>
+    <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">site</span><span class="p">,</span> <span class="n">base</span><span class="p">,</span> <span class="n">dir</span><span class="p">,</span> <span class="n">tag</span><span class="p">)</span>
+      <span class="vi">@site</span> <span class="o">=</span> <span class="n">site</span>
+      <span class="vi">@base</span> <span class="o">=</span> <span class="n">base</span>
+      <span class="vi">@dir</span> <span class="o">=</span> <span class="n">dir</span>
+      <span class="vi">@name</span> <span class="o">=</span> <span class="s1">&#39;index.html&#39;</span>
+      <span class="nb">self</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="vi">@name</span><span class="p">)</span>
+      <span class="nb">self</span><span class="o">.</span><span class="n">read_yaml</span><span class="p">(</span><span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">base</span><span class="p">,</span> <span class="s1">&#39;_layouts&#39;</span><span class="p">),</span> <span class="s1">&#39;tag_index.html&#39;</span><span class="p">)</span>
+      <span class="nb">self</span><span class="o">.</span><span class="n">data</span><span class="o">[</span><span class="s1">&#39;tag&#39;</span><span class="o">]</span> <span class="o">=</span> <span class="n">tag</span>
+      <span class="n">tag_title_prefix</span> <span class="o">=</span> <span class="n">site</span><span class="o">.</span><span class="n">config</span><span class="o">[</span><span class="s1">&#39;tag_title_prefix&#39;</span><span class="o">]</span> <span class="o">||</span> <span class="s1">&#39;Tagged: &#39;</span>
+      <span class="n">tag_title_suffix</span> <span class="o">=</span> <span class="n">site</span><span class="o">.</span><span class="n">config</span><span class="o">[</span><span class="s1">&#39;tag_title_suffix&#39;</span><span class="o">]</span> <span class="o">||</span> <span class="s1">&#39;&amp;#8211;&#39;</span>
+      <span class="nb">self</span><span class="o">.</span><span class="n">data</span><span class="o">[</span><span class="s1">&#39;title&#39;</span><span class="o">]</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">tag_title_prefix</span><span class="si">}#{</span><span class="n">tag</span><span class="si">}</span><span class="s2">&quot;</span>
+      <span class="nb">self</span><span class="o">.</span><span class="n">data</span><span class="o">[</span><span class="s1">&#39;description&#39;</span><span class="o">]</span> <span class="o">=</span> <span class="s2">&quot;An archive of posts tagged </span><span class="si">#{</span><span class="n">tag</span><span class="si">}</span><span class="s2">.&quot;</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre></div>
+<h3>GitHub Gist Embed</h3>
 
 <p>An example of a Gist embed below.</p>
 
-<noscript><pre>---
+<p><noscript><pre>---
 layout: page
-title: Tag Index
-description: &quot;An archive of posts sorted by tag.&quot;
----
+title: Tag Index</p>
 
-{% capture tags %}
+<h2>description: &quot;An archive of posts sorted by tag.&quot;</h2>
+
+<p>{% capture tags %}
   {% for tag in site.tags %}
     {{ tag[0] | replace: &#39; &#39;, &#39;&amp;nbsp;&#39; }}
   {% endfor %}
 {% endcapture %}
-{% assign sortedtags = tags | split: &#39; &#39; | sort %}
+{% assign sortedtags = tags | split: &#39; &#39; | sort %}</p>
 
-&lt;ul class=&quot;tag-box inline&quot;&gt;
+<p>&lt;ul class=&quot;tag-box inline&quot;&gt;
 {% for tag in sortedtags %}
   {% for post in site.tags[tag] %}
-		&lt;li&gt;&lt;a href=&quot;#{{ tag }}&quot;&gt;{{ tag }}&lt;/a&gt;&lt;/li&gt;
-	{% endfor %}
+        &lt;li&gt;&lt;a href=&quot;#{{ tag }}&quot;&gt;{{ tag }}&lt;/a&gt;&lt;/li&gt;
+    {% endfor %}
 {% endfor %}
-&lt;/ul&gt;
+&lt;/ul&gt;</p>
 
-{% for tag in sortedtags %}
-	&lt;h2 id=&quot;{{ tag }}&quot;&gt;{{ tag }}&lt;/h2&gt;
-	&lt;ul class=&quot;post-list&quot;&gt;
-	{% for post in site.tags[tag] %}
-		&lt;li&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;span class=&quot;entry-date&quot;&gt;&lt;time datetime=&quot;{{ post.date | date_to_xmlschema }}&quot; itemprop=&quot;datePublished&quot;&gt;{{ post.date | date: &quot;%B %d, %Y&quot; }}&lt;/time&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
-	{% endfor %}
-	&lt;/ul&gt;
-{% endfor %}</pre></noscript>
-<script src="https://gist.github.com/mmistakes/6589546.js"> </script>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p><a href="http://en.wikipedia.org/wiki/Syntax_highlighting">http://en.wikipedia.org/wiki/Syntax_highlighting</a> <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
+<p>{% for tag in sortedtags %}
+    &lt;h2 id=&quot;{{ tag }}&quot;&gt;{{ tag }}&lt;/h2&gt;
+    &lt;ul class=&quot;post-list&quot;&gt;
+    {% for post in site.tags[tag] %}
+        &lt;li&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;span class=&quot;entry-date&quot;&gt;&lt;time datetime=&quot;{{ post.date | date<em>to</em>xmlschema }}&quot; itemprop=&quot;datePublished&quot;&gt;{{ post.date | date: &quot;%B %d, %Y&quot; }}&lt;/time&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+    {% endfor %}
+    &lt;/ul&gt;
+{% endfor %}</pre></noscript><script src="https://gist.github.com/mmistakes/6589546.js"> </script></p>
 
       <hr />
       <footer role="contentinfo">
@@ -323,11 +306,11 @@ description: &quot;An archive of posts sorted by tag.&quot;
   <h4>You might also enjoy <small class="pull-right">(<a href="/posts/">View all posts</a>)</small></h4>
     <ul>
     
-      <li><a href="/author-override/" title="Author Override">Author Override</a></li>
+      <li><a href="/underworld-2/" title="Underworld 2 ">Underworld 2 </a></li>
     
-      <li><a href="/sample-link-post/" title="Sample Link Post">Sample Link Post</a></li>
+      <li><a href="/viscoelasticity-in-underworld/" title="Viscoelasticity in Underworld">Viscoelasticity in Underworld</a></li>
     
-      <li><a href="/readability-feature-post/" title="Post with Large Feature Image and Text">Post with Large Feature Image and Text</a></li>
+      <li><a href="/visiting-timor/" title="Visiting Timor">Visiting Timor</a></li>
     
     </ul>
     <hr />
@@ -344,6 +327,14 @@ description: &quot;An archive of posts sorted by tag.&quot;
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="/assets/js/scripts.min.js"></script>
+
+
+
+
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
 
 
   

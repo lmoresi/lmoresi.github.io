@@ -9,7 +9,7 @@ port: 4444
 # Jekyll configuration
 
 permalink:   /:categories/:title/
-markdown:    kramdown
+markdown:    redcarpet
 highlighter: pygments
 sass:
   sass_dir: _sass
@@ -17,12 +17,16 @@ sass:
 gems:
   - jekyll-sitemap
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
+# kramdown:
+#   input: GFM
+#   auto_ids: true
+#   footnote_nr: 1
+#   entity_output: as_char
+#   toc_levels: 1..6
+#   use_coderay: false
+
+mathjax: on
+    # activated !
 
 
 # Site owner
@@ -57,7 +61,7 @@ owner:
   weibo: #username
   flickr: #username
   codepen: #username
-  researchgate: Louis_Moresi 
+  researchgate: Louis_Moresi
 
 
 include: [".htaccess"]
