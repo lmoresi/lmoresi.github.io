@@ -6,61 +6,47 @@ modified: 2015-09-03
 comments: true
 categories: [Python, Mathematics, Underworld]
 ---
+
+This post was originally written for the "logdown" platform but I recently ported the whole lot across to github and their jekyll-based environment. I have therefore generalised my comments and I am showing only what works on github too. [ **Sept 4, 2015** ] {: .notice}
+
 We've had a frantic phase of development in `Underworld` recently with a new `python` and `ipython` compatible version in the wings. Using the `ipython notebook` environment exclusively for a couple of weeks has rekindled my appreciation of `(multi)markdown` for documentation and the power of rendering mathematics with `mathjax`. I even gave a lecture this week using `ipython` to make slides _(I wouldn't actually recommend this, but it was interesting to be able do live demonstrations where I could modify my code to show off some numerical instabilities)_.
 
 I wondered if there was a web-hosting or blogging site that had the  markdown, mathematics, code-highlighting capabilities of ipython notebooks, and I found [www.logdown.com](www.logdown.com "logdown"). This is what it can do:
 
 ## Mathematics
 
-Display equations rendered with mathjax, first as a raw displayed equation
-
-\\[
-  S \frac{\partial h}{\partial t} + H = -\frac{\partial }{\partial x}
-  \underbrace{\left( - K \frac{\partial h}{\partial x} \right)}_\text{flux}
- \\]
-
-$$
-   \xi
-
-$$
-
+Display equations rendered with mathjax as a raw displayed equation
 <pre>
   \\[
   S \frac{\partial h}{\partial t} + H = -\frac{\partial }{\partial x}
   \underbrace{\left( - K \frac{\partial h}{\partial x} \right)}_\text{flux}
   \\]
 </pre>  
-
-and you can use inline equations so that you can explain what \\( {\partial h}/{\partial t} \\) means. In logdown: a blockquoted equation also works (it's probably a bug that this gets parsed as mathematics, but it is quite a nice way to add a label).
-
->  $$
-  \frac{\partial {\mathbf u}}{\partial t}  +
-  \left( {{{\mathbf u}}. \nabla } \right){{\mathbf u}}   =
-  -\frac{1}{\rho }\nabla p  +  \textbf{F}  + \nu \nabla ^2{\mathbf u}
-   $$
-> Navier-Stokes equation
+Producing:
+\\[
+  S \frac{\partial h}{\partial t} + H = -\frac{\partial }{\partial x}
+  \underbrace{\left( - K \frac{\partial h}{\partial x} \right)}_\text{flux}
+ \\]
 
 
+and you can use inline equations so that you can explain, for example, what \\( {\partial h}/{\partial t} \\) means by using \\\\( ... \\\\) tags.
 
+Although  `mathjax` will parse `\begin{equation}` and `\end{equation}` (etc) markup successfully in some documents, it can be pretty hit and miss just how the different processing engines will battle it all out. Luckily, mathjax is [highly configurable](http://docs.mathjax.org/en/latest/tex.html) and you can usually find some combination of things that work. If you do use the latex `begin` / `end` tags, then it is possible to switch on equation numbering and labels. Who knows if this is really portable. Here is an example that works, I just had to be careful to escape the backslashes (i.e. `\\begin{equation}`)
 
-Recent versions of `mathjax` will parse `\begin{equation}` and `\end{equation}` (etc) tags successfully most of the time but this is not standard markup in any of the markdown extensions (including the logdown platform or iPython notebooks (based on github), pandoc, multimarkdown, etc. and so there is a competition between the different markup strategies.
+\\begin{equation}
+    S \frac{\partial h}{\partial t} + H = -\frac{\partial }{\partial x}
+    \underbrace{\left( - K \frac{\partial h}{\partial x} \right)}_\text{flux}
+\\end{equation}
 
-The advantage of using the \\( \LaTeX \\) tags is that mathjax 2 will do equation numbering and cross references correctly within the document. At the moment, the best solution seems to be to double up the tags and use `\\[ \begin{equation}` and `\end{equation} \\]`. I can't comment on whether this violates how mathjax + markdown is supposed to work, but it does seem to be the most robust combination that I have tried. `\\( \ref{eq:blah} \\)` also seems the safest strategy.
-
-<!--\\[-->
-\begin{equation}
-    \int_{\Gamma} \mathbf{F} \cdot d\Gamma +
-    \int_{\Gamma} \rho \phi \mathbf{v} \cdot d\Gamma =
-    \int_\Omega \nabla \cdot (\mathbf{F} + \rho \phi \mathbf{v}) d\Omega
-\end{equation}
-<!--\\]-->
-
+\\begin{equation}
+    \nabla \cdot \phi = 0
+\\end{equation}
 
 
 
 ## Code
 
-Highlighted source code of equations in \\(\LaTeX\\) using the same \\\\( \\\\) and \\\\[ \\\\] tags which are commonly used to extend markdown for mathematics (including `ipython notebook`):
+Code highlighting is also platform dependent. Markdown does this in a variety of ways, with Github using fenced code blocks and logdown adopting their strategy. In Jekyll, I found it hard to have consistent code block detection and highlighting without using the `liquid`  `{ % highlight language % }` and `{ % endhighlight % }` tags
 
 {% highlight latex %}
     \frac{\partial {\bf u}}{\partial t}  +
@@ -68,8 +54,7 @@ Highlighted source code of equations in \\(\LaTeX\\) using the same \\\\( \\\\) 
     -\frac{1}{\rho }\nabla p  +  \textbf{F}  + \nu \nabla ^2{\bf u}
 {% endhighlight %}
 
-
-scripts
+python scripts:
 
 {% highlight python %}
     #!/usr/bin/env python
@@ -93,43 +78,42 @@ scripts
 
 and C code (C-like code ... this is StGermain after all)
 
-```C
-#include <math.h>
-#include <mpi.h>
-#include <StGermain/StGermain.h>
-#include <StgDomain/StgDomain.h>
-#include <StgFEM/StgFEM.h>
-#include <PICellerator/PICellerator.h>
+{% highlight c %}
+    #include <math.h>
+    #include <mpi.h>
+    #include <StGermain/StGermain.h>
+    #include <StgDomain/StgDomain.h>
+    #include <StgFEM/StgFEM.h>
+    #include <PICellerator/PICellerator.h>
 
-#include "types.h"
-#include "RheologyClass.h"
-#include "StrainWeakening.h"
-#include "YieldRheology.h"
-#include "VonMises.h"
-#include "ConstitutiveMatrix.h"
+    #include "types.h"
+    #include "RheologyClass.h"
+    #include "StrainWeakening.h"
+    #include "YieldRheology.h"
+    #include "VonMises.h"
+    #include "ConstitutiveMatrix.h"
 
-#include <assert.h>
+    #include <assert.h>
 
-/*
- * Textual name of this class -
- * This is a global pointer which is used for times when you need to refer to
- * class and not a particular instance of a class.
- */
+    /*
+     * Textual name of this class -
+     * This is a global pointer which is used for times when you need to refer to
+     * class and not a particular instance of a class.
+     */
 
-const Type VonMises_Type = "VonMises";
+    const Type VonMises_Type = "VonMises";
 
-/* Public Constructor */
-VonMises* VonMises_New(
-   Name                 name,
-   AbstractContext*     context,
-   StrainWeakening*     strainWeakening,
-   MaterialPointsSwarm* materialPointsSwarm,
-   double               minVisc,
-   int                   strainRateTag,
-   double               cohesion,
-   double               cohesionAfterSoftening,
-   Bool                 strainRateSoftening )
+    /* Public Constructor */
+    VonMises* VonMises_New(
+       Name                 name,
+       AbstractContext*     context,
+       StrainWeakening*     strainWeakening,
+       MaterialPointsSwarm* materialPointsSwarm,
+       double               minVisc,
+       int                   strainRateTag,
+       double               cohesion,
+       double               cohesionAfterSoftening,
+       Bool                 strainRateSoftening )
+{% endhighlight%}
 
-```
-
-I think this is pretty impressive as a platform. I suppose the other question is how reliable the service actually turns out to be. We'll see ... but, if nothing else, the content is all in standard formats and can be re-used in many other places.
+I highly recommend the logdown platform. If you are using github, though, it is not too much of a stretch to get things working directly with Jekyll and keep everything in one spot. We'll see, I suppose !
