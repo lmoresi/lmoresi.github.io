@@ -6,8 +6,8 @@
    Typography
    ========================================================================== */
 
-$doc-font-size: 14;
-$doc-line-height: 18;
+$doc-font-size: 12;
+$doc-line-height: 32;
 $paragraph-indent: false !default;
 $base-font: 'PT Serif', serif;
 $heading-font: 'PT Sans Narrow', sans-serif;
@@ -35,7 +35,7 @@ $primary			: $black;
 $success			: #5cb85c;
 $warning			: #dd8338;
 $danger				: #C64537;
-$info				  : #308cbc;
+$info				: #308cbc;
 
 /* brands */
 $facebook-color     : #3b5998;
