@@ -6,6 +6,7 @@ excerpt: "A short research statement"
 image:
   feature: DSC_5374.jpg
   credit: "Louis Moresi"
+toc: true
 ---
 
 # Computational Plate Tectonic Modelling
