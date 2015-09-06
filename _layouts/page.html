@@ -14,18 +14,6 @@
 {% include _navigation.html %}
 
 
-{% if page.toc %}
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3>Overview</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section><!-- /#table-of-contents -->
-{% endif %}
-
 
 {% if page.image.feature %}
   <div class="image-wrap">
@@ -46,6 +34,21 @@
    <div class="article-author-side">
     {% include _author-bio.html %}
   </div>
+
+
+{% if page.toc %}
+<section id="table-of-contents" class="toc">
+  <header>
+    <h3>Overview</h3>
+  </header>
+<div id="drawer" markdown="1">
+*  Auto generated table of contents
+{:toc}
+</div>
+</section><!-- /#table-of-contents -->
+{% endif %}
+
+
 
 
   <article class="page">
