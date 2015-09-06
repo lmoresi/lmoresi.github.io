@@ -1,6 +1,6 @@
 ---
 layout: page
-title: All Articles (by date)
+title: All Posts (by date)
 excerpt: "A List of Articles"
 image:
   feature: DSC_5374.jpg
@@ -21,7 +21,7 @@ image:
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
   {% endfor %}
-<li> <a href="{{ site.url }}/pages/ListOfPosts/ByCategory.html"> View articles by topic </a> </li>
+<li> <a href="{{ site.url }}/pages/ListOfPosts/ByCategory.html"> View posts by topic </a> </li>
 </ul>
 </div>
 </section> <!-- /#table-of-contents -->
@@ -46,4 +46,4 @@ image:
 {% endfor %}
 ---
 
-<h3> <a href="{{ site.url }}/pages/ListOfPosts/ByCategory.html"> View articles by topic </a> </h3>
+<h3> <a href="{{ site.url }}/pages/ListOfPosts/ByCategory.html"> View posts by topic </a> </h3>

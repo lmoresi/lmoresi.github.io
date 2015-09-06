@@ -21,6 +21,11 @@ gems:
 mathjax: on
     # activated !
 
+# Site images ethical
+
+default-page-image: DSC_5374.jpg
+default-post-image: DSCF3873.jpg
+
 # Site owner
 owner:
   name: "Louis Moresi"

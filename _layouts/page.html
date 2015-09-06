@@ -21,12 +21,25 @@
     {% else %}
       "{{ site.url }}/images/{{ page.image.feature }}"
     {% endif %}
-  alt="{{ page.title }} feature image">
+  alt="{{ page.title }} feature image"
+  >
   {% if page.image.credit %}
     <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
   {% endif %}
-  </div><!-- /.image-wrap -->
+  </div>
+{% elsif site.default-page-image %}
+    <div class="image-wrap">
+    <img src=
+      {% if site.default-page-image contains 'http' %}
+        "{{ site.default-page-image }}"
+      {% else %}
+        "{{ site.url }}/images/{{ site.default-page-image }}"
+      {%endif%}
+    >
+    </div>
 {% endif %}
+
+
 
 <div id="main" role="main">
    <div class="article-author-side">
