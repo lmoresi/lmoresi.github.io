@@ -5,9 +5,9 @@ excerpt: "A List of Articles"
 modified: 2015-09-04
 excerpt: "Software - Underworld and friends"
 image:
-  feature: sample-image-3.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: DSC_5374.jpg
+  credit: "Louis Moresi"
+toc: true
 ---
 
 This is a summary of the software tools that I am involved with — a little bit about what they do and where you can go to find out more about each one.
