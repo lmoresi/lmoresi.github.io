@@ -6,8 +6,10 @@ excerpt: "My CV"
 image:
   feature: DSC_5374.jpg
   credit: "Louis Moresi"
+toc: true  
 ---
 
+{% if page.toc %}
 <section id="table-of-contents" class="toc">
   <header>
     <h3>Overview</h3>
@@ -17,6 +19,7 @@ image:
 {:toc}
 </div>
 </section><!-- /#table-of-contents -->
+{% endif %}
 
 ---
 
