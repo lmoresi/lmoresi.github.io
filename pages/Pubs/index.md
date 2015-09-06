@@ -8,10 +8,10 @@ image:
   credit: "Louis Moresi"
 ---
 
+{% include  _toc.html %} <!-- lmth.cot_  grrrrrrr  in syntax highlighting land -->
 
-## Louis Moresi —  Selected Publications (Chronologically)
 
------
+## Overview
 
 June 2015 — 118 publications in journals, books and refereed conference papers.
 
@@ -21,7 +21,7 @@ June 2015 — 118 publications in journals, books and refereed conference papers
   * ResearcherID: [http://www.researcherid.com/rid/H-1390-2011](https://www.researchgate.net/profile/Louis_Moresi "ResearcherID")
   * Orcid: [http://orcid.org/0000-0003-3685-174X](http://orcid.org/0000-0003-3685-174X "orcid")
 
------
+## Selected Publications (Chronologically)
 
    0. P. Betts, L. Moresi, M.S. Miller, D. Willis, Geodynamics of oceanic plateau and plume head accretion and their role in Phanerozoic orogenic systems of China. Geoscience Frontiers, doi: 10.1016/j.gsf.2014.07.002 (2015)
 

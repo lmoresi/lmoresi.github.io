@@ -7,27 +7,22 @@ categories: [Geodynamics]
 ---
 ## Earth seismicity
 
-<img class="left" src="http://user-image.logdown.io/user/7331/blog/7268/post/193447/CVtyKhbVQRKPzvW55Zwk_internal_03_1000x697.png" width="25%">
-
-<br />
-<br />
-<br />
-<br />
+<img class="left" src="http://user-image.logdown.io/user/7331/blog/7268/post/193447/CVtyKhbVQRKPzvW55Zwk_internal_03_1000x697.png" >
 
 _These renderings were made by Jerico Revote of the [Monash 3D-Alive](http://www.monash.edu.au/news/monashmemo/assets/includes/content/20100707/stories-lead.html) facility._
 
---- 
+---
 
 <div name="you-tube-video">
-	<iframe width="420" height="315" src="//www.youtube.com/embed/-Agnmrhv9M4?rel=0" 
+	<iframe width="420" height="315" src="//www.youtube.com/embed/-Agnmrhv9M4?rel=0"
   				frameborder="0" allowfullscreen>
 	</iframe>
 </div>
 
-The Earth's seismicity from a few hundred kilometres down, looking back up. Not an unfamiliar view for a geophysicist, but it may take a while to become familiar with where you are if you are not used to thinking about the Earth from the inside. The subduction zones stand out from this angle. 3D-alive also had head tracking and this view happens to be one of the best ways to view the models because you just have to stand on tip-toes to see above the surface. 
+The Earth's seismicity from a few hundred kilometres down, looking back up. Not an unfamiliar view for a geophysicist, but it may take a while to become familiar with where you are if you are not used to thinking about the Earth from the inside. The subduction zones stand out from this angle. 3D-alive also had head tracking and this view happens to be one of the best ways to view the models because you just have to stand on tip-toes to see above the surface.
 
 <div name="you-tube-video">
-<iframe width="420" height="315" src="//www.youtube.com/embed/IhlaQF6N7_s?rel=0" 
+<iframe width="420" height="315" src="//www.youtube.com/embed/IhlaQF6N7_s?rel=0"
         frameborder="0" allowfullscreen>
 </iframe>
 </div>
@@ -38,7 +33,7 @@ This is the same data but rendered from outside the Earth looking down. It's eas
 
 
 <div name="you-tube-video">
-	<iframe width="420" height="315" src="//www.youtube.com/embed/cVulRP2tUGM?rel=0" 
+	<iframe width="420" height="315" src="//www.youtube.com/embed/cVulRP2tUGM?rel=0"
   				frameborder="0" allowfullscreen>
 	</iframe>
 </div>

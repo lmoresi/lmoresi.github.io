@@ -12,6 +12,9 @@ The implementation itself is very similar to that in **Ellipsis** but I think we
 
 If you want to try out these models, then you should first contact [Rebecca](mailto:rebecca.farrington@monash.edu). As usual, any problems should be addressed to the [underworld forum](https://underworldproject.org/forums/) first of all.
 
+The viscoelastic paraphernalia are not yet released in underworld 2.0 but this is a matter of revealing the C code to the python code rather than a major re-write so it's not a big deal and this paper will still be the best citation for the implementation.
+{: .notice}
+
 **Farrington, R.J., Moresi, L.N., Capitanio, F.A., 2014. The role of viscoelasticity in subducting plates. Geochemistry, Geophysics, Geosystems 15, 4291–4304. doi:10.1002/2014GC005507**
 
 ## Summary of the science results

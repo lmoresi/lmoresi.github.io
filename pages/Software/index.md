@@ -7,8 +7,10 @@ excerpt: "Software - Underworld and friends"
 image:
   feature: DSC_5374.jpg
   credit: "Louis Moresi"
-toc: true
 ---
+
+{% include  _toc.html %} <!-- lmth.cot_  grrrrrrr  in syntax highlighting land -->
+
 
 This is a summary of the software tools that I am involved with — a little bit about what they do and where you can go to find out more about each one.
 
@@ -23,7 +25,7 @@ This is a summary of the software tools that I am involved with — a little bit
 
 ## Codes
 
-**Underworld:** Modular geodynamics modeling code based on a particle-in-cellerator finite element formulation (www.underworldproject.org and www.facebook.com/underworldcode). High performance, parallel, version of the Ellipsis algorithm developed as a community code with support from Australian infrastructure funding schemes. Designed for cross-disciplinary applications, this code has enabled many high impact publications. Underworld has been supported by the National Collaborative Research Infrastructure Strategy (NCRIS) and the National eResearch Collaboration Tools and Resources (NeCTAR) Project.
+**Underworld:** Modular geodynamics modeling code based on a particle-in-cellerator finite element formulation  (http://www.underworldproject.org and http://www.facebook.com/underworldcode). High performance, parallel, version of the Ellipsis algorithm developed as a community code with support from Australian infrastructure funding schemes. Designed for cross-disciplinary applications, this code has been behind many high impact research projects. Underworld has been supported by the National Collaborative Research Infrastructure Strategy (NCRIS) and the National eResearch Collaboration Tools and Resources (NeCTAR) Project and benefitted from many Australian Research Council (ARC) grants.
 
 **CITCOM:** multigrid, 3D Cartesian Finite Element Code for mantle convection (freely available for researchers on request); Parallel and Spherical version available from http://www.geodynamics.org. Over the past 10 years, the global/spherical version of Citcom has become the mostly widely used community code in computational mantle dynamics.
 
@@ -46,14 +48,14 @@ Moresi, L., Quenette, S., Lemiale, V., Mériaux, C., Appelbe, W., Mühlhaus, 200
 {% for category in site.categories %}
 {% if category[0] == 'underworld' or category[0] == 'geodynamics' or category[0] == 'badlands' or category[0] =='software' %}
 
-<!--  <li><a name="{{ category | first }}">{{ category | first }}</a> -->
-<ul>
 {% for posts in {{category }} %}
-  {% for post in posts %}
-  {% if post.title %} <li><a href="{{ post.url }}">{{ post.title | upcase }}</a></li> {% endif %}  
-  {% endfor %}
+ {% for post in posts %}
+  {% if post.title %}
+  <b> <a href="{{ post.url }}">{{ post.title }}</a> </b> &mdash; {{ post.excerpt | strip_html | truncate: 200 }}
+
+  {% endif %}  
+ {% endfor %}
 {% endfor %}
-<!--  </li> -->
-</ul>
-{%endif%}  
+
+{% endif %}  
 {% endfor %}

@@ -5,9 +5,9 @@ date: 2014-04-28 15:06
 comments: true
 categories: [Conference, Commentary, Science]
 ---
-# LABPAX workshop, Hainberg, Austria, April 2014
+## LABPAX workshop, Hainberg, Austria, April 2014
 
-<img class="right" src="http://user-image.logdown.io/user/7331/blog/7268/post/196181/12usvk8MS8mqmSFq9SAD_TBL.001.png" width="50%">
+<img class="right" src="http://user-image.logdown.io/user/7331/blog/7268/post/196181/12usvk8MS8mqmSFq9SAD_TBL.001.png">
 
 At the ILP Task Force LABPAX workshop in Austria, 2014, I gave an overview of thermal boundary layers and scaling for the sub-continental lithosphere. The talk slides in pdf format are at the following link: [Talks/LABPAX-2014/TBLs.pdf](https://dl.dropboxusercontent.com/u/1342538/Talks/LABPAX-2014/TBLs.pdf). Chiefly, this presentation is a summary of some of the relevant papers intended to promote discussion amongst a group mostly consisting of experts in seismological imaging of the deep lithosphere.
 

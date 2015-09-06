@@ -9,13 +9,16 @@ image:
 toc: true
 ---
 
-# Computational Plate Tectonic Modelling
-
-<img class="right" src="http://user-image.logdown.io/user/7331/blog/7268/static_page/7524/8gnGWcRNKd6ncgnWVqvw_ImagesForResearchStatement.png" alt="Plate models and Shear Bands" width="30%">
 
 I am trying to understand the thermal-mechanical evolution of the Earth through geological time. This includes the fundamental question of how convective heat loss from the deep Earth is expressed mechanically as plate tectonics, the role of continents in the modulating this expression, the interaction between processes on this planetary scale with instabilities at the lithospheric scale — whether rheological or mechanical in nature, the influence of atmospheric feedbacks on the solid earth, and the signatures of all these processes  that we can expect to find through geophysical observation of the present day Earth, and in the long-term geological record.
 
 Much of the complexity in the surface expression of mantle flow can be attributed to the non-linear nature of the constitutive laws.  The Earth, on geological timescales, behaves as a non-linear viscoelastic fluid with a finite strength due to small-scale processes such as faulting and ductile shear localization which can be treated through the theory of plasticity.  The underlying processes which we treat in this manner introduce complexity in that they introduce a significant dependence on the stress, strain, and thermal histories of the fluid representation. Plasticity is typically a phenomenological description of the material response to stresses and is cast in terms of the stress state of the material (from which the motions follow); in the Earth, stresses are less well known than the kinematics and much is likely to be learned from plasticity models which are founded on the kinematics of surface motions.
+
+## Computational Plate Tectonic Modeling
+
+<img class="right" src="http://user-image.logdown.io/user/7331/blog/7268/static_page/7524/8gnGWcRNKd6ncgnWVqvw_ImagesForResearchStatement.png" alt="Plate models and Shear Bands" >
+
+
 
 My principal tool for these investigations is numerical modelling. In our discipline we face the combined challenges of efficient computation at a large scale, multiple scales of interacting physics, enormous variations in material properties in space and time, and history dependence of rheology. These challenges demand the development of suitable computational methods and very fast, robust numerical solution techniques. My contribution has been the development of particle based finite element methods and multigrid solvers which are robust in the face of very large viscosity contrasts.
 

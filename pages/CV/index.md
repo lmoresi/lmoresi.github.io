@@ -9,19 +9,9 @@ image:
 toc: true  
 ---
 
-<!-- {% if page.toc %}
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3>Overview</h3>
-  </header>
-<div id="drawer" markdown="1">
-*  Auto generated table of contents
-{:toc}
-</div>
-</section>
-{% endif %}
- -->
----
+
+{% include  _toc.html %} <!-- lmth.cot_  grrrrrrr  in syntax highlighting land -->
+
 
 |                            |
 |----------------------------|
