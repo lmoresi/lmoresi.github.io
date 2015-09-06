@@ -4,9 +4,8 @@ title: Publications
 modified: 2015-09-04
 excerpt: "Publications — in reverse chronological order"
 image:
-  feature: sample-image-3.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: DSC_5374.jpg
+  credit: "Louis Moresi"
 ---
 
 

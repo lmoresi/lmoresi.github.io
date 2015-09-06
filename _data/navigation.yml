@@ -1,6 +1,6 @@
 # Site navigation links
 
-- title: posts
+- title: Articles
   url: /pages/ListOfPosts/
 
 - title: CV
@@ -12,5 +12,5 @@
 - title: Research
   url: /pages/Research/
 
-- title: Underworld News
-  url: http://www.facebook.com/underworldcode
+- title: Software
+  url: /pages/Software/

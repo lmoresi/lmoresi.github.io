@@ -4,9 +4,8 @@ title: Research
 modified: 2015-09-04
 excerpt: "A short research statement"
 image:
-  feature: sample-image-3.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: DSC_5374.jpg
+  credit: "Louis Moresi"
 ---
 
 # Computational Plate Tectonic Modelling

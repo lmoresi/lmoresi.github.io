@@ -32,20 +32,41 @@
   <div class="article-author-side">
     {% include _author-bio.html %}
   </div>
-  <div id="index">
-    <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
-    {% for post in site.posts limit:5 %}
-    <article>
+
+  <article class="page">
+    <h1><a href="{{ site.url}}/posts/">Recent Articles</a>
+        <a href="{{ site.url}}/pages/ListOfPosts/"> | All Articles</a>
+    </h1>
+    <div class="article-wrap">
+        {% for post in site.posts limit:7 %}
+          {% if post.link %}
+            <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
+          {% else %}
+            <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+            <p>{{ post.excerpt | strip_html | truncate: 320 }}</p>
+          {% endif %}
+        {% endfor %}
+     </div><!-- /.article-wrap -->
+    {% if site.owner.disqus-shortname and page.comments == true %}
+      <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    {% endif %}
+  </article>
+
+
+  <!-- <div id="index">
+    <h3><a href="{{ site.url}}/posts/">Recent Articles</a></h3>
+    {% for post in site.posts limit:7 %}
+    <article >
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
       {% else %}
         <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-        <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+        <p>{{ post.excerpt | strip_html | truncate: 320 }}</p>
       {% endif %}
     </article>
     {% endfor %}
-  </div><!-- /#index -->
-</div><!-- /#main -->
+</div>
+</div> -->
 
 <div class="footer-wrap">
   <footer>

@@ -1,9 +1,8 @@
 ---
 layout: home
 excerpt: "Louis Moresi, Professor of Geophysics."
-tags: [Bio, Geodynamics, Computation ]
+tags: [Bio, Geodynamics, Computation, Underworld ]
 image:
-  feature: sample-image-1.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: DSC_5374.jpg
+  credit: "Louis Moresi"
 ---

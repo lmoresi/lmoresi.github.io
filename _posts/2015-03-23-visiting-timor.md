@@ -3,7 +3,7 @@ layout: post
 title: 'Visiting Timor'
 date: 2015-03-23 01:03
 comments: true
-categories:
+categories: ['commentary']
 image:
   feature: http://user-image.logdown.io/user/7331/blog/7268/post/258172/cNzckt7OTuSumDhzWCPU_2015-03-20%2010.27.39%201.png
   credit: Louis Moresi

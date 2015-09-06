@@ -17,18 +17,15 @@ sass:
 gems:
   - jekyll-sitemap
 
-# redcarpet:
-#     extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
 
 mathjax: on
     # activated !
 
-
 # Site owner
 owner:
   name: "Louis Moresi"
-  avatar: bio-photo.jpg
-  bio: "Geodynamics"
+  avatar: LM-SFMugShot.jpg
+  bio: "Professor of Geophysics \n University of Melbourne \n Victoria 3010 Australia \n +61 4 0333 1413"
   email: louis.moresi@unimelb.edu.au
   disqus-shortname: louismoresi
   twitter: louismoresi
@@ -57,7 +54,6 @@ owner:
   flickr: #username
   codepen: #username
   researchgate: Louis_Moresi
-
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

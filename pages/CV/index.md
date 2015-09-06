@@ -4,8 +4,8 @@ title: Louis Moresi CV
 modified: 2015-09-04
 excerpt: "My CV"
 image:
-  feature: SmallGokWan.jpg
-  credit: Louis Moresi
+  feature: DSC_5374.jpg
+  credit: "Louis Moresi"
 ---
 
 <section id="table-of-contents" class="toc">
@@ -49,7 +49,7 @@ image:
  **1994-1995:**       Assistant Scientist, Geophysics, Caltech. <br>
  **1992-1994:**       Schlumberger Fellow, and Fellow in Geophysics, Caltech
 
-## Degrees
+## Education
 
 **1988-1992:**     DPhil, Department of Earth Sciences, Oxford University. <br>
 **1985-1988:**     BA (Hons), Natural Science, Cambridge University.
@@ -126,3 +126,16 @@ image:
 
 ## Invited Presentations
 More than 50 invited presentations in past 12 years, many to cross-disciplinary meetings in mathematical software development, engineering, information science and high performance computing as a representative from the solid earth geophysics community.
+
+  - Mathematical and Computational Issues in the Geosciences, Stanford, CA 2015, Keynote speaker
+  - University of Adelaide, Dept of Earth Sciences, Australia 2015
+  -  Comparative Tectonics and Geodynamics of Venus, Earth, and Rocky Exoplanets, Pasadena, CA 2015 
+  - American Geophysical Union (AGU) Fall Meeting, San Francisco, CA, 2014 
+  - Carnegie Institution for Science, Washington DC, Dept Terrestrial Magnetism, 2014
+  - Geological Society of America (GSA) Annual Meeting, Vancouver, BC, Canada, 2014
+  -  Stanford University Geophysics Dept, Stanford, CA, 2014 (†) 
+  - Invited Speaker, Global Modeling of the Deep Carbon Cycle Workshop, Washington DC, 2014
+  - Australian National University, Research School of Earth Sciences, Canberra, Australia, 2014
+  - ASEG/PESA Petroleum Geoscience R&D Forum, Melbourne, Australia, 2014 
+  - Keynote  Speaker,CIG workshop on Long Term Tectonics, Phoenix, AZ, 2014 (by video-link) 
+  - Keynote  Speaker,CIG workshop on Mantle Convection, Banff, Canada, 2014

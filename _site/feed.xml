@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-09-05T08:13:55+10:00</updated>
+<updated>2015-09-06T10:53:17+10:00</updated>
 <id>/</id>
 <author>
   <name>Louis Moresi</name>
@@ -16,9 +16,296 @@
   
 
 <entry>
+  <title type="html"><![CDATA[All Posts (by category)]]></title>
+  <link rel="alternate" type="text/html" href="/Posts-by-category/" />
+  <id>/Posts-by-category</id>
+  <published>2015-09-03T00:00:00+10:00</published>
+  <updated>2015-09-03T00:00:00+10:00</updated>
+  <author>
+    <name>Louis Moresi</name>
+    <uri></uri>
+    <email>louis.moresi@unimelb.edu.au</email>
+  </author>
+  <content type="html">
+    &lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
+&lt;header&gt;
+  &lt;h3&gt;Chronology&lt;/h3&gt;
+&lt;/header&gt;
+&lt;div id=&quot;drawer&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+
+
+  
+  
+    &lt;li&gt; &lt;a href=&quot;#2015&quot;&gt; 2015 &lt;/a&gt; &lt;/li&gt;
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    &lt;li&gt; &lt;a href=&quot;#2014&quot;&gt; 2014 &lt;/a&gt; &lt;/li&gt;
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    &lt;li&gt; &lt;a href=&quot;#2013&quot;&gt; 2013 &lt;/a&gt; &lt;/li&gt;
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    &lt;li&gt; &lt;a href=&quot;#2012&quot;&gt; 2012 &lt;/a&gt; &lt;/li&gt;
+    
+  
+  
+  
+  
+    &lt;li&gt; &lt;a href=&quot;#2011&quot;&gt; 2011 &lt;/a&gt; &lt;/li&gt;
+    
+  
+  
+&lt;li&gt; &lt;a href=&quot;/pages/ListOfPosts/index.html&quot;&gt; View articles by year &lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;li&gt;&lt;a name=&quot;underworld&quot;&gt;underworld&lt;/a&gt;
+    &lt;ul&gt;
+    
+      
+      
+      
+    
+      
+       &lt;li&gt;&lt;a href=&quot;/underworld/python/underworld-2/&quot;&gt;UNDERWORLD 2 &lt;/a&gt;&lt;/li&gt; 
+      
+       &lt;li&gt;&lt;a href=&quot;/underworld/science/viscoelasticity-in-underworld/&quot;&gt;VISCOELASTICITY IN UNDERWORLD&lt;/a&gt;&lt;/li&gt; 
+      
+       &lt;li&gt;&lt;a href=&quot;/conference/science/underworld/cig-talks-2013-2014/&quot;&gt;CIG TALKS 2013 / 2014&lt;/a&gt;&lt;/li&gt; 
+      
+       &lt;li&gt;&lt;a href=&quot;/python/mathematics/underworld/free-expression/&quot;&gt;MATHEMATICS AND CODE&lt;/a&gt;&lt;/li&gt; 
+      
+       &lt;li&gt;&lt;a href=&quot;/underworld/geodynamics/models-of-subduction-collision-and-re-initiation/&quot;&gt;THE DYNAMICS OF CONTINENTAL ACCRETION&lt;/a&gt;&lt;/li&gt; 
+      
+    
+    &lt;/ul&gt;
+  &lt;/li&gt;
+
+&lt;li&gt;&lt;a name=&quot;geodynamics&quot;&gt;geodynamics&lt;/a&gt;
+    &lt;ul&gt;
+    
+      
+      
+      
+    
+      
+       &lt;li&gt;&lt;a href=&quot;/geodynamics/something-to-share/&quot;&gt;GEODYNAMICS VIDEOS &lt;/a&gt;&lt;/li&gt; 
+      
+       &lt;li&gt;&lt;a href=&quot;/underworld/geodynamics/models-of-subduction-collision-and-re-initiation/&quot;&gt;THE DYNAMICS OF CONTINENTAL ACCRETION&lt;/a&gt;&lt;/li&gt; 
+      
+    
+    &lt;/ul&gt;
+  &lt;/li&gt;
+
+&lt;li&gt;&lt;a name=&quot;python&quot;&gt;python&lt;/a&gt;
+    &lt;ul&gt;
+    
+      
+      
+      
+    
+      
+       &lt;li&gt;&lt;a href=&quot;/underworld/python/underworld-2/&quot;&gt;UNDERWORLD 2 &lt;/a&gt;&lt;/li&gt; 
+      
+       &lt;li&gt;&lt;a href=&quot;/python/mathematics/underworld/free-expression/&quot;&gt;MATHEMATICS AND CODE&lt;/a&gt;&lt;/li&gt; 
+      
+    
+    &lt;/ul&gt;
+  &lt;/li&gt;
+
+&lt;li&gt;&lt;a name=&quot;mathematics&quot;&gt;mathematics&lt;/a&gt;
+    &lt;ul&gt;
+    
+      
+      
+      
+    
+      
+       &lt;li&gt;&lt;a href=&quot;/python/mathematics/underworld/free-expression/&quot;&gt;MATHEMATICS AND CODE&lt;/a&gt;&lt;/li&gt; 
+      
+    
+    &lt;/ul&gt;
+  &lt;/li&gt;
+
+&lt;li&gt;&lt;a name=&quot;conference&quot;&gt;conference&lt;/a&gt;
+    &lt;ul&gt;
+    
+      
+      
+      
+    
+      
+       &lt;li&gt;&lt;a href=&quot;/conference/science/deep-carbon-cycle-modeling-workshop/&quot;&gt;DEEP CARBON MODELING &lt;/a&gt;&lt;/li&gt; 
+      
+       &lt;li&gt;&lt;a href=&quot;/conference/science/underworld/cig-talks-2013-2014/&quot;&gt;CIG TALKS 2013 / 2014&lt;/a&gt;&lt;/li&gt; 
+      
+       &lt;li&gt;&lt;a href=&quot;/conference/commentary/egu-2014/&quot;&gt;EGU / CGU 2014&lt;/a&gt;&lt;/li&gt; 
+      
+       &lt;li&gt;&lt;a href=&quot;/conference/commentary/science/lab-workshop-slides/&quot;&gt;LAB WORKSHOP - SLIDES&lt;/a&gt;&lt;/li&gt; 
+      
+    
+    &lt;/ul&gt;
+  &lt;/li&gt;
+
+&lt;li&gt;&lt;a name=&quot;commentary&quot;&gt;commentary&lt;/a&gt;
+    &lt;ul&gt;
+    
+      
+      
+      
+    
+      
+       &lt;li&gt;&lt;a href=&quot;/commentary/visiting-timor/&quot;&gt;VISITING TIMOR&lt;/a&gt;&lt;/li&gt; 
+      
+       &lt;li&gt;&lt;a href=&quot;/cogent/commentary/cogent-geoscience/&quot;&gt;COGENT GEOSCIENCE&lt;/a&gt;&lt;/li&gt; 
+      
+       &lt;li&gt;&lt;a href=&quot;/conference/commentary/egu-2014/&quot;&gt;EGU / CGU 2014&lt;/a&gt;&lt;/li&gt; 
+      
+       &lt;li&gt;&lt;a href=&quot;/conference/commentary/science/lab-workshop-slides/&quot;&gt;LAB WORKSHOP - SLIDES&lt;/a&gt;&lt;/li&gt; 
+      
+    
+    &lt;/ul&gt;
+  &lt;/li&gt;
+
+&lt;li&gt;&lt;a name=&quot;science&quot;&gt;science&lt;/a&gt;
+    &lt;ul&gt;
+    
+      
+      
+      
+    
+      
+       &lt;li&gt;&lt;a href=&quot;/underworld/science/viscoelasticity-in-underworld/&quot;&gt;VISCOELASTICITY IN UNDERWORLD&lt;/a&gt;&lt;/li&gt; 
+      
+       &lt;li&gt;&lt;a href=&quot;/conference/science/deep-carbon-cycle-modeling-workshop/&quot;&gt;DEEP CARBON MODELING &lt;/a&gt;&lt;/li&gt; 
+      
+       &lt;li&gt;&lt;a href=&quot;/conference/science/underworld/cig-talks-2013-2014/&quot;&gt;CIG TALKS 2013 / 2014&lt;/a&gt;&lt;/li&gt; 
+      
+       &lt;li&gt;&lt;a href=&quot;/conference/commentary/science/lab-workshop-slides/&quot;&gt;LAB WORKSHOP - SLIDES&lt;/a&gt;&lt;/li&gt; 
+      
+    
+    &lt;/ul&gt;
+  &lt;/li&gt;
+
+&lt;li&gt;&lt;a name=&quot;cogent&quot;&gt;cogent&lt;/a&gt;
+    &lt;ul&gt;
+    
+      
+      
+      
+    
+      
+       &lt;li&gt;&lt;a href=&quot;/cogent/commentary/cogent-geoscience/&quot;&gt;COGENT GEOSCIENCE&lt;/a&gt;&lt;/li&gt; 
+      
+    
+    &lt;/ul&gt;
+  &lt;/li&gt;
+
+&lt;h2 id=&quot;all-software-posts&quot;&gt;All software posts&lt;/h2&gt;
+
+&lt;!--  &lt;li&gt;&lt;a name=&quot;underworld&quot;&gt;underworld&lt;/a&gt; --&gt;
+&lt;ul&gt;
+
+  
+  
+  
+
+  
+   &lt;li&gt;&lt;a href=&quot;/underworld/python/underworld-2/&quot;&gt;UNDERWORLD 2 &lt;/a&gt;&lt;/li&gt; 
+  
+   &lt;li&gt;&lt;a href=&quot;/underworld/science/viscoelasticity-in-underworld/&quot;&gt;VISCOELASTICITY IN UNDERWORLD&lt;/a&gt;&lt;/li&gt; 
+  
+   &lt;li&gt;&lt;a href=&quot;/conference/science/underworld/cig-talks-2013-2014/&quot;&gt;CIG TALKS 2013 / 2014&lt;/a&gt;&lt;/li&gt; 
+  
+   &lt;li&gt;&lt;a href=&quot;/python/mathematics/underworld/free-expression/&quot;&gt;MATHEMATICS AND CODE&lt;/a&gt;&lt;/li&gt; 
+  
+   &lt;li&gt;&lt;a href=&quot;/underworld/geodynamics/models-of-subduction-collision-and-re-initiation/&quot;&gt;THE DYNAMICS OF CONTINENTAL ACCRETION&lt;/a&gt;&lt;/li&gt; 
+  
+
+&lt;!--  &lt;/li&gt; --&gt;
+&lt;/ul&gt;
+
+&lt;!--  &lt;li&gt;&lt;a name=&quot;geodynamics&quot;&gt;geodynamics&lt;/a&gt; --&gt;
+&lt;ul&gt;
+
+  
+  
+  
+
+  
+   &lt;li&gt;&lt;a href=&quot;/geodynamics/something-to-share/&quot;&gt;GEODYNAMICS VIDEOS &lt;/a&gt;&lt;/li&gt; 
+  
+   &lt;li&gt;&lt;a href=&quot;/underworld/geodynamics/models-of-subduction-collision-and-re-initiation/&quot;&gt;THE DYNAMICS OF CONTINENTAL ACCRETION&lt;/a&gt;&lt;/li&gt; 
+  
+
+&lt;!--  &lt;/li&gt; --&gt;
+&lt;/ul&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/Posts-by-category/&quot;&gt;All Posts (by category)&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Home&lt;/a&gt; on September 03, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
   <title type="html"><![CDATA[Underworld 2 ]]></title>
-  <link rel="alternate" type="text/html" href="/underworld-2/" />
-  <id>/underworld-2</id>
+  <link rel="alternate" type="text/html" href="/underworld/python/underworld-2/" />
+  <id>/underworld/python/underworld-2</id>
   <published>2015-08-11T22:33:00+10:00</published>
   <updated>2015-08-11T22:33:00+10:00</updated>
   <author>
@@ -29,14 +316,13 @@
   <content type="html">
     &lt;h1 id=&quot;underworld-2&quot;&gt;Underworld 2&lt;/h1&gt;
 
-&lt;p&gt;&lt;a href=&quot;www.facebook.com/underworldcode&quot;&gt;Underworld&lt;/a&gt; is our parallel, particle-in-cell, finite element geodynamics code. The code base has been around for 10 or so years now and has been largely debugged and is known to work well on hundreds to thousands of processors. We have engineered some pretty robust solver methods and lots of flexibility in dealing with complex rheology. The underlying code structure is modular and object oriented; all important entities within the code (meshes, for example) being objects that allow proper inheritance &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;www.facebook.com/underworldcode&quot;&gt;Underworld&lt;/a&gt; is our parallel, particle-in-cell, finite element geodynamics code. The code base has been around for 10 or so years now and has been largely debugged and is known to work well on hundreds to thousands of processors. We have engineered some pretty robust solver methods and lots of flexibility in dealing with complex rheology. The underlying code structure is modular and object oriented; all important entities within the code (meshes, for example) being objects that allow proper inheritance&lt;/p&gt;
 
 &lt;p&gt;On the other hand, the code is also well known for it’s none-too-friendly &lt;code&gt;xml&lt;/code&gt; based user interface and developers lament the complexity of the object model implemented in C. We have wondered for some time how to improve the user experience for newcomers and experts alike. We partnered with &lt;a href=&quot;www.geodynamics.org&quot;&gt;CIG&lt;/a&gt; to try to build a user-friendly version of underworld but, in the end, our various experiments with different approaches to running models have not significantly changed in ten years.&lt;/p&gt;
 
-&lt;p&gt;The entire underworld team has been busy working on a new front end for &lt;/p&gt;
+&lt;p&gt;The entire underworld team has been busy working on a new front end for&lt;/p&gt;
 
-
-    &lt;p&gt;&lt;a href=&quot;/underworld-2/&quot;&gt;Underworld 2 &lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Home&lt;/a&gt; on August 11, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/underworld/python/underworld-2/&quot;&gt;Underworld 2 &lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Home&lt;/a&gt; on August 11, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -45,8 +331,8 @@
 
 <entry>
   <title type="html"><![CDATA[Viscoelasticity in Underworld]]></title>
-  <link rel="alternate" type="text/html" href="/viscoelasticity-in-underworld/" />
-  <id>/viscoelasticity-in-underworld</id>
+  <link rel="alternate" type="text/html" href="/underworld/science/viscoelasticity-in-underworld/" />
+  <id>/underworld/science/viscoelasticity-in-underworld</id>
   <published>2015-03-24T06:10:00+11:00</published>
   <updated>2015-03-24T06:10:00+11:00</updated>
   <author>
@@ -59,7 +345,7 @@
 
 &lt;p&gt;The implementation itself is very similar to that in &lt;strong&gt;Ellipsis&lt;/strong&gt; but I think we simplified the flow of the code considerably this time. The Underworld version is both 2D and 3D, and has a second order stress update (see benchmarks). Rebecca’s paper has a streamlined notation which, I think, is much closer to the physics of the problem even though we realise it is a bit dense !&lt;/p&gt;
 
-&lt;p&gt;If you want to try out these models, then you should first contact &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#114;&amp;#101;&amp;#098;&amp;#101;&amp;#099;&amp;#099;&amp;#097;&amp;#046;&amp;#102;&amp;#097;&amp;#114;&amp;#114;&amp;#105;&amp;#110;&amp;#103;&amp;#116;&amp;#111;&amp;#110;&amp;#064;&amp;#109;&amp;#111;&amp;#110;&amp;#097;&amp;#115;&amp;#104;&amp;#046;&amp;#101;&amp;#100;&amp;#117;&quot;&gt;Rebecca&lt;/a&gt;. As usual, any problems should be addressed to the &lt;a href=&quot;https://underworldproject.org/forums/&quot;&gt;underworld forum&lt;/a&gt; first of all. &lt;/p&gt;
+&lt;p&gt;If you want to try out these models, then you should first contact &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#114;&amp;#101;&amp;#098;&amp;#101;&amp;#099;&amp;#099;&amp;#097;&amp;#046;&amp;#102;&amp;#097;&amp;#114;&amp;#114;&amp;#105;&amp;#110;&amp;#103;&amp;#116;&amp;#111;&amp;#110;&amp;#064;&amp;#109;&amp;#111;&amp;#110;&amp;#097;&amp;#115;&amp;#104;&amp;#046;&amp;#101;&amp;#100;&amp;#117;&quot;&gt;Rebecca&lt;/a&gt;. As usual, any problems should be addressed to the &lt;a href=&quot;https://underworldproject.org/forums/&quot;&gt;underworld forum&lt;/a&gt; first of all.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Farrington, R.J., Moresi, L.N., Capitanio, F.A., 2014. The role of viscoelasticity in subducting plates. Geochemistry, Geophysics, Geosystems 15, 4291–4304. doi:10.1002/2014GC005507&lt;/strong&gt;&lt;/p&gt;
 
@@ -80,7 +366,7 @@
 =  \mathcal{T} _{\Delta t}^{x _p ^{t}}\big(\tau _{ij}^{t-\Delta t}\;(\mathbf{x} _p^{t-\Delta t}), \mathbf{x}, \mathbf{u} \big)
 = \mathcal{L} _{1}( \tau _{ij} ^{t-\Delta t},\mathbf{x},\mathbf{u}) +
  \mathcal{L} _{2}( \tau _{ij} ^{t-\Delta t},\mathbf{x},\mathbf{u})
-  \]   &lt;/p&gt;
+  \]&lt;/p&gt;
 
 &lt;p&gt;where \( \mathcal{L} _1 = u _k . \partial\tau _{ij} / \partial x _k \) accounts for advection through a velocity field given by \(u _k\) and \(\mathcal{L} _2 = \tau _{ik} w _{kj} + \tau _{jk} w _{ki}\) is the Jaumann stress rate and accounts for rotation.  &lt;/p&gt;
 
@@ -96,7 +382,7 @@ Integration of the Jaumann derivative with a minimum 2nd order accurate method i
 &lt;p&gt;A decoupling of the observation time and numerical time step is required.
 This can be achieved by introducing an elastic timestep, \( \Delta t_e \), that ensures the required observation time is resolved, distinct from the smaller numerical timestep, \(\Delta t_c\).&lt;/p&gt;
 
-&lt;p&gt;Since \( \Delta t _e &amp;gt; \Delta t _c \), we must store the stress history over several timesteps.  This can be achieved by introducing a new term, \( \tilde{\mathcal{T}} 
+&lt;p&gt;Since \( \Delta t _e &amp;gt; \Delta t _c \), we must store the stress history over several timesteps.  This can be achieved by introducing a new term, \( \tilde{\mathcal{T}}
 \), being the stress history term defined across \(n\) numerical time steps of size \( \Delta t _c\).
 The stress at current time \( t \) is then defined as&lt;/p&gt;
 
@@ -110,7 +396,7 @@ The stress at current time \( t \) is then defined as&lt;/p&gt;
 T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} _{\Delta t _c}^{\,x _p^t} \Big( T _{ij}^{t-\Delta t _c}(\mathbf{x} _p^{\,t-\Delta t _c}) \Big)  + \phi \tau _{ij}^{\,t}(\mathbf{x} _p^{\,t})
 \]&lt;/p&gt;
 
-&lt;p&gt;where \(\phi = \Delta t _c / \Delta t _e &amp;lt; 1 \), recalling here that the transport operator has ensured the stresses are advected and rotated into the current reference frame. &lt;/p&gt;
+&lt;p&gt;where \(\phi = \Delta t _c / \Delta t _e &amp;lt; 1 \), recalling here that the transport operator has ensured the stresses are advected and rotated into the current reference frame.&lt;/p&gt;
 
 &lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 
@@ -126,8 +412,7 @@ T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} 
 
 &lt;p&gt;Moresi, L.N., Quenette, S., Lemiale, V., Mériaux, C., Appelbe, W., Mühlhaus, 2007. Computational approaches to studying non-linear dynamics of the crust and mantle. Phys. Earth Planet. Inter. 163, 69–82. doi:10.1016/j.pepi.2007.06.009&lt;/p&gt;
 
-
-    &lt;p&gt;&lt;a href=&quot;/viscoelasticity-in-underworld/&quot;&gt;Viscoelasticity in Underworld&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Home&lt;/a&gt; on March 24, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/underworld/science/viscoelasticity-in-underworld/&quot;&gt;Viscoelasticity in Underworld&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Home&lt;/a&gt; on March 24, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -136,8 +421,8 @@ T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} 
 
 <entry>
   <title type="html"><![CDATA[Visiting Timor]]></title>
-  <link rel="alternate" type="text/html" href="/visiting-timor/" />
-  <id>/visiting-timor</id>
+  <link rel="alternate" type="text/html" href="/commentary/visiting-timor/" />
+  <id>/commentary/visiting-timor</id>
   <published>2015-03-23T01:03:00+11:00</published>
   <updated>2015-03-23T01:03:00+11:00</updated>
   <author>
@@ -286,7 +571,7 @@ T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} 
 
 &lt;p&gt;So, for the third time, let me plug the &lt;a href=&quot;http://bandaarc.blogspot.com&quot;&gt;official site&lt;/a&gt; for this project and thank the USC team for their tolerance in letting me come along to observe and learn.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/visiting-timor/&quot;&gt;Visiting Timor&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Home&lt;/a&gt; on March 23, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/commentary/visiting-timor/&quot;&gt;Visiting Timor&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Home&lt;/a&gt; on March 23, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -295,8 +580,8 @@ T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} 
 
 <entry>
   <title type="html"><![CDATA[Cogent Geoscience]]></title>
-  <link rel="alternate" type="text/html" href="/cogent-geoscience/" />
-  <id>/cogent-geoscience</id>
+  <link rel="alternate" type="text/html" href="/cogent/commentary/cogent-geoscience/" />
+  <id>/cogent/commentary/cogent-geoscience</id>
   <published>2015-03-05T23:42:00+11:00</published>
   <updated>2015-03-05T23:42:00+11:00</updated>
   <author>
@@ -305,19 +590,18 @@ T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} 
     <email>louis.moresi@unimelb.edu.au</email>
   </author>
   <content type="html">
-    &lt;p&gt;For the past six months or so, I have been working on the launch of a new Open Access journal &lt;a href=&quot;http://cogentoa.tandfonline.com/journal/oage20&quot;&gt;&lt;em&gt;Cogent Geoscience&lt;/em&gt;&lt;/a&gt;. My first thought when I was asked if I would be interested in leading this project was &lt;em&gt;“another journal … really ?”&lt;/em&gt; but I did spend some time to discuss the whole idea with the staff at Taylor &amp;amp; Francis and my friends and colleagues, and I thought that there might indeed be an opportunity to do something new. &lt;/p&gt;
+    &lt;p&gt;For the past six months or so, I have been working on the launch of a new Open Access journal &lt;a href=&quot;http://cogentoa.tandfonline.com/journal/oage20&quot;&gt;&lt;em&gt;Cogent Geoscience&lt;/em&gt;&lt;/a&gt;. My first thought when I was asked if I would be interested in leading this project was &lt;em&gt;“another journal … really ?”&lt;/em&gt; but I did spend some time to discuss the whole idea with the staff at Taylor &amp;amp; Francis and my friends and colleagues, and I thought that there might indeed be an opportunity to do something new.&lt;/p&gt;
 
 &lt;p&gt;The publishing landscape has shifted significantly over the past decade or so. The availability of publication-quality preprints (e.g. &lt;a href=&quot;http://www.arxiv.org&quot;&gt;www.arxiv.org&lt;/a&gt; and datasets on the web has forced the peer-review publication process to become significantly more responsive. Academic social-media sites like &lt;a href=&quot;http://www.academia.edu&quot;&gt;academia.edu&lt;/a&gt;, &lt;a href=&quot;http://www.researchgate.net&quot;&gt;researchgate&lt;/a&gt; and &lt;a href=&quot;http://www.figshare.com&quot;&gt;figshare&lt;/a&gt; have created a grey-market in scientific results which have not been formally peer reviewed but which are available for discussion and comment. Traditional journals are rapidly evolving to compete in this environment and it is not entirely clear what the outcome will be !&lt;/p&gt;
 
-&lt;p&gt;Cogent Geoscience is emerging into this uncertain environment with very little baggage from the previous era, but also very little momentum. What do we have to offer authors of high-impact research ? For one thing, the entire Cogent series is Open Access which means that all content is available for redistribution and re-publication under a creative commons licence. This is very much in keeping with the way people tend to use information - sharing and commenting, distributing and linking. Open Access is increasingly required for research supported by public funds. &lt;/p&gt;
+&lt;p&gt;Cogent Geoscience is emerging into this uncertain environment with very little baggage from the previous era, but also very little momentum. What do we have to offer authors of high-impact research ? For one thing, the entire Cogent series is Open Access which means that all content is available for redistribution and re-publication under a creative commons licence. This is very much in keeping with the way people tend to use information - sharing and commenting, distributing and linking. Open Access is increasingly required for research supported by public funds.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Open Access&lt;/em&gt; has, in the past, tended to be an expensive option for authors but we are now offering a different approach which allows authors to contribute whatever they consider reasonable towards the cost of publication. Specifically: 
+&lt;p&gt;&lt;em&gt;Open Access&lt;/em&gt; has, in the past, tended to be an expensive option for authors but we are now offering a different approach which allows authors to contribute whatever they consider reasonable towards the cost of publication. Specifically:
 &amp;gt; &lt;em&gt;every author will have the option to make a contribution towards the costs of open access publication if their article is accepted, but no one will have the obligation to pay anything. Authors will be free to choose exactly how much they wish to contribute based on their own specific circumstances, and their choice will be accepted on a ‘no questions asked’ basis&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;I also hope that we can add to this platform an editorial enthusiasm for the discipline which will provide a platform to highlight the best and most exciting research in the field, relevant commentary, and links to re-use of our material. In other words, a great place to learn about the latest developments in the geosciences in the very broadest sense.&lt;/p&gt;
 
-
-    &lt;p&gt;&lt;a href=&quot;/cogent-geoscience/&quot;&gt;Cogent Geoscience&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Home&lt;/a&gt; on March 05, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/cogent/commentary/cogent-geoscience/&quot;&gt;Cogent Geoscience&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Home&lt;/a&gt; on March 05, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -377,8 +661,8 @@ T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} 
 
 <entry>
   <title type="html"><![CDATA[Deep Carbon Modeling ]]></title>
-  <link rel="alternate" type="text/html" href="/deep-carbon-cycle-modeling-workshop/" />
-  <id>/deep-carbon-cycle-modeling-workshop</id>
+  <link rel="alternate" type="text/html" href="/conference/science/deep-carbon-cycle-modeling-workshop/" />
+  <id>/conference/science/deep-carbon-cycle-modeling-workshop</id>
   <published>2014-06-09T21:35:00+10:00</published>
   <updated>2014-06-09T21:35:00+10:00</updated>
   <author>
@@ -391,13 +675,13 @@ T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} 
 
 &lt;p&gt;&lt;img class=&quot;right&quot; src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/205529/P4k6RvMITIGCPOzTPsh8_SampleImage.png&quot; width=&quot;40%&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The Deep Carbon Observatory hosted a workshop at the Carnegie Institute in Washington DC to learn about the state of the art in modeling of the deep, long-term, global carbon cycle. There is a lot of information coming from the field of geochemistry which provides information on local fluxes, the existence of reservoirs and the relation to other large-scale geochemical cycles. The modeling community is, however, faced with a horrible difficulty — to get this right we first have to be able to have well-constrained global models of plate tectonics, these then we need really high-fidelity physical / chemical models of the multiphase flow in subduction zones and mid-ocean ridges. Having done that, we should put those together and try to work back through all of geological time. That would give a rough basic machinery to bolt together with ocean, atmosphere, surface process modeling, computational petrology etc etc. &lt;/p&gt;
+&lt;p&gt;The Deep Carbon Observatory hosted a workshop at the Carnegie Institute in Washington DC to learn about the state of the art in modeling of the deep, long-term, global carbon cycle. There is a lot of information coming from the field of geochemistry which provides information on local fluxes, the existence of reservoirs and the relation to other large-scale geochemical cycles. The modeling community is, however, faced with a horrible difficulty — to get this right we first have to be able to have well-constrained global models of plate tectonics, these then we need really high-fidelity physical / chemical models of the multiphase flow in subduction zones and mid-ocean ridges. Having done that, we should put those together and try to work back through all of geological time. That would give a rough basic machinery to bolt together with ocean, atmosphere, surface process modeling, computational petrology etc etc.&lt;/p&gt;
 
-&lt;p&gt;That’s a pretty big challenge, but if there is any hope in making it tractable, it is in the fact that this is not a unique challenge to this particular problem but actually is a good summary of the leading edge of geodynamics today and the outstanding problems we are collectively trying to address. &lt;/p&gt;
+&lt;p&gt;That’s a pretty big challenge, but if there is any hope in making it tractable, it is in the fact that this is not a unique challenge to this particular problem but actually is a good summary of the leading edge of geodynamics today and the outstanding problems we are collectively trying to address.&lt;/p&gt;
 
 &lt;p&gt;Overall, an intense meeting with lots of interesting discussion and great conversation. My contribution (the slides, anyway) can be found &lt;a href=&quot;https://www.dropbox.com/s/680da6e6xtys8za/SubductionAppetite-Z.pdf&quot;&gt;at this link&lt;/a&gt;&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/deep-carbon-cycle-modeling-workshop/&quot;&gt;Deep Carbon Modeling &lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Home&lt;/a&gt; on June 09, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/conference/science/deep-carbon-cycle-modeling-workshop/&quot;&gt;Deep Carbon Modeling &lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Home&lt;/a&gt; on June 09, 2014.&lt;/p&gt;
   </content>
 </entry>
 
@@ -406,8 +690,8 @@ T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} 
 
 <entry>
   <title type="html"><![CDATA[CIG talks 2013 / 2014]]></title>
-  <link rel="alternate" type="text/html" href="/cig-talks-2013-2014/" />
-  <id>/cig-talks-2013-2014</id>
+  <link rel="alternate" type="text/html" href="/conference/science/underworld/cig-talks-2013-2014/" />
+  <id>/conference/science/underworld/cig-talks-2013-2014</id>
   <published>2014-05-07T17:09:00+10:00</published>
   <updated>2014-05-07T17:09:00+10:00</updated>
   <author>
@@ -420,14 +704,13 @@ T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} 
 
 &lt;p&gt;&lt;img class=&quot;right&quot; src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/197648/UDIa932hTZCMhQD18HZJ_Screen%20Shot%202014-05-08%20at%206.18.42%20am.png&quot; width=&quot;40%&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I gave a presentations at the Fall AGU meeting to the computational geodynamics community and to the GeoPrisms meeting to provide a summary of lessons learned in building Underworld, supporting the user community, and our plans for the future. This is a good time to take a snapshot of the code because the timing is the end of the NeCTAR investment into making Underworld integrate with geological workflow tools (such as GPlates, GoCAD, Litmod3D, LeCode). This presentation includes many contributions from users of those tools and I have given contact details for the people responsible. The slides are here: &lt;a href=&quot;https://dl.dropboxusercontent.com/u/1342538/Talks/AGU-SF-2013/Underworld%E2%80%94AncoraImparo.pdf&quot;&gt;Talks/AGU-SF-2013/Underworld-AncoraImparo.pdf&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;I gave a presentations at the Fall AGU meeting to the computational geodynamics community and to the GeoPrisms meeting to provide a summary of lessons learned in building Underworld, supporting the user community, and our plans for the future. This is a good time to take a snapshot of the code because the timing is the end of the NeCTAR investment into making Underworld integrate with geological workflow tools (such as GPlates, GoCAD, Litmod3D, LeCode). This presentation includes many contributions from users of those tools and I have given contact details for the people responsible. The slides are here: &lt;a href=&quot;https://dl.dropboxusercontent.com/u/1342538/Talks/AGU-SF-2013/Underworld%E2%80%94AncoraImparo.pdf&quot;&gt;Talks/AGU-SF-2013/Underworld-AncoraImparo.pdf&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I gave a modified version of this talk as a starter for discussion at the CIG long-term tectonics / Earthscope workshop in February 2014. The slides for this talk are available from CIG, but are essentially the same as the AGU slides above. &lt;/p&gt;
+&lt;p&gt;I gave a modified version of this talk as a starter for discussion at the CIG long-term tectonics / Earthscope workshop in February 2014. The slides for this talk are available from CIG, but are essentially the same as the AGU slides above.&lt;/p&gt;
 
 &lt;p&gt;At the CIG workshop in Banff, Canada, May 2014, I gave a talk to reflect on 20 years of the CITCOM family of codes. Dave May asked me to include a look-forward of 20 years as well as all the “back in my day, sonny”, reminiscing. I tried to take this seriously. My argument is this: if you want to know what the landscape is going to look at in 5 years, just be more realistic about how long it is actually going to take to get all the things working that you are busy coding today. But 20 years ? I’m arguing for us to be more vigilant about carrying uncertainty information, make a big effort to treat “a model” as meaning a whole collection of models plus their fitness-for-purpose for a given application(i.e. in some sense, having model derivatives). I believe this will give us the possibility to calculate metrics in model space and build comparisons and that this will allow us to put models in categories and develop searchable libraries. That could take some time even if it is not 20 years: &lt;a href=&quot;https://dl.dropboxusercontent.com/u/1342538/Talks/CIG-Banff-2014/CIG-CitcomBirthdayParty.pdf&quot;&gt;Talks/CIG-Banff-2014/CIG-CitcomBirthdayParty.pdf&lt;/a&gt;&lt;/p&gt;
 
-
-    &lt;p&gt;&lt;a href=&quot;/cig-talks-2013-2014/&quot;&gt;CIG talks 2013 / 2014&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Home&lt;/a&gt; on May 07, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/conference/science/underworld/cig-talks-2013-2014/&quot;&gt;CIG talks 2013 / 2014&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Home&lt;/a&gt; on May 07, 2014.&lt;/p&gt;
   </content>
 </entry>
 
@@ -436,8 +719,8 @@ T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} 
 
 <entry>
   <title type="html"><![CDATA[EGU / CGU 2014]]></title>
-  <link rel="alternate" type="text/html" href="/egu-2014/" />
-  <id>/egu-2014</id>
+  <link rel="alternate" type="text/html" href="/conference/commentary/egu-2014/" />
+  <id>/conference/commentary/egu-2014</id>
   <published>2014-04-30T16:41:00+10:00</published>
   <updated>2014-04-30T16:41:00+10:00</updated>
   <author>
@@ -450,14 +733,13 @@ T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} 
 
 &lt;p&gt;&lt;img class=&quot;right&quot; src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/196560/MDZd6v0QFOp92FfinebT_ConjestedSubduction-MoresiEtAl.png&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Our talk on congested subduction zones for the EGU session on subduction. The slides are available as a pdf file here: &lt;a href=&quot;https://dl.dropboxusercontent.com/u/1342538/Talks/EGU-2014/ConjestedSubduction-MoresiEtAl.pdf&quot;&gt;Talks/EGU-2014/ConjestedSubduction-MoresiEtAl.pdf&lt;/a&gt; (movies - browse this site for links / examples). This talk covers the interaction of buoyant material with subduction zones and draws out the differences between large lumps colliding (ribbons) with smaller collisions such as plateaux. &lt;/p&gt;
+&lt;p&gt;Our talk on congested subduction zones for the EGU session on subduction. The slides are available as a pdf file here: &lt;a href=&quot;https://dl.dropboxusercontent.com/u/1342538/Talks/EGU-2014/ConjestedSubduction-MoresiEtAl.pdf&quot;&gt;Talks/EGU-2014/ConjestedSubduction-MoresiEtAl.pdf&lt;/a&gt; (movies - browse this site for links / examples). This talk covers the interaction of buoyant material with subduction zones and draws out the differences between large lumps colliding (ribbons) with smaller collisions such as plateaux.&lt;/p&gt;
 
 &lt;p&gt;The first part of the session was focused on methods and how assumptions in models influence outcomes. My take on this is that it is possible to ask questions which can be answered independent of contingencies in the setup / simplifications. Other features of different models change according to different assumptions and these need to be examined more carefully (and maybe these are the more interesting questions). Collisions of anomolous lithosphere with subduction was an important theme of the talks - lots of new ideas !&lt;/p&gt;
 
 &lt;p&gt;At the CGU meeting, we added some interpretation of the NW US margin in the context of our model (Thanks to Leland O’Driscoll for help on this). The “Great Alaskan Terrane Wreck” paper by Johnston was one of the inspirations for the models we ran for the SE Australia accretion study and, even though we don’t have a specific model for the NW US margin, we wanted to start up the discussion. The slides for this talk are found here: &lt;a href=&quot;https://dl.dropboxusercontent.com/u/1342538/Talks/CGU-Banff-2014/ConjestedSubduction-MoresiEtAl.pdf&quot;&gt;Talks/CGU-Banff-2014/ConjestedSubduction-MoresiEtAl.pdf&lt;/a&gt;&lt;/p&gt;
 
-
-    &lt;p&gt;&lt;a href=&quot;/egu-2014/&quot;&gt;EGU / CGU 2014&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Home&lt;/a&gt; on April 30, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/conference/commentary/egu-2014/&quot;&gt;EGU / CGU 2014&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Home&lt;/a&gt; on April 30, 2014.&lt;/p&gt;
   </content>
 </entry>
 
@@ -466,8 +748,8 @@ T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} 
 
 <entry>
   <title type="html"><![CDATA[LAB workshop - slides]]></title>
-  <link rel="alternate" type="text/html" href="/lab-workshop-slides/" />
-  <id>/lab-workshop-slides</id>
+  <link rel="alternate" type="text/html" href="/conference/commentary/science/lab-workshop-slides/" />
+  <id>/conference/commentary/science/lab-workshop-slides</id>
   <published>2014-04-28T15:06:00+10:00</published>
   <updated>2014-04-28T15:06:00+10:00</updated>
   <author>
@@ -480,13 +762,13 @@ T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} 
 
 &lt;p&gt;&lt;img class=&quot;right&quot; src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/196181/12usvk8MS8mqmSFq9SAD_TBL.001.png&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;At the ILP Task Force LABPAX workshop in Austria, 2014, I gave an overview of thermal boundary layers and scaling for the sub-continental lithosphere. The talk slides in pdf format are at the following link: &lt;a href=&quot;https://dl.dropboxusercontent.com/u/1342538/Talks/LABPAX-2014/TBLs.pdf&quot;&gt;Talks/LABPAX-2014/TBLs.pdf&lt;/a&gt;. Chiefly, this presentation is a summary of some of the relevant papers intended to promote discussion amongst a group mostly consisting of experts in seismological imaging of the deep lithosphere. &lt;/p&gt;
+&lt;p&gt;At the ILP Task Force LABPAX workshop in Austria, 2014, I gave an overview of thermal boundary layers and scaling for the sub-continental lithosphere. The talk slides in pdf format are at the following link: &lt;a href=&quot;https://dl.dropboxusercontent.com/u/1342538/Talks/LABPAX-2014/TBLs.pdf&quot;&gt;Talks/LABPAX-2014/TBLs.pdf&lt;/a&gt;. Chiefly, this presentation is a summary of some of the relevant papers intended to promote discussion amongst a group mostly consisting of experts in seismological imaging of the deep lithosphere.&lt;/p&gt;
 
-&lt;p&gt;As someone with a background in geodynamics, it is very clear that there are well-imaged discontinuities in the mid and deep lithosphere, but it is not always clear which of these can be attributed to the LAB. In fact, it is not at all clear to me that we have the same expectations of what the Lithosphere and Asthenosphere really are among our different communities. &lt;/p&gt;
+&lt;p&gt;As someone with a background in geodynamics, it is very clear that there are well-imaged discontinuities in the mid and deep lithosphere, but it is not always clear which of these can be attributed to the LAB. In fact, it is not at all clear to me that we have the same expectations of what the Lithosphere and Asthenosphere really are among our different communities.&lt;/p&gt;
 
 &lt;p&gt;Note, the PDF file has some movie snapshots - you can find links for these by browsing through my posts on continental accretion and my geodynamics videos.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/lab-workshop-slides/&quot;&gt;LAB workshop - slides&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Home&lt;/a&gt; on April 28, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/conference/commentary/science/lab-workshop-slides/&quot;&gt;LAB workshop - slides&lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Home&lt;/a&gt; on April 28, 2014.&lt;/p&gt;
   </content>
 </entry>
 
@@ -692,29 +974,29 @@ T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} 
     <email>louis.moresi@unimelb.edu.au</email>
   </author>
   <content type="html">
-    &lt;p&gt;&lt;img class=&quot;right&quot; src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/192386/GkFmdzbSQ0O394T7Muc4_Congestion.png&quot; alt=&quot;Cartoon of collision / congestion&quot; width=&quot;30%&quot; /&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;img class=&quot;right&quot; src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/192386/GkFmdzbSQ0O394T7Muc4_Congestion.png&quot; alt=&quot;Cartoon of collision / congestion&quot; width=&quot;66%&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;In a recent paper*, we used Underworld models to examine subduction congestion associated with the ingestion of a continental ribbon. The SE Australian geological record turned out to be a wonderful place to study this process. Here is a short summary of the work for a relatively non-technical audiencethat we put together and some additional figures which I prepared.&lt;/p&gt;
+&lt;p&gt;In a recent paper [1], we used Underworld models to examine subduction congestion associated with the ingestion of a continental ribbon. The SE Australian geological record turned out to be a wonderful place to study this process. Here is a short summary of the work for a relatively non-technical audiencethat we put together and some additional figures which I prepared.&lt;/p&gt;
 
-&lt;p&gt;*Moresi, L.N., Betts, P.G., Miller, M.S., and Cayley, R.A., 2014, The Dynamics of Continental Accretion: Nature, &lt;a href=&quot;http://dx.doi.org/10.1038/nature13033&quot;&gt;doi:10.1038/nature13033&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;(The original paper, supplementary information and &lt;a href=&quot;http://www.nature.com/nature/journal/vaop/ncurrent/full/nature13033.html#supplementary-information&quot; title=&quot;(nature animation links)&quot;&gt;animations&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;[1] Moresi, L.N., Betts, P.G., Miller, M.S., and Cayley, R.A., 2014, The Dynamics of Continental Accretion: Nature, &lt;a href=&quot;http://dx.doi.org/10.1038/nature13033&quot;&gt;doi:10.1038/nature13033&lt;/a&gt;. Also see &lt;a href=&quot;http://www.nature.com/nature/journal/vaop/ncurrent/full/nature13033.html#supplementary-information&quot;&gt;supplementary information and animations&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;summary&quot;&gt;Summary&lt;/h2&gt;
 
-&lt;p&gt;The Earth’s continents drift at a speed of just a few centimetres per year driven by the sinking of the cold tectonic plates at subduction zones. As they drift, continents collide to form great mountain belts and, in the process, incorporate an assortment of geological debris. This activity has shaped the geological record for billions of years and geologist are accustomed to finding “exotic” material mashed up in ancient mountain belts. &lt;/p&gt;
+&lt;p&gt;The Earth’s continents drift at a speed of just a few centimetres per year driven by the sinking of the cold tectonic plates at subduction zones. As they drift, continents collide to form great mountain belts and, in the process, incorporate an assortment of geological debris. This activity has shaped the geological record for billions of years and geologist are accustomed to finding “exotic” material mashed up in ancient mountain belts.&lt;/p&gt;
 
-&lt;p&gt;The paper by Louis Moresi, Peter Betts, Meghan Miller and Ross Cayley shows how continental collisions work - how subduction zones stutter and recover when they are hit by a drifting continental fragment, and how evidence of such collisions may remain preserved largely intact in the Earth’s crust for hundreds of millions of years. The research shows how the subduction zone and the exotic continent dance around each other during the collision leaving a distinctive pattern in the rock record. The researchers predict that regions where collisions occur, crumpling up the crust into mountain belts, are flanked by low-lying zones of stretching and extension, characterised by intense localised heating, volcanic activity and fresh sediments that, till now, appeared enigmatic.  Rocks caught up in the collision  are swept around in a huge arcing path, stretched, rotated and dragged hundreds of kilometres from their original location as they chase a curved subduction zone trench retreating oceanward - a process called ‘subduction roll-back’. &lt;/p&gt;
+&lt;p&gt;The paper by Louis Moresi, Peter Betts, Meghan Miller and Ross Cayley shows how continental collisions work - how subduction zones stutter and recover when they are hit by a drifting continental fragment, and how evidence of such collisions may remain preserved largely intact in the Earth’s crust for hundreds of millions of years. The research shows how the subduction zone and the exotic continent dance around each other during the collision leaving a distinctive pattern in the rock record. The researchers predict that regions where collisions occur, crumpling up the crust into mountain belts, are flanked by low-lying zones of stretching and extension, characterised by intense localised heating, volcanic activity and fresh sediments that, till now, appeared enigmatic.  Rocks caught up in the collision  are swept around in a huge arcing path, stretched, rotated and dragged hundreds of kilometres from their original location as they chase a curved subduction zone trench retreating oceanward - a process called ‘subduction roll-back’.&lt;/p&gt;
 
 &lt;p&gt;One place in the world where evidence of this unusual pattern had already been observed happens to be on our own doorstep. The geology of  Victoria, Tasmania, and New South Wales shows an embedded block of older continental crust which collided with SE Australia between 450 and 380 million years ago. The collision started a cascade of geological processes that resulted in a swirling pattern preserved in the surrounding rocks, exactly as predicted by the computer model.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&quot;center&quot; src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/192386/WXDOHuPTeahzWe7TyFGA_Figure1.png&quot; alt=&quot;Figure1 of our paper&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Figure 1.&lt;/strong&gt; &lt;em&gt;Reconstruction of the Tasmanide accretionary event, showing indentation of continental ribbon material and lateral subduction. a, Stable Ordovician convergent margin immediately after accretion of VanDieland microcontinent. b, Trench advance in the southern Tasmanides and subduction rollback in the central Tasmanides during the Early Silurian resulted in a transitional configuration of back-arc extension, and high temperature metamorphism in the back arc. c, Margin parallel trench retreat behind VanDieland during the Late Silurian. Extensive arc and back-arc magmatism, and basins systems above the retreating plate leading to a Banda- type sea outboard of VanDieland. d, Re-establishment of a stable, linear convergent margin during the Early Devonian. e, Present distribution of major tectonic elements of the southern and central Tasmanides superimposed on a magnetic map of eastern Australia&lt;/em&gt;&lt;/p&gt;
+&lt;figure&gt;
+    &lt;a href=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/192386/WXDOHuPTeahzWe7TyFGA_Figure1.png&quot;&gt;
+    &lt;img src=&quot;http://user-image.logdown.io/user/7331/blog/7268/post/192386/WXDOHuPTeahzWe7TyFGA_Figure1.png&quot; /&gt;&lt;/a&gt;
+    &lt;figcaption&gt; Reconstruction of the Tasmanide accretionary event, showing indentation of continental ribbon material and lateral subduction. a, Stable Ordovician convergent margin immediately after accretion of VanDieland microcontinent. b, Trench advance in the southern Tasmanides and subduction rollback in the central Tasmanides during the Early Silurian resulted in a transitional configuration of back-arc extension, and high temperature metamorphism in the back arc. c, Margin parallel trench retreat behind VanDieland during the Late Silurian. Extensive arc and back-arc magmatism, and basins systems above the retreating plate leading to a Banda- type sea outboard of VanDieland. d, Re-establishment of a stable, linear convergent margin during the Early Devonian. e, Present distribution of major tectonic elements of the southern and central Tasmanides superimposed on a magnetic map of eastern Australia &lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;The results of the research may explain complex geological relationships in the modern Earth, including the contorted geological patterns where the northern margin of Australian tectonic plate is colliding with smaller micro-plates of SE Asia.  Geometries predicted by the models are also seen in the tectonically active Mediterranean region in Europe, and contorted Mountain belts preserved throughout western North America.&lt;/p&gt;
 
-&lt;p&gt;The results of the research will help geologists interpret ancient Mountain belts.  This includes other parts of Eastern Australia as well as Central Asia, which are the sites of some of the largest accumulation of the Earths continents in the last 500 million years of Earth’s history. The results may prove most useful as a template to interpret regions where preservation of evidence for past collisions is incomplete - a common, and often frustrating, challenge for geologists working in fragmented ancient terranes. Geometries predicted by the models will radically redirect the focus of exploration for buried mineral systems already known to be intimately linked to the plate-tectonic process — they will occur in places not previously suspected. &lt;/p&gt;
+&lt;p&gt;The results will help geologists interpret ancient Mountain belts;  this includes other parts of Eastern Australia as well as Central Asia, which are the sites of some of the largest accumulation of the Earths continents in the last 500 million years of Earth’s history. The results may prove most useful as a template to interpret regions where preservation of evidence for past collisions is incomplete - a common, and often frustrating, challenge for geologists working in fragmented ancient terranes. Geometries predicted by the models will radically redirect the focus of exploration for buried mineral systems already known to be intimately linked to the plate-tectonic process — they will occur in places not previously suspected.&lt;/p&gt;
 
 &lt;p&gt;The results will also likely provoke significant re-interpretation of some ancient deeply-buried geology, for example beneath the Antarctic icecap, where the accumulated geological history is tantalisingly revealed only as patterns in regional-scale geophysical datasets.  &lt;/p&gt;
 
@@ -722,7 +1004,7 @@ T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} 
 
 &lt;p&gt;&lt;strong&gt;Plate tectonics&lt;/strong&gt; — the process by which the Earth turns itself inside out, creating new sea-floor at the mid-ocean ridge and swallowing it again at subduction zones.  This process turns the Earth’s internal heat into surface motion of a few centimetres per year and provides the energy for geological change.  &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Continental Drift&lt;/strong&gt; — the continents are shuffled, deformed, and dragged around by plate tectonics but are not recycled into the Earth by subduction zones because they are made of generally lighter rocks.  The geological record clearly records the fact that for billions of years continents have migrated continuously around the Earth’s surface: colliding with each other, rifting apart, and drifting to different climatic zones. Modern satellite-based Global Positioning System measurements confirm beyond all doubt that this process continues today. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Continental Drift&lt;/strong&gt; — the continents are shuffled, deformed, and dragged around by plate tectonics but are not recycled into the Earth by subduction zones because they are made of generally lighter rocks.  The geological record clearly records the fact that for billions of years continents have migrated continuously around the Earth’s surface: colliding with each other, rifting apart, and drifting to different climatic zones. Modern satellite-based Global Positioning System measurements confirm beyond all doubt that this process continues today.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Mountain Belts&lt;/strong&gt; — Mountains usually occur in long, relatively narrow chains across the Earth’s surface. This reflects the fact that subduction tends to occur along a wide region of a plate boundary and that subduction is the driving force for mountain building. So much so, that breaks in mountain belts invite special explanations such as collision of exotic crust.  Actual mountains erode very quickly in geological time, so ancient mountain belts are recognised by geology characteristic of deeply eroded mountain roots, compared directly to modern examples.&lt;/p&gt;
 

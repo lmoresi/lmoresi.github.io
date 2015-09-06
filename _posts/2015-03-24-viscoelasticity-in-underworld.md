@@ -3,14 +3,14 @@ layout: post
 title: 'Viscoelasticity in Underworld'
 date: 2015-03-24 06:10
 comments: true
-categories: 
+categories: ['Underworld', 'Science']
 ---
 
 Viscoelasticity has been a hidden feature of **Underworld** for some time now, initially in the _experimental_ branch (alpha testing) and more recently, in the mainstream version. We did not officially release or document this implementation because it had not gone through peer review. Now, however, with Rebecca Farrington's recent paper on viscoelastic stresses in subducting plates, the benchmarking has been published and it is time to let everyone have a go with the implementation.
 
 The implementation itself is very similar to that in **Ellipsis** but I think we simplified the flow of the code considerably this time. The Underworld version is both 2D and 3D, and has a second order stress update (see benchmarks). Rebecca's paper has a streamlined notation which, I think, is much closer to the physics of the problem even though we realise it is a bit dense !
 
-If you want to try out these models, then you should first contact [Rebecca](mailto:rebecca.farrington@monash.edu). As usual, any problems should be addressed to the [underworld forum](https://underworldproject.org/forums/) first of all. 
+If you want to try out these models, then you should first contact [Rebecca](mailto:rebecca.farrington@monash.edu). As usual, any problems should be addressed to the [underworld forum](https://underworldproject.org/forums/) first of all.
 
 **Farrington, R.J., Moresi, L.N., Capitanio, F.A., 2014. The role of viscoelasticity in subducting plates. Geochemistry, Geophysics, Geosystems 15, 4291–4304. doi:10.1002/2014GC005507**
 
@@ -32,7 +32,7 @@ The numerical implementation of the FEM-PIC integration within Underworld requir
 =  \mathcal{T} _{\Delta t}^{x _p ^{t}}\big(\tau _{ij}^{t-\Delta t}\;(\mathbf{x} _p^{t-\Delta t}), \mathbf{x}, \mathbf{u} \big)
 = \mathcal{L} _{1}( \tau _{ij} ^{t-\Delta t},\mathbf{x},\mathbf{u}) +
  \mathcal{L} _{2}( \tau _{ij} ^{t-\Delta t},\mathbf{x},\mathbf{u})
-  \\]   
+  \\]
 
 
 where \\( \mathcal{L} _1 = u _k . \partial\tau _{ij} / \partial x _k \\) accounts for advection through a velocity field given by \\(u _k\\) and \\(\mathcal{L} _2 = \tau _{ik} w _{kj} + \tau _{jk} w _{ki}\\) is the Jaumann stress rate and accounts for rotation.  
@@ -49,7 +49,7 @@ Including these additional terms couples stress and pressure adding a considerab
 A decoupling of the observation time and numerical time step is required.
 This can be achieved by introducing an elastic timestep, \\( \Delta t_e \\), that ensures the required observation time is resolved, distinct from the smaller numerical timestep, \\(\Delta t_c\\).
 
-Since \\( \Delta t _e > \Delta t _c \\), we must store the stress history over several timesteps.  This can be achieved by introducing a new term, \\( \tilde{\mathcal{T}} 
+Since \\( \Delta t _e > \Delta t _c \\), we must store the stress history over several timesteps.  This can be achieved by introducing a new term, \\( \tilde{\mathcal{T}}
 \\), being the stress history term defined across \\(n\\) numerical time steps of size \\( \Delta t _c\\).
 The stress at current time \\( t \\) is then defined as
 
@@ -63,7 +63,7 @@ Note the presence of \\( \Delta t _ e \\) in both the definition of \\( \tilde{\
 T _{ij}^{t}(\mathbf{x} _p^{\, t})  = \big( 1 - \phi \big)\; \tilde{\mathcal{T}} _{\Delta t _c}^{\,x _p^t} \Big( T _{ij}^{t-\Delta t _c}(\mathbf{x} _p^{\,t-\Delta t _c}) \Big)  + \phi \tau _{ij}^{\,t}(\mathbf{x} _p^{\,t})
 \\]
 
-where \\(\phi = \Delta t _c / \Delta t _e < 1 \\), recalling here that the transport operator has ensured the stresses are advected and rotated into the current reference frame. 
+where \\(\phi = \Delta t _c / \Delta t _e < 1 \\), recalling here that the transport operator has ensured the stresses are advected and rotated into the current reference frame.
 
 ## References
 
@@ -78,5 +78,3 @@ Moresi, L.N., Dufour, F., Muhlhaus, H.B., 2002. Mantle convection modeling with 
 Moresi, L.N., Dufour, F., Muhlhaus, H.B., 2003. A Lagrangian integration point finite element method for large deformation modeling of viscoelastic geomaterials. Journal of Computational Physics 184, 476–497. doi:10.1016/S0021-9991(02)00031-1
 
 Moresi, L.N., Quenette, S., Lemiale, V., Mériaux, C., Appelbe, W., Mühlhaus, 2007. Computational approaches to studying non-linear dynamics of the crust and mantle. Phys. Earth Planet. Inter. 163, 69–82. doi:10.1016/j.pepi.2007.06.009
-
-
