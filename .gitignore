@@ -43,3 +43,7 @@ Thumbs.db
 _site/
 .sass-cache/
 .jekyll-metadata
+
+_site/feed.xml
+
+_site/underworld/python/underworld-2/index.html
