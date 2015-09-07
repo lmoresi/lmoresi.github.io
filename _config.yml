@@ -3,7 +3,6 @@
 title:            Home
 locale:           en_US
 url:
-
 port: 4444
 
 # Jekyll configuration
@@ -23,8 +22,8 @@ mathjax: on
 
 # Site images ethical
 
-default-page-image: DSC_5374.jpg
-default-post-image: DSCF3873.jpg
+default-page-image: site/DSC_5374.jpg
+default-post-image: site/DSCF3873.jpg
 
 # Site owner
 owner:

@@ -4,11 +4,11 @@ title: Publications
 modified: 2015-09-04
 excerpt: "Publications — in reverse chronological order"
 image:
-  feature: DSC_5374.jpg
+  feature: site/DSC_5374.jpg
   credit: "Louis Moresi"
 ---
 
-{% include  _toc.html %} <!-- lmth.cot_  grrrrrrr  in syntax highlighting land -->
+{% include  _toc.html %} <!-- lmth.cot_  grrrrrrr can be heard all across syntax highlighting land -->
 
 
 ## Overview

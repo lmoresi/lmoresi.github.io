@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-09-07T09:46:23+10:00</updated>
+<updated>2015-09-07T13:02:40+10:00</updated>
 <id>/</id>
 <author>
   <name>Louis Moresi</name>
@@ -27,11 +27,25 @@
     <email>louis.moresi@unimelb.edu.au</email>
   </author>
   <content type="html">
-    &lt;p&gt;&lt;a href=&quot;www.facebook.com/underworldcode&quot;&gt;Underworld&lt;/a&gt; is our parallel, particle-in-cell, finite element geodynamics code. The code base has been around for 10 or so years now and has been largely debugged and is known to work well on hundreds to thousands of processors. We have engineered some pretty robust solver methods and lots of flexibility in dealing with complex rheology. The underlying code structure is modular and object oriented; all important entities within the code (meshes, for example) being objects that allow proper inheritance&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;www.facebook.com/underworldcode&quot;&gt;Underworld&lt;/a&gt; is our parallel, particle-in-cell, finite element geodynamics code.  For the past year or so, the  &lt;a href=&quot;www.facebook.com/underworldcode&quot;&gt;Underworld&lt;/a&gt; team has been  working on a refurbished user interface. We’ve known for a long time that it needed to be done but we finally bit the bullet.&lt;/p&gt;
+
+&lt;p&gt;We settled on turning underworld into a python code for two main reasons: 1) because many of our dependencies already have python bindings and 2) as we move more towards integrating with observations, it is necessary to interface with packages to pre-process data, many of which are python based or wrapped. I just thought of another one: 3) because we could. The tools for wrapping codes into python make this job much less scary than before.&lt;/p&gt;
+
+&lt;h3 id=&quot;background&quot;&gt;Background&lt;/h3&gt;
+
+&lt;p&gt;The C code base has been around for about 10 years now, has been extensively debugged and is known to work well on hundreds to thousands of processors. We have engineered some pretty robust solver methods and lots of flexibility in dealing with complex rheology. I was pretty nervous about disrupting this part of the code no matter how much we needed to improve the user-interface.&lt;/p&gt;
+
+&lt;p&gt;Underworld is based on the StGermain framework  &lt;/p&gt;
+
+&lt;p&gt;underlying code structure is modular and object oriented; all important entities within the code (meshes, for example) being objects that allow proper inheritance&lt;/p&gt;
 
 &lt;p&gt;On the other hand, the code is also well known for it’s none-too-friendly &lt;code&gt;xml&lt;/code&gt; based user interface and developers lament the complexity of the object model implemented in C. We have wondered for some time how to improve the user experience for newcomers and experts alike. We partnered with &lt;a href=&quot;www.geodynamics.org&quot;&gt;CIG&lt;/a&gt; to try to build a user-friendly version of underworld but, in the end, our various experiments with different approaches to running models have not significantly changed in ten years.&lt;/p&gt;
 
-&lt;p&gt;The entire underworld team has been busy working on a new front end for …&lt;/p&gt;
+&lt;p&gt;The positive side of the  &lt;/p&gt;
+
+&lt;h3 id=&quot;some-highlights&quot;&gt;Some highlights&lt;/h3&gt;
+
+&lt;p&gt;We have been through a number of iterations on the interface and&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;/underworld/python/underworld-2/&quot;&gt;Underworld 2 &lt;/a&gt; was originally published by Louis Moresi at &lt;a href=&quot;&quot;&gt;Home&lt;/a&gt; on August 11, 2015.&lt;/p&gt;
   </content>

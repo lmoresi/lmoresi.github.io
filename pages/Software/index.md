@@ -5,7 +5,7 @@ excerpt: "A List of Articles"
 modified: 2015-09-04
 excerpt: "Software - Underworld and friends"
 image:
-  feature: DSC_5374.jpg
+  feature: site/DSC_5374.jpg
   credit: "Louis Moresi"
 ---
 

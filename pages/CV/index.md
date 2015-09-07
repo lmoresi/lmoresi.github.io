@@ -4,7 +4,7 @@ title: Louis Moresi CV
 modified: 2015-09-04
 excerpt: "My CV"
 image:
-  feature: DSC_5374.jpg
+  feature: site/DSC_5374.jpg
   credit: "Louis Moresi"
 toc: true  
 ---

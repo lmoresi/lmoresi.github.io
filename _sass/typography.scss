@@ -100,8 +100,8 @@ figcaption {
 	padding: .5em 1em;
 	text-indent: 0;
 	@include font-rem(10);
-	background-color: darken($body-color,10);
-	border: 1px solid darken($body-color,20);
+	background-color: darken($body-color,5);
+	border: 1px solid darken($body-color,15);
 	font-style: italic;
 	@include rounded(3px);
 }

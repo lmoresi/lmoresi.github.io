@@ -6,11 +6,25 @@
 <head>
 <meta charset="utf-8">
 <title>Underworld 2  &#8211; Home</title>
-<meta name="description" content="Underworld is our parallel, particle-in-cell, finite element geodynamics code. The code base has been around for 10 or so years now and has been largely debugged and is known to work well on hundreds to thousands of processors. We have engineered some pretty robust solver methods and lots of flexibility in dealing with complex rheology. The underlying code structure is modular and object oriented; all important entities within the code (meshes, for example) being objects that allow proper inheritance
+<meta name="description" content="Underworld is our parallel, particle-in-cell, finite element geodynamics code.  For the past year or so, the  Underworld team has been  working on a refurbished user interface. We’ve known for a long time that it needed to be done but we finally bit the bullet.
+
+We settled on turning underworld into a python code for two main reasons: 1) because many of our dependencies already have python bindings and 2) as we move more towards integrating with observations, it is necessary to interface with packages to pre-process data, many of which are python based or wrapped. I just thought of another one: 3) because we could. The tools for wrapping codes into python make this job much less scary than before.
+
+Background
+
+The C code base has been around for about 10 years now, has been extensively debugged and is known to work well on hundreds to thousands of processors. We have engineered some pretty robust solver methods and lots of flexibility in dealing with complex rheology. I was pretty nervous about disrupting this part of the code no matter how much we needed to improve the user-interface.
+
+Underworld is based on the StGermain framework  
+
+underlying code structure is modular and object oriented; all important entities within the code (meshes, for example) being objects that allow proper inheritance
 
 On the other hand, the code is also well known for it’s none-too-friendly xml based user interface and developers lament the complexity of the object model implemented in C. We have wondered for some time how to improve the user experience for newcomers and experts alike. We partnered with CIG to try to build a user-friendly version of underworld but, in the end, our various experiments with different approaches to running models have not significantly changed in ten years.
 
-The entire underworld team has been busy working on a new front end for …
+The positive side of the  
+
+Some highlights
+
+We have been through a number of iterations on the interface and
 
 ">
 <meta name="keywords" content="">
@@ -19,34 +33,62 @@ The entire underworld team has been busy working on a new front end for …
 
 <!-- Twitter Cards -->
 <meta name="twitter:title" content="Underworld 2 ">
-<meta name="twitter:description" content="Underworld is our parallel, particle-in-cell, finite element geodynamics code. The code base has been around for 10 or so years now and has been largely debugged and is known to work well on hundreds to thousands of processors. We have engineered some pretty robust solver methods and lots of flexibility in dealing with complex rheology. The underlying code structure is modular and object oriented; all important entities within the code (meshes, for example) being objects that allow proper inheritance
+<meta name="twitter:description" content="Underworld is our parallel, particle-in-cell, finite element geodynamics code.  For the past year or so, the  Underworld team has been  working on a refurbished user interface. We’ve known for a long time that it needed to be done but we finally bit the bullet.
+
+We settled on turning underworld into a python code for two main reasons: 1) because many of our dependencies already have python bindings and 2) as we move more towards integrating with observations, it is necessary to interface with packages to pre-process data, many of which are python based or wrapped. I just thought of another one: 3) because we could. The tools for wrapping codes into python make this job much less scary than before.
+
+Background
+
+The C code base has been around for about 10 years now, has been extensively debugged and is known to work well on hundreds to thousands of processors. We have engineered some pretty robust solver methods and lots of flexibility in dealing with complex rheology. I was pretty nervous about disrupting this part of the code no matter how much we needed to improve the user-interface.
+
+Underworld is based on the StGermain framework  
+
+underlying code structure is modular and object oriented; all important entities within the code (meshes, for example) being objects that allow proper inheritance
 
 On the other hand, the code is also well known for it’s none-too-friendly xml based user interface and developers lament the complexity of the object model implemented in C. We have wondered for some time how to improve the user experience for newcomers and experts alike. We partnered with CIG to try to build a user-friendly version of underworld but, in the end, our various experiments with different approaches to running models have not significantly changed in ten years.
 
-The entire underworld team has been busy working on a new front end for …
+The positive side of the  
+
+Some highlights
+
+We have been through a number of iterations on the interface and
 
 ">
 <meta name="twitter:site" content="@louismoresi">
 <meta name="twitter:creator" content="@louismoresi">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="/images/2015-05-03 10.01.27 HDR.png">
+<meta name="twitter:image" content="/images/posts/2015-05-03 10.01.27 HDR.png">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Underworld 2 ">
-<meta property="og:description" content="Underworld is our parallel, particle-in-cell, finite element geodynamics code. The code base has been around for 10 or so years now and has been largely debugged and is known to work well on hundreds to thousands of processors. We have engineered some pretty robust solver methods and lots of flexibility in dealing with complex rheology. The underlying code structure is modular and object oriented; all important entities within the code (meshes, for example) being objects that allow proper inheritance
+<meta property="og:description" content="Underworld is our parallel, particle-in-cell, finite element geodynamics code.  For the past year or so, the  Underworld team has been  working on a refurbished user interface. We’ve known for a long time that it needed to be done but we finally bit the bullet.
+
+We settled on turning underworld into a python code for two main reasons: 1) because many of our dependencies already have python bindings and 2) as we move more towards integrating with observations, it is necessary to interface with packages to pre-process data, many of which are python based or wrapped. I just thought of another one: 3) because we could. The tools for wrapping codes into python make this job much less scary than before.
+
+Background
+
+The C code base has been around for about 10 years now, has been extensively debugged and is known to work well on hundreds to thousands of processors. We have engineered some pretty robust solver methods and lots of flexibility in dealing with complex rheology. I was pretty nervous about disrupting this part of the code no matter how much we needed to improve the user-interface.
+
+Underworld is based on the StGermain framework  
+
+underlying code structure is modular and object oriented; all important entities within the code (meshes, for example) being objects that allow proper inheritance
 
 On the other hand, the code is also well known for it’s none-too-friendly xml based user interface and developers lament the complexity of the object model implemented in C. We have wondered for some time how to improve the user experience for newcomers and experts alike. We partnered with CIG to try to build a user-friendly version of underworld but, in the end, our various experiments with different approaches to running models have not significantly changed in ten years.
 
-The entire underworld team has been busy working on a new front end for …
+The positive side of the  
+
+Some highlights
+
+We have been through a number of iterations on the interface and
 
 ">
 <meta property="og:url" content="/underworld/python/underworld-2/">
 <meta property="og:site_name" content="Home">
 
-<meta property="og:image" content="/images/2015-05-03 10.01.27 HDR.png">
+<meta property="og:image" content="/images/posts/2015-05-03 10.01.27 HDR.png">
 
 
 
@@ -139,7 +181,7 @@ The entire underworld team has been busy working on a new front end for …
   <div class="image-wrap">
   <img src=
     
-      "/images/2015-05-03 10.01.27 HDR.png"
+      "/images/posts/2015-05-03 10.01.27 HDR.png"
     
   alt="Underworld 2  feature image"
   >
@@ -158,7 +200,7 @@ The entire underworld team has been busy working on a new front end for …
 <div itemscope itemtype="http://schema.org/Person">
 
 
-	<img src="/images/LM-SFMugShot.jpg" class="bio-photo" alt="Louis Moresi bio photo">
+	<img src="/images/site/LM-SFMugShot.jpg" class="bio-photo" alt="Louis Moresi bio photo">
 
 
   <h3 itemprop="name">Louis Moresi</h3>
@@ -197,11 +239,25 @@ The entire underworld team has been busy working on a new front end for …
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <p><a href="www.facebook.com/underworldcode">Underworld</a> is our parallel, particle-in-cell, finite element geodynamics code. The code base has been around for 10 or so years now and has been largely debugged and is known to work well on hundreds to thousands of processors. We have engineered some pretty robust solver methods and lots of flexibility in dealing with complex rheology. The underlying code structure is modular and object oriented; all important entities within the code (meshes, for example) being objects that allow proper inheritance</p>
+      <p><a href="www.facebook.com/underworldcode">Underworld</a> is our parallel, particle-in-cell, finite element geodynamics code.  For the past year or so, the  <a href="www.facebook.com/underworldcode">Underworld</a> team has been  working on a refurbished user interface. We’ve known for a long time that it needed to be done but we finally bit the bullet.</p>
+
+<p>We settled on turning underworld into a python code for two main reasons: 1) because many of our dependencies already have python bindings and 2) as we move more towards integrating with observations, it is necessary to interface with packages to pre-process data, many of which are python based or wrapped. I just thought of another one: 3) because we could. The tools for wrapping codes into python make this job much less scary than before.</p>
+
+<h3 id="background">Background</h3>
+
+<p>The C code base has been around for about 10 years now, has been extensively debugged and is known to work well on hundreds to thousands of processors. We have engineered some pretty robust solver methods and lots of flexibility in dealing with complex rheology. I was pretty nervous about disrupting this part of the code no matter how much we needed to improve the user-interface.</p>
+
+<p>Underworld is based on the StGermain framework  </p>
+
+<p>underlying code structure is modular and object oriented; all important entities within the code (meshes, for example) being objects that allow proper inheritance</p>
 
 <p>On the other hand, the code is also well known for it’s none-too-friendly <code>xml</code> based user interface and developers lament the complexity of the object model implemented in C. We have wondered for some time how to improve the user experience for newcomers and experts alike. We partnered with <a href="www.geodynamics.org">CIG</a> to try to build a user-friendly version of underworld but, in the end, our various experiments with different approaches to running models have not significantly changed in ten years.</p>
 
-<p>The entire underworld team has been busy working on a new front end for …</p>
+<p>The positive side of the  </p>
+
+<h3 id="some-highlights">Some highlights</h3>
+
+<p>We have been through a number of iterations on the interface and</p>
 
       <hr />
       <footer role="contentinfo">

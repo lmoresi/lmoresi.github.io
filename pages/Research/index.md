@@ -4,7 +4,7 @@ title: Research
 modified: 2015-09-04
 excerpt: "A short research statement"
 image:
-  feature: DSC_5374.jpg
+  feature: site/DSC_5374.jpg
   credit: "Louis Moresi"
 toc: true
 ---

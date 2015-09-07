@@ -3,7 +3,7 @@ layout: page
 title: All Posts (by topic)
 excerpt: "A List of Articles"
 image:
-  feature: DSC_5374.jpg
+  feature: site/DSC_5374.jpg
   credit: "Louis Moresi"
 ---
 
