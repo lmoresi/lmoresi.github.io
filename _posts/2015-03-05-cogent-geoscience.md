@@ -2,9 +2,22 @@
 layout: post
 title: 'Cogent Geoscience'
 date: 2015-03-05 23:42
+modified: 2015-09-09
 comments: true
 categories: ['Cogent', 'Commentary']
+tags: ['video']
 ---
+
+Added the video interview from EGU 2015 [Sept, 2015]
+{: .notice}
+
+<figure>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/4xn7Tj6H8Vk?list=PLA3yUAJmq40WwZRb5_HMTDJytQkH97yr1" frameborder="0" allowfullscreen></iframe>
+   <figcaption>
+   Interviewed at a secret location somewhere in the Vienna International Centre, 2015
+   </figcaption>
+</figure>
+
 For the past six months or so, I have been working on the launch of a new Open Access journal [*Cogent Geoscience*](http://cogentoa.tandfonline.com/journal/oage20). My first thought when I was asked if I would be interested in leading this project was *"another journal ... really ?"* but I did spend some time to discuss the whole idea with the staff at Taylor & Francis and my friends and colleagues, and I thought that there might indeed be an opportunity to do something new.
 
 The publishing landscape has shifted significantly over the past decade or so. The availability of publication-quality preprints (e.g. [www.arxiv.org](http://www.arxiv.org) and datasets on the web has forced the peer-review publication process to become significantly more responsive. Academic social-media sites like [academia.edu](http://www.academia.edu), [researchgate](http://www.researchgate.net) and [figshare](http://www.figshare.com) have created a grey-market in scientific results which have not been formally peer reviewed but which are available for discussion and comment. Traditional journals are rapidly evolving to compete in this environment and it is not entirely clear what the outcome will be !

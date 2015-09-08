@@ -3,6 +3,9 @@
 - title: Posts
   url: /pages/ListOfPosts/
 
+- title: Software
+  url: /pages/Software/
+
 - title: CV
   url: /pages/CV/
 
@@ -12,5 +15,5 @@
 - title: Research
   url: /pages/Research/
 
-- title: Software
-  url: /pages/Software/
+- title: Teaching
+  url: /pages/Teaching/
