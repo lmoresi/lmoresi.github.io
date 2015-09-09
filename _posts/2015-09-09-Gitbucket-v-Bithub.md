@@ -25,7 +25,7 @@ Two things made a difference: 1) website hosting (like this one) and the ability
 
 Maybe three things. CogentOA also adopted github as a platform for reviewable code. So I started using github more and I also found some of my academic collaborators writing papers with `latex` + `git`. Peer pressure, perhaps, or great minds thinking alike. It crossed my mind that github is going to house all the world's code and a lot of the research algorithms before too long and apparently, there too I am not original
 
-"... scholars still mourn its destruction ... The odds of Github meeting a fate similar to that of the Library of Alexandria are slim."
+"... The odds of Github meeting a fate similar to that of the Library of Alexandria are slim."
 {: .fancyquote}
 
-[The Problem With Putting All the World’s Code in GitHub](http://www.wired.com/2015/06/problem-putting-worlds-code-github) — though the author of that article doesn't seem to get the git model of distributing out the repository. 
+[The Problem With Putting All the World’s Code in GitHub](http://www.wired.com/2015/06/problem-putting-worlds-code-github) — though the author of that article doesn't seem to get the git model of distributing out the repository.
