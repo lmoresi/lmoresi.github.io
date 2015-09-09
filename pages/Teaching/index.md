@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Teaching
-excerpt: "Information on classes and links to teaching materials
 date: 2015-09-09
 modified: 2015-09-09
 image:
@@ -10,6 +9,10 @@ image:
 ---
 
 {% include  _toc.html %} <!-- lmth.cot_  grrrrrrr  in syntax highlighting land -->
+
+
+
+
 
 ## Teaching related Posts
 

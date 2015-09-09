@@ -106,6 +106,22 @@ figcaption {
 	@include rounded(3px);
 }
 
+
+.fancyquote {
+	margin-left: 30pt;
+	margin-top: 0;
+	margin-bottom: 1.5em;
+	padding: .5em 1em;
+	@include font-rem(10);
+	// background-color: darken($body-color, 1);
+	// border: 1px dashed darken($body-color, 5);
+	font-style: italic;
+	font-size: 14pt;
+	@include rounded(3px);
+}
+
+
+
 /*
    Blockquotes
    ========================================================================== */
@@ -160,13 +176,14 @@ tt, code, kbd, samp, pre {
 p,
 li {
 	code {
-		@include font-rem(10);
-		line-height: 1.5;
+		@include font-rem(11);
+		// line-height: 1.5;
 		white-space: nowrap;
-		margin: 0 2px;
-		padding: 0 5px;
-		border: 1px solid lighten($black, 90);
-		background-color: #efefef;
+		margin: 0 1px;
+		padding: 0 1px;
+		border: 0px solid lighten($black, 90);
+		background-color: #ffffff;  // efefef
+		font-weight: normal;
 		@include rounded(3px);
 	}
 }
