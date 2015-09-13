@@ -10,7 +10,7 @@ image:
 ---
 
 
-[Underworld](www.facebook.com/underworldcode) is our parallel, particle-in-cell, finite element geodynamics code.  For the past year or so, the  [Underworld](www.facebook.com/underworldcode) team has been  working on a refurbished user interface. We've known for a long time that it needed to be done but we finally bit the bullet.
+[Underworld](www.facebook.com/underworldcode) is our parallel, particle-in-cell, finite element geodynamics code [1].  For the past year or so, the  [Underworld](www.facebook.com/underworldcode) team has been  working on a refurbished user interface. We've known for a long time that it needed to be done but we finally bit the bullet.
 
 We settled on turning underworld into a python code for two main reasons: 1) because many of our dependencies already have python bindings and 2) as we move more towards integrating with observations, it is necessary to interface with packages to pre-process data, many of which are python based or wrapped. I just thought of another one: 3) because we could. The tools for wrapping codes into python make this job much less scary than before.
 
@@ -18,7 +18,7 @@ We settled on turning underworld into a python code for two main reasons: 1) bec
 
 The Underworld / StGermain C code base has been around for about 10 years now, has been extensively debugged and is known to work well on hundreds to thousands of processors. We have engineered some pretty robust solver methods and lots of flexibility in dealing with complex rheology. I was pretty nervous about disrupting this part of the code no matter how much we needed to improve the user-interface.
 
-Underworld is based on the StGermain framework [1] which is modular and object oriented; all important entities within the code (meshes, for example) being objects that allow proper inheritance and multiple, independent copies. Unfortunately, the objects have always needed to be described in largely-static xml files which have caused many levels of anxiety and trauma for the users. Developers have also had trouble with the complexity of the object model implemented in C and relatively simple code hacks by smart users (i.e. geophysicists !) were virtually impossible.
+Underworld is based on the StGermain framework [2] which is modular and object oriented; all important entities within the code (meshes, for example) being objects that allow proper inheritance and multiple, independent copies. Unfortunately, the objects have always needed to be described in largely-static xml files which have caused many levels of anxiety and trauma for the users. Developers have also had trouble with the complexity of the object model implemented in C and relatively simple code hacks by smart users (i.e. geophysicists !) were virtually impossible.
 
 We have been through a number of different iterations on how to improve the user experience for newcomers and experts alike. We partnered with CIG to try to build a user-friendly version of underworld but, in the end, our various experiments with different approaches to running models have not significantly changed how people use the code.
 
@@ -112,14 +112,31 @@ Timestepping is an explicit loop on the underworld machinery
 
 I could go on, but this is not a manual, just a guidebook to the flavour of the new code.
 
-### Teaching tools
+### Teaching tools (underworld for the masses)
 
-`ipython` / `jupyter` notebooks
+A side effect of wrapping Underworld is that we can use it within the 'literate' programming enviroment provided by the ipyton / jupyter notebook system. In the last year, this project has grown dramatically in confidence and is now a rock solid programming environment that also provides the ability to intermingle markdown (github style, naturally) with rendered mathematics and live code (in python or julia primarily).
+
+The notebooks live within the familiar envirnment of a web browser whether running locally or on a remote machine or on a virtual machine running wherever the user decides. This is a liberating environment for teaching a class or providing self-directed learning examples with the code.
+
+We have been focussing strongly on underworld in the notebook to try to increase the number of people who are able to run simple examples. We have to remember that the i in ipython stands for 'interactive' and the notebooks were a development of the interactive python extensions. This is not such a great pathway for setting up large scale models to run in a batch environment but ... 1) crawl first, then walk, 2) things are changing fast and it may be the batch environment that disappears ... so we'll see.
+
+EXAMPLES
+
 
 ### Parallelism and HPC
 
+The one advantage of the xml / static instantiation approach from the older version of Underworld is that the parallelism can almost entirely be hidden from the users because they can only configure existing (parallel-aware) plugins at run time. (Of course, to add new functionality requires cracking open the parallel, C code and rewiring things).
 
+However, once the interface to the code becomes a scripting language, the user has to manage the data directly - for example to set up initial conditions, to analyse results while the code is live, or to couple with other software packages. If the user is not aware that they are operating in an MPI parallel environment then he/she will not realise that any individual script only see part of the data.
+
+Underworld provides an enormous and reliable collection of data objects and operations which are safe in a multi-processor environment and handle all the parallel operations correctly / efficiently.
+
+Our goal is, of course, to minimise the opportunities for parallel bugs to manifest in the python layer. To this end we provide a high-level and powerful function interface which we encourage users to use in place of directly handling the underlying data. The function interface is safe in parallel with the trade off that it sometimes can be more convoluted to write trivial operations. (Tough luck !)
+
+This particular aspect of Underworld2 is not fully cooked yet. It's something we can probably only develop when we see what trips people up. We'll be encouraging users to give us feedback on the problems they encounter over the next few months.
 
 ### References
 
-[1] Quenette, S., Moresi, L.N., Sunter, P.D., Appelbe, W.F., 2007. Explaining StGermain: An aspect oriented environment for building extensible computational mechanics modeling software, in:. Presented at the HIPS 2007 Workshop, Parallel and Distributed Processing Symposium, 2007. Proceedings. 19th IEEE International.
+   0.  Moresi, L. N., S. Quenette, V. Lemiale, C. Mériaux, B. Appelbe, and H. B. Muhlhaus (2007), Computational approaches to studying non-linear dynamics of the crust and mantle, Physics of the Earth and …, 163(1-4), 69–82, doi:10.1016/j.pepi.2007.06.009.
+
+   0.  Quenette, S., Moresi, L.N., Sunter, P.D., Appelbe, W.F., 2007. Explaining StGermain: An aspect oriented environment for building extensible computational mechanics modeling software, in:. Presented at the HIPS 2007 Workshop, Parallel and Distributed Processing Symposium, 2007. Proceedings. 19th IEEE International.
