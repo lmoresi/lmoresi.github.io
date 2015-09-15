@@ -119,6 +119,7 @@ The notebooks live within the familiar envirnment of a web browser whether runni
 
 We have been focussing strongly on underworld in the notebook to try to increase the number of people who are able to run simple examples. We have to remember that the i in ipython stands for 'interactive' and the notebooks were a development of the interactive python extensions. This is not such a great pathway for setting up large scale models to run in a batch environment but ... 1) crawl first, then walk, 2) things are changing fast and it may be the batch environment that disappears ... so we'll see.
 
+Here are some examples of the code running in notebook form:
 
 <figure class="third">
 	<a href="/images/posts/UWnotebookExamples/ScreenShot-RayleighTaylor.png"><img src="/images/posts/UWnotebookExamples/ScreenShot-RayleighTaylor.png"></a>
@@ -130,6 +131,8 @@ We have been focussing strongly on underworld in the notebook to try to increase
 
 	<figcaption> Examples of the notebooks in action. Note the mixture of mathematical explanation and documentation with runnable code and outputs including visualisation and analysis. The code can be interupted at any stage and the progress can be analysed either interactively or automatically. </figcaption>
 </figure>
+
+The third one of these reproduces a big chunk of my DPhil thesis work in a page or two. 
 
 ### Parallelism and HPC
 
