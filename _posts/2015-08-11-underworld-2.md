@@ -5,10 +5,9 @@ date: 2015-08-11 22:33
 comments: true
 categories: ['Underworld','Python']
 image:
-  feature: "posts/2015-05-03 10.01.27 HDR.png"
+  feature: "posts/AbbotsfordConventRenovation.png"
   credit: Louis Moresi
 ---
-
 
 [Underworld](www.facebook.com/underworldcode) is our parallel, particle-in-cell, finite element geodynamics code [1].  For the past year or so, the  [Underworld](www.facebook.com/underworldcode) team has been  working on a refurbished user interface. We've known for a long time that it needed to be done but we finally bit the bullet.
 
@@ -120,8 +119,17 @@ The notebooks live within the familiar envirnment of a web browser whether runni
 
 We have been focussing strongly on underworld in the notebook to try to increase the number of people who are able to run simple examples. We have to remember that the i in ipython stands for 'interactive' and the notebooks were a development of the interactive python extensions. This is not such a great pathway for setting up large scale models to run in a batch environment but ... 1) crawl first, then walk, 2) things are changing fast and it may be the batch environment that disappears ... so we'll see.
 
-EXAMPLES
 
+<figure class="third">
+	<a href="/images/posts/UWnotebookExamples/ScreenShot-RayleighTaylor.png"><img src="/images/posts/UWnotebookExamples/ScreenShot-RayleighTaylor.png"></a>
+
+    <a href="/images/posts/UWnotebookExamples/ScreenShot-Convection.png"><img src="/images/posts/UWnotebookExamples/ScreenShot-Convection.png"></a>
+
+    <a href="/images/posts/UWnotebookExamples/ScreenShot-AnalyticSolns.png"><img src="/images/posts/UWnotebookExamples/ScreenShot-AnalyticSolns.png"></a>
+
+
+	<figcaption> Examples of the notebooks in action. Note the mixture of mathematical explanation and documentation with runnable code and outputs including visualisation and analysis. The code can be interupted at any stage and the progress can be analysed either interactively or automatically. </figcaption>
+</figure>
 
 ### Parallelism and HPC
 
