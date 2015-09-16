@@ -36,7 +36,7 @@ image:
 {% endif %}
 <article>
  {% if post.link %}
-      <h4 class="link-post"><i>Link: </i><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" target="_blank">{{ post.title }}</a>
+      <h4 class="link-post"><i>Link: </i><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
       <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h4>
 {% else %}
       <h4><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
