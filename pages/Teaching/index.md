@@ -12,7 +12,7 @@ image:
 
 ### Python
 
-Notebooks from the VIEPS class 'Introduction to Python' (VIEPS INP) Distributed via [github.com/lmoresi](http://lmoresi.github.com/teaching-python)
+Notebooks from the VIEPS class 'Introduction to Python' (VIEPS INP) Distributed via [github.com/lmoresi](https://github.com/lmoresi/teaching-python)
 
 ##### Map making with cartopy
 
