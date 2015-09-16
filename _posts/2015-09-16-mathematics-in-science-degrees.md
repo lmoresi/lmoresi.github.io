@@ -5,7 +5,7 @@ link: http://www.abc.net.au/radionational/programs/scienceshow/call-for-more-mat
 date: 2015-09-16 # YYYY-MM-DD hh:mm
 published: true # Won't build unless true
 comments: true
-categories: ['draft','none']
+categories: ['link']
 #image: # default is used if blank. Otherwise use images stored in the _images/posts folder
 #  feature: "posts/2015-05-03 10.01.27 HDR.png"
 #  credit: Louis Moresi

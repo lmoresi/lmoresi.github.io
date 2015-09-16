@@ -57,7 +57,7 @@
     <div class="article-wrap">
         {% for post in site.posts limit:12 %}
           {% if post.link %}
-            <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
+            <p class="link-post"><b><i>Link:</i> <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" target="_blank">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></b></p>
           {% else %}
             <p> <b> <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> </b> &mdash; {{ post.excerpt | strip_html | truncate: 200 }}</p>
           {% endif %}
