@@ -10,9 +10,14 @@ image:
 
 {% include  _toc.html %} <!-- lmth.cot_  grrrrrrr  in syntax highlighting land -->
 
+### Python
 
+Notebooks from the VIEPS class 'Introduction to Python' (VIEPS INP) Distributed via [github.com/lmoresi](http://lmoresi.github.com/teaching-python)
 
+##### Map making with cartopy
 
+In the `Mapping` subdirectory there is a module from VIEPS INP in which I taught students how to
+make maps using the `cartopy` package in the jupyter notebook system.
 
 ## Teaching related Posts
 
