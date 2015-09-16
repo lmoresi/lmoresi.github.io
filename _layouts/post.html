@@ -47,7 +47,9 @@
   <article class="post">
     <div class="headline-wrap">
       {% if page.link %}
-        <h1><a href="{{ page.link }}">{{ page.title }}</a></h1>
+        <h1><a href="{{ page.link }}" title="{{ page.link }}"target="_blank">{{ page.title }}</a>
+            <a href="{{ page.link }}" target="_blank" title="{{ page.link }}"><i class="fa fa-link"></i></a>
+        </h1>
       {% else %}
         <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
       {% endif %}
