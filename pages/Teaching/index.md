@@ -16,7 +16,18 @@ Notebooks from the VIEPS class 'Introduction to Python' (VIEPS INP) Distributed 
 
 ##### Map making with cartopy
 
-In the `Mapping` subdirectory there is a module from VIEPS INP in which I taught students how to
+<figure>
+    <a src="/images/pages/GlobalAgeAndStrainRate.jpg">
+        <img class="right" src="/images/pages/GlobalAgeAndStrainRate.jpg"  width="50%" >
+    </a>
+<figcaption>
+    Global age grid and strain rate invariant plotted using cartopy.
+</figcaption>
+</figure>
+
+
+In the [Mapping](https://github.com/lmoresi/teaching-python/tree/master/Mapping)
+subdirectory there is a module from VIEPS INP in which I taught students how to
 make maps using the `cartopy` package in the jupyter notebook system.
 
 ## Teaching related Posts

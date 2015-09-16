@@ -16,8 +16,9 @@ Much of the complexity in the surface expression of mantle flow can be attribute
 
 ## Computational Plate Tectonic Modeling
 
+<figure>
 <img class="right" src="http://user-image.logdown.io/user/7331/blog/7268/static_page/7524/8gnGWcRNKd6ncgnWVqvw_ImagesForResearchStatement.png" alt="Plate models and Shear Bands" >
-
+</figure>
 
 
 My principal tool for these investigations is numerical modelling. In our discipline we face the combined challenges of efficient computation at a large scale, multiple scales of interacting physics, enormous variations in material properties in space and time, and history dependence of rheology. These challenges demand the development of suitable computational methods and very fast, robust numerical solution techniques. My contribution has been the development of particle based finite element methods and multigrid solvers which are robust in the face of very large viscosity contrasts.
