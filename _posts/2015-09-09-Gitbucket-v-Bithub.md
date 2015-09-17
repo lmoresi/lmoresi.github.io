@@ -5,9 +5,9 @@ date: 2015-09-09 12:00
 comments: true
 published: true
 categories: ['underworld']
-#image: # default is used if blank. Otherwise use images stored in the _images/posts folder
-#  feature: "posts/2015-05-03 10.01.27 HDR.png"
-#  credit: Louis Moresi
+image: # default is used if blank. Otherwise use images stored in the _images/posts folder
+  feature: "posts/Gitbucket.jpg"
+  credit: Louis Moresi
 ---
 
 The days of running a webserver quietly on some machine in the corner are long gone but what happens when you need services like repositories for code management, a user forum and other shared space for a distributed team project ? Increasingly people turn to online development sites such as [Github](http://www.github.com) or [Bitbucket](http://www.bitbucket.org). We recently decided to move to an external, online provider for our [Underworld2](/posts/underworld-2) code.
