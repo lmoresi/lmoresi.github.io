@@ -12,5 +12,13 @@ image:
 
 ### Mathematical Introduction
 
+Background notes from the 2015 VIEPS Geodynamics class. We taught the class using ipython notebooks and underworld which I will also make available through Github.
+
+   * Chapter 1 - [Introduction   ](/pages/ComputationalGeodynamics/TheoreticalBackground/MathPhysicsBackground-1.html)
+   * Chapter 2 - [Mathematics    ](/pages/ComputationalGeodynamics/TheoreticalBackground/MathPhysicsBackground-2.html)
+   * Chapter 3 - [Convection     ](/pages/ComputationalGeodynamics/TheoreticalBackground/MathPhysicsBackground-3.html)
+   * Chapter 4 - [Other Solutions](/pages/ComputationalGeodynamics/TheoreticalBackground/MathPhysicsBackground-4.html)
 
 ### Computational Methods
+
+Coming soon !

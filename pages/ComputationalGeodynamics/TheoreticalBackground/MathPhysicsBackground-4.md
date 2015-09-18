@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Computational Geodynamics Notes
+title: "Computational Geodynamics: Miscellaneous"
 date: 2015-09-17
 modified: 2015-09-17
-# image:
-#  feature: site/DSC_5374.jpg
-#  credit: "Louis Moresi"
+image:
+  feature: pages/MundusSubterraneusBanner.jpg
+  credit: "Athanasius Kircher, Mundus subterraneus (1664/65)"
 ---
 
 <!-- TOC / Menu -->
@@ -33,13 +33,13 @@ modified: 2015-09-17
 \newcommand{\Emerald}[1]{\textcolor[rgb]{0.0,0.7,0.3}{ #1}}
 \\]
 
-
+---
 
 ### Rayleigh-Taylor Instability & Diapirism
 
 ![Salt diapirs result when a buried layer of salt(a,b) becomes convectively unstable and rises through the overlying sediment layers (c,d). The idealized geometry for the Rayleigh-Taylor instability problem is outlined in the lower diagram][rayleigh-taylor]
 
-[rayleigh-taylor]: ./../Diagrams/diapirs.pdf
+[rayleigh-taylor]: ../Diagrams/diapirs.pdf
 
 Diapirism is the buoyant upwelling of rock which is lighter than its surroundings. This can include mantle plumes and other purely thermal phenomena but it often applied to compositionally distinct rock masses such as melts infiltrating the crust (in the Archean) or salt rising through denser sediments.
 
@@ -93,7 +93,6 @@ Because we have degenerate eigenvalues (i.e. of the four possible solutions to t
 \\end{equation}
 
 to give the general form of the solution in this situation to be
-
 
 \\begin{equation}
 	\psi = \sin kx \left ( A e ^ {- ky} + B y e ^ {- ky} + C e ^ {ky} + D y e ^ {ky} \right )

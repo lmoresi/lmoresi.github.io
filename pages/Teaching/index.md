@@ -10,6 +10,12 @@ image:
 
 {% include  _toc.html %} <!-- lmth.cot_  grrrrrrr  in syntax highlighting land -->
 
+### Lecture notes
+
+For the 2015 VIEPS course on geodynamics, I converted my notes to [Markdown and Mathjax](posts/free-expression/) to make a web version. Although it is still a bit buggy (particularly cross references across sections of the notes), it certainly improves upon the old web-text / web-mathematics experience. There are some underworld ipython notebooks which could be linked with these notes. The notes can be found [here](/pages/ComputationalGeodynamics)
+
+
+
 ### Python
 
 Notebooks from the VIEPS class 'Introduction to Python' (VIEPS INP) Distributed via [github.com/lmoresi](https://github.com/lmoresi/teaching-python)
