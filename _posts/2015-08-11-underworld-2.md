@@ -21,11 +21,11 @@ Underworld is based on the StGermain framework [2] which is modular and object o
 
 We have been through a number of different iterations on how to improve the user experience for newcomers and experts alike. We partnered with CIG to try to build a user-friendly version of underworld but, in the end, our various experiments with different approaches to running models have not significantly changed how people use the code.
 
-I have to admit that I was becoming concerned that we would not be in a position to support our users and maintain the code in future without taking steps to build a workable open-source community of user / developers (as happened with Citcom). John Mansour convinced me that a python interface would be a workable environment for geophysicist users to develop new functionality by building from low-level, parallel efficient underworld bricks. I didn’t really believe him but, the power of [`swig`](www.swig.org) to build a prototype interface in a few days, proved he was right (and I was wrong).
+I have to admit that I was becoming concerned that we would not be in a position to support our users and maintain the code in future without taking steps to build a workable open-source community of user / developers (as happened with Citcom). John Mansour convinced me that a python interface would be a workable environment for geophysicist users to develop new functionality by building from low-level, parallel-efficient, underworld bricks. I didn’t really believe him but the power of [`swig`](www.swig.org) to build a prototype interface in a few days proved he was right (and I was wrong).
 
 The first iteration was simply to wrap all the functions of the underworld layers with `swig` and use python to glue them together in various ways. Much better than xml, but we were still populating a dictionary and passing around C objects which we could not open directly in python.
 
-We began to bundle up the component declarations within python functions and built modules to create common code entities. Gradually we added ways to interact with the live objects while the code was running which allowed us to do simple things like monitoring values and changing certain parameters at runtime. We developed a sketch of an interface and began to use it for teaching and revisiting benchmark problems to see how well the approach worked in practice.
+We began to bundle up the component declarations within python functions and built modules to create common patterns of usage in the code. Gradually we added ways to interact with the live objects while the code was running which allowed us to do simple things like monitoring values and changing certain parameters at runtime. We developed a sketch of an interface and began to use it for teaching and revisiting benchmark problems to see how well the approach worked in practice.
 
 Meanwhile John began gutting the underlying code and implementing a tight, low level integration of underworld objects as python objects and a numpy interface to underworld data structures. The alpha version of the code is in the internal testing phase and we will release it on github in the next few days.
 
@@ -132,7 +132,7 @@ Here are some examples of the code running in notebook form:
 	<figcaption> Examples of the notebooks in action. Note the mixture of mathematical explanation and documentation with runnable code and outputs including visualisation and analysis. The code can be interupted at any stage and the progress can be analysed either interactively or automatically. </figcaption>
 </figure>
 
-The third one of these reproduces a big chunk of my DPhil thesis work in a page or two. 
+The third one of these reproduces a big chunk of my DPhil thesis work in a page or two.
 
 ### Parallelism and HPC
 
