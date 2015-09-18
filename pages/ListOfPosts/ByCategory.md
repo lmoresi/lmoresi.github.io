@@ -15,7 +15,6 @@ image:
 <ul id="markdown-toc">
 {% for category in site.categories %}
     <li> <a href="#{{ category | first | handle }}"> {{ category | first }} </a> </li>
-    {% capture written_year %}{{ year }}{% endcapture %}
 {% endfor %}
 <li> <a href="{{ site.url }}/pages/ListOfPosts/index.html"> View posts by year </a> </li>
 </ul>
