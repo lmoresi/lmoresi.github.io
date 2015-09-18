@@ -37,7 +37,7 @@ modified: 2015-09-17
 
 ![Arbitrary fluid volume, \\( \Omega \\), with surface \\( \Gamma \\) and elemental surface normal vector, $\mathbf{d\Gamma}$, within which the fluid properties are to be conserved][fluid-volume-element]
 
-[fluid-volume-element]: ../Diagrams/vol_elt.pdf
+[fluid-volume-element]: ../../Diagrams/vol_elt.pdf
 
 Let us start by deriving the equations of motion, energy balance and so on through a conservation principle. This will give a useful insight into the different forms of the equations which we will later encounter.
 
@@ -433,7 +433,7 @@ Now we consider some `typical values' for the independent dimensions of the syst
 
 ![Consider the fluid motions in a layer of arbitrary depth, $d$. The fluid is assumed to have constant properties such as viscosity, thermal expansivity, thermal diffusivity. Small fluctuations in density due to temperature driven flow. Additional heat is carried (advected) by the flow from the hot boundary to the cool one whenever the fluid is moving.][rayleigh-benard-layer]
 
-[rayleigh-benard-layer]: ./Diagrams/layer.pdf
+[rayleigh-benard-layer]: ./../Diagrams/layer.pdf
 
 
 Various scalings result, with the new variables indicated using a prime ($'$).
@@ -467,16 +467,22 @@ Collecting everything together gives
 	\end{equation}  \\]
 
 Divide throughout by $\eta \kappa / d^3$ gives
-\\[ \begin{equation} \nonumber
+
+\\begin{equation} \nonumber
 \frac{\rho \kappa}{\eta} \frac{D\mathbf{v}'}{Dt'}  =
 				 \acute{\nabla}^2  \mathbf{v}'  -  \acute{\nabla} p' +
 				 \frac{g \rho_0 \alpha \Delta T d^3}{\kappa \eta} T' \hat{\mathbf{z}}
-\end{equation}  \\]
+\\end{equation}
+
+
 where we can bundle up the coefficients into two dimensionless constants
-\\[ \begin{equation} \nonumber
-\frac{1}{{\rm Pr}} \frac{D\mathbf{v}'}{Dt'}  =
-				\acute{\nabla}^2  \mathbf{v}'  -  \acute{\nabla} p' + {\rm Ra} T' \hat{\mathbf{z}}
-\end{equation}  \\]
+
+\\begin{equation}
+	\frac{1}{\textrm{Pr}} \frac{D \mathbf{v}'  }{Dt' }  =
+	\acute{\nabla}^2  \mathbf{v}'  -  \acute{\nabla} p' + \textrm{ Ra} T' \hat{\mathbf{z}}
+\\end{equation}
+
+
 
 $\rm Pr$ is known as the Prandtl number, and $\rm Ra$ is known as the Rayleigh number. By choosing to scale the equations (and this is still perfectly general as we haven't forced any particular choice of scaling yet), we have condensed the different physical variable quantities into just two numbers. The benefit of this procedure is that it tells us how different quantities trade off against one another. For example, we see that if the density doubles, and the viscosity doubles, then the solution should remain unchanged.
 

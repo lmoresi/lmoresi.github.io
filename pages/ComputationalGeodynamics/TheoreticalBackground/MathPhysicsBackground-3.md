@@ -108,7 +108,7 @@ To be more precise:``When $\sigma$ is real and changes from negative to positive
 
 ![Critical Rayleigh Number determination. A plot of growth rates for harmonic perturbations as a function of wavenumber for different ${\rm Ra}$. The critical value occurs when the maximum of the curve just touches the horizontal axis at zero.][critical-rayleigh-no]
 
-[critical-rayleigh-no]: Diagrams/crit_ra.pdf
+[critical-rayleigh-no]: ../Diagrams/crit_ra.pdf
 
 Substituting for the perturbations into the biharmonic equation and the linearized
 energy conservation equation gives
@@ -177,7 +177,7 @@ Let's consider fully developed convection with high Rayleigh number. From observ
 
 ![Boundary Layer Theory in its simplest form: assumes that the boundary layers are of constant thickness and the interior of the cell rotates as a passive lump][boundary-layer-theory]
 
-[boundary-layer-theory]: Diagrams/blt.pdf
+[boundary-layer-theory]: ../Diagrams/blt.pdf
 
 Boundary layer analysis is a highly sophisticated field, and is used in a broad range of situations where differences in scales between different physical effects produce narrow accommodation zones where the _weaker_ term dominates (e.g viscosity in an otherwise invicid flow around an obstacle).
 
@@ -238,8 +238,8 @@ so the boundary layer does not become more or less stable with increasing Raylei
 <!--  %% FIGURE: Boundary layer plus cooling effects
 	\begin{figure}[h]
 		\begin{center}
-			%\epsfxsize=10cm \epsfbox{:Diagrams:blt2.eps}
-			\includegraphics[width=100mm]{Diagrams/blt2}
+			%\epsfxsize=10cm \epsfbox{:../Diagrams:blt2.eps}
+			\includegraphics[width=100mm]{../Diagrams/blt2}
 			\caption[]{Boundary Layer Theory which accounts for the thickness variations along the
 				boundary layer as it matures.}
 		\end{center}
@@ -248,7 +248,7 @@ so the boundary layer does not become more or less stable with increasing Raylei
 ![Boundary Layer Theory which accounts for the thickness variations along the
 boundary layer as it cools away from the upwelling][boundary-layer-theory2]
 
-[boundary-layer-theory2]: Diagrams/blt2.pdf
+[boundary-layer-theory2]: ../Diagrams/blt2.pdf
 
 
 Another wrinkle can be added to the boundary layer theory by trying to account for the variation  in the boundary layer thickness as it moves along the horizontal boundary. This refinement in the theory can account for the form of this thickness, the potential energy change in rising or sinking plumes, and the aspect ratio of the convection (width to height of convection roll) by maximizing Nusselt number as a function of aspect ratio.
@@ -283,7 +283,7 @@ The boundary conditions on $\theta$ are simple:
 
 ![Cooling half-space calculation for a range of times (here everything is scaled to 1)][cooling-half-space]
 
-[cooling-half-space]: ./Diagrams/CoolingHalfSpaceSolutions1.pdf
+[cooling-half-space]: ./../Diagrams/CoolingHalfSpaceSolutions1.pdf
 
 
 

@@ -27,7 +27,7 @@ category: "CompGeoDynamicsNotes"
 
 
 <figure id="mundus">
-<img src="../Diagrams/MundusSubterraneus.png">
+<img src="../../Diagrams/MundusSubterraneus.png">
 <figcaption>
 Athanasius Kircher, Mundus subterraneus (1664/65): Systema Ideale PYROPHYLACIORUM Subterraneorum, quorum montes <i> Vulcanii, veluti spiracula quaedam existant </i>
 </figcaption>
@@ -48,7 +48,7 @@ Athanasius Kircher, Mundus subterraneus (1664/65): Systema Ideale PYROPHYLACIORU
 Our goal is to develop an quantitative understanding of the dynamic processes within the Earth and sister planets as I have sketched in the Figure to the right. These dynamic processes are largely driven by the internal heat of the planet escaping to the surface through whatever mechanisms are available. Some of the heat is left over from the original formation of the planet, and the rest originates in the decay of radioactive elements. In the Earth's early history and elsewhere in the solar system, tidal heating, chemical segregation, and impacts have all played a role in supplying the interior heat budget. The [figure below](#earth-interior) is a schematic of the Earth's interior and something similar for Venus and Mars would be, on the face of it, much simpler.
 
 <figure>
-	<img src="../Diagrams/EarthProcessesPlume.pdf">
+	<img src="../../Diagrams/EarthProcessesPlume.pdf">
 	<figcaption>
 	A schematic of the interior of the Earth showing some of the global scale processes we seek to understand quantitatively in this course
 	</figcaption>
