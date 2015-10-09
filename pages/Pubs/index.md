@@ -16,7 +16,7 @@ image:
 June 2015 — 118 publications in journals, books and refereed conference papers.
 
   * h-index 32 from 3900 citations (on 110 items indexed by Web of Science).
-  * [Google scholar](http://scholar.google.com.au/citations?user=f8WWAbgAAAAJ "Google scholar") citation tracking (h index 35 on 5600 citations).
+  * [Google scholar](http://scholar.google.com.au/citations?user=f8WWAbgAAAAJ "Google scholar") citation tracking (h index 37 on 5700 citations).
   * Researchgate: [https://www.researchgate.net/profile/Louis_Moresi](https://www.researchgate.net/profile/Louis_Moresi "Researchgate")
   * ResearcherID: [http://www.researcherid.com/rid/H-1390-2011](https://www.researchgate.net/profile/Louis_Moresi "ResearcherID")
   * Orcid: [http://orcid.org/0000-0003-3685-174X](http://orcid.org/0000-0003-3685-174X "orcid")
@@ -24,6 +24,8 @@ June 2015 — 118 publications in journals, books and refereed conference papers
 ## Selected Publications (Chronologically)
 
    0. P. Betts, L. Moresi, M.S. Miller, D. Willis, Geodynamics of oceanic plateau and plume head accretion and their role in Phanerozoic orogenic systems of China. Geoscience Frontiers, doi: 10.1016/j.gsf.2014.07.002 (2015)
+
+   0. L. Moresi, D. Willis, Time Dependent Behaviour of Congested Subduction, Elements, 11(2), APRIL 2015, electronic supplement, DOI: 10.13140/RG.2.1.1099.2169 or [elements URL](http://www.elementsmagazine.org/supplements/e11_2_Moresi_Willis_Movies.html)
 
    0. Aivazpourporgou, S., Thiel, S., Hayman, P.C., Moresi, L.N., Heinson, G., 2015. Decompression melting driving intraplate volcanism in Australia: Evidence from magnetotelluric sounding 1–9. doi:10.1002/(ISSN)1944-8007 (2015)
 
