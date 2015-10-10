@@ -15,7 +15,7 @@ image:
 
 June 2015 — 118 publications in journals, books and refereed conference papers.
 
-  * h-index 32 from 3900 citations (on 110 items indexed by Web of Science).
+  * h-index 32 from 4000 citations (on 111 items indexed by Web of Science).
   * [Google scholar](http://scholar.google.com.au/citations?user=f8WWAbgAAAAJ "Google scholar") citation tracking (h index 37 on 5700 citations).
   * Researchgate: [https://www.researchgate.net/profile/Louis_Moresi](https://www.researchgate.net/profile/Louis_Moresi "Researchgate")
   * ResearcherID: [http://www.researcherid.com/rid/H-1390-2011](https://www.researchgate.net/profile/Louis_Moresi "ResearcherID")
