@@ -1,12 +1,16 @@
 ---
 layout: post
 title: 'Geodynamics videos '
-date: 2014-04-12 22:51
+created: 2014-04-12 22:51
+date: 2015-10-10
 comments: true
 categories: [Geodynamics]
 ---
 
-Some videos by me or with me in them
+Some videos by me or with me in them [updated]
+
+October 2015: Added links to __Elements__ Volume
+September 2015: Added Cogent Video 
 
 ## Earth seismicity
 
@@ -41,13 +45,37 @@ This is the same data but rendered from outside the Earth looking down. It's eas
 
 <figure>
 <div name="you-tube-video">
-	<iframe width="420" height="315" src="//www.youtube.com/embed/cVulRP2tUGM?rel=0"
+	<iframe  src="//www.youtube.com/embed/cVulRP2tUGM?rel=0"
   				frameborder="0" allowfullscreen>
 	</iframe>
 </div>
 </figure>
 
-The "missing video" from our [paper](http://dx.doi.org/10.1038/nature13033) — we made 6 videos, but there is also a seventh which we only showed as a snapshot. Here is the missing movie of model _"80s"_. There is more info [here](http://www.moresi.info/posts/2014/04/02/models-of-subduction-collision-and-re-initiation)
+The "missing video" from our [paper](http://dx.doi.org/10.1038/nature13033) — we made 6 videos, but there is also a seventh which we only showed as a snapshot. Here is the missing movie of model _"80s"_. The other 6 videos are available from the [nature website](http://www.nature.com/nature/journal/v508/n7495/fig_tab/nature13033_SV1.html)
+
+Moresi, L.N., Betts, P.G., Miller, M.S., and Cayley, R.A., 2014, The Dynamics of Continental Accretion: Nature, doi:10.1038/nature13033.
+
+<!-- There is more info [here](http://www.moresi.info/posts/2014/04/02/models-of-subduction-collision-and-re-initiation) -->
+<!-- No there isn't what happened to that post ??? -->
+
+## Time dependent behaviour in congested subduction
+
+
+<figure>
+<div name="you-tube-video">
+    <!-- Original size is 1600x1000 width="800px" height="500px" -->
+	<iframe  width="600" height="375"
+	 	src="http://www.elementsmagazine.org/supplements/slabMovies/PlateauOn80MyrOldLithosphere/Plateau250i.mov"
+  				frameborder="0" allowfullscreen>
+	</iframe>
+</div>
+</figure>
+
+
+
+L. Moresi, D. Willis, Time Dependent Behaviour of Congested Subduction, Elements, 11(2), APRIL 2015, electronic supplement, DOI: 10.13140/RG.2.1.1099.2169
+
+See the [elements web page](http://www.elementsmagazine.org/supplements/e11_2_Moresi_Willis_Movies.html)) for all five movies.
 
 ## Video presentations
 

@@ -2,7 +2,7 @@
 
 title:            Home
 locale:           en_US
-url:              http://www.moresi.info
+# // url:              http://www.moresi.info
 port: 4444
 
 # Jekyll configuration
