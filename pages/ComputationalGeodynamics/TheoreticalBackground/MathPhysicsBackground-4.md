@@ -39,7 +39,7 @@ image:
 
 ![Salt diapirs result when a buried layer of salt(a,b) becomes convectively unstable and rises through the overlying sediment layers (c,d). The idealized geometry for the Rayleigh-Taylor instability problem is outlined in the lower diagram][rayleigh-taylor]
 
-[rayleigh-taylor]: ../Diagrams/diapirs.pdf
+[rayleigh-taylor]: ../Diagrams/diapirs.png
 
 Diapirism is the buoyant upwelling of rock which is lighter than its surroundings. This can include mantle plumes and other purely thermal phenomena but it often applied to compositionally distinct rock masses such as melts infiltrating the crust (in the Archean) or salt rising through denser sediments.
 
@@ -184,7 +184,7 @@ To eliminate $A_1$, we have to consider the physical scales inherent in the prob
 
 ![The restoring force for a stable layering is proportional to the excess density when a fluid element is displaced across the boundary][rayleigh-taylor2]
 
-[rayleigh-taylor2]: ../Diagrams/diapir2.pdf
+[rayleigh-taylor2]: ../Diagrams/diapir2.png
 
 Consider what happens when the fluid above the interface is lighter than the fluid below -- this situation is stable so we expect the layering to be preserved, and if the interface is disturbed the disturbance to decay. This implies that there must be a restoring force acting on  an element of fluid which is somehow displaced across the boundary at $y=0$ [(Figure above)](#rayleigh-taylor2).
 
@@ -238,7 +238,7 @@ The methodology used here is instructive, as it can be used in a number of diffe
 
 ![The relaxation of the Earth's surface after removal of an ice load][postglacial]
 
-[postglacial]: ../Diagrams/postglac.pdf
+[postglacial]: ../Diagrams/postglac.png
 
 
 In the postglacial rebound problem, consider a viscous half space with an imposed topography at $t=0$. The ice load is removed at $t=0$ and the interface relaxes back to its original flat state.
@@ -261,7 +261,7 @@ The solution method used for the Rayleigh Taylor problem can also be used in det
 
 ![Instability in a thin, viscous layer compressed from both ends][viscous-folding]
 
-[viscous-folding]: ../Diagrams/fold.pdf
+[viscous-folding]: ../Diagrams/fold.png
 
 If a thin viscous layer is compressed from one end then it may develop buckling instabilities in which velocities grow perpendicular to the plane of the layer. If the layer is embedded between two semi-infinite layers of viscous fluid with viscosity much smaller than the viscosity of the layer, then Biot theory tells us the wavelength of the initial buckling instability, and the rate at which it grows.
 
@@ -292,7 +292,7 @@ For large deformations we eventually must resort to numerical simulation.
 
 ![A gravity current is the spreading of a dense fluid under its own weight across a horizontal surface (or a buoyant fluid under a surface). Open the fridge door and the cold air falls out as a gravity current.][gravity-current]
 
-[gravity-current]: ./../Diagrams/gravcurr.pdf
+[gravity-current]: ./../Diagrams/gravcurr.png
 
 
 Gravity currents can occur when a viscous fluid flows under its own weight as shown in the [Figure above](#gravity-current).

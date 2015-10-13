@@ -10,7 +10,7 @@ categories: [Geodynamics]
 Some videos by me or with me in them [updated]
 
 October 2015: Added links to __Elements__ Volume
-September 2015: Added Cogent Video 
+September 2015: Added Cogent Video
 
 ## Earth seismicity
 
@@ -75,7 +75,7 @@ Moresi, L.N., Betts, P.G., Miller, M.S., and Cayley, R.A., 2014, The Dynamics of
 
 L. Moresi, D. Willis, Time Dependent Behaviour of Congested Subduction, Elements, 11(2), APRIL 2015, electronic supplement, DOI: 10.13140/RG.2.1.1099.2169
 
-See the [elements web page](http://www.elementsmagazine.org/supplements/e11_2_Moresi_Willis_Movies.html)) for all five movies.
+See the [elements web page](http://www.elementsmagazine.org/supplements/e11_2_Moresi_Willis_Movies.html) for all five movies.
 
 ## Video presentations
 

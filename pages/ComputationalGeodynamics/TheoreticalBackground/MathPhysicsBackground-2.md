@@ -41,7 +41,7 @@ Let us start by deriving the equations of motion, energy balance and so on throu
 A general conservation law does not distinguish the quantity which is being conserved -- it is a mathematical identity. Consider a quantity \\( \phi \\) / unit mass which is carried around by a fluid. We can draw an arbitrary volume, \\( \Omega \\) to contain some amount of this fluid at a given time. We label the surface of the volume \\( \Omega \\) as \\( \Gamma \\), and define an outward surface normal vector \\( \dGamma \\) which is normal to the tangent plane of an infinitesimal element of the surface and has a magnitude equal to the area of this element.
 
 <figure>
-<img src="../Diagrams/vol_elt.pdf">
+<img src="../Diagrams/vol_elt.png">
 <figcaption>
 Arbitrary fluid volume within which the fluid properties are to be conserved
 </figcaption>
@@ -420,7 +420,7 @@ Now we consider some `typical values' for the independent dimensions of the syst
 
 ![Consider the fluid motions in a layer of arbitrary depth, \\(d\\). The fluid is assumed to have constant properties such as viscosity, thermal expansivity, thermal diffusivity. Small fluctuations in density due to temperature driven flow. Additional heat is carried (advected) by the flow from the hot boundary to the cool one whenever the fluid is moving.][rayleigh-benard-layer]
 
-[rayleigh-benard-layer]: ./../Diagrams/layer.pdf
+[rayleigh-benard-layer]: ./../Diagrams/layer.png
 
 
 Various scalings result, with the new variables indicated using a prime (\\('\\)).
