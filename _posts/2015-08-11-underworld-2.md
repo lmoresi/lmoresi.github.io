@@ -9,7 +9,7 @@ image:
   credit: Louis Moresi
 ---
 
-[Underworld](www.facebook.com/underworldcode) is our parallel, particle-in-cell, finite element geodynamics code [1].  For the past year or so, the  [Underworld](www.facebook.com/underworldcode) team has been  working on a refurbished user interface. We've known for a long time that it needed to be done but we finally bit the bullet.
+[Underworld](http://www.underworldcode.org) is our parallel, particle-in-cell, finite element geodynamics code [1].  For the past year or so, the  [Underworld team](http://www.facebook.com/underworldcode) has been  working on a refurbished user interface. We've known for a long time that it needed to be done but we finally bit the bullet.
 
 We settled on turning underworld into a python code for two main reasons: 1) because many of our dependencies already have python bindings and 2) as we move more towards integrating with observations, it is necessary to interface with packages to pre-process data, many of which are python based or wrapped. I just thought of another one: 3) because we could. The tools for wrapping codes into python make this job much less scary than before.
 
