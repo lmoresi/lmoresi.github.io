@@ -43,6 +43,8 @@ Figure 2 - One of the most dramatic departures from plate-like deformation on Ea
 </caption>    
 </figure>
 
+The second aspect of the grand challenge is how we go about finding and using observations which can constrain the many additional degrees of freedom that large-scale, dynamic circulation models require. To appreciate the scale of this challenge requires a recognition of the fundamental difference between the geological record of the ocean floor (the plates) and the geological record of the continental crust. The oceanic crust is actually part of the three-dimensional, deep circulation pattern of the solid Earth. The overturn time of this circulation is of the order of 100 million years and this is comparable to the median age of the oceanic plates. The continental crust is buoyant enough to escape large-scale recycling and is much more widely distributed in age (ranging up to 3+ billion years). The continental record may be longer, but it is an indirect record.
+
 Consider, for example, the Himalayan mountain belt. This is the result of the congestion of a subduction zone by the buoyant and deformable continental crust. The rocks record the history of that collision in the crumpled and overturned units. The deformation also results in the dramatic topography of the region as the crust is shortened and thickened (See Figure 3). The history of the uplifted surface can be inferred by examining the stratigraphy, cooling history, and metamorphism of the rocks. It is also indirectly recorded in the sedimentary record as rivers and glaciers carry material away from the mountain belts and into sedimentary basins.
 
 <figure>
