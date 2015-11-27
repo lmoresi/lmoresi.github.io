@@ -25,13 +25,13 @@ This is a summary of the software tools that I am involved with — a little bit
 
 ## Codes
 
-**Underworld:** Modular geodynamics modeling code based on a particle-in-cellerator finite element formulation  (http://www.underworldproject.org and http://www.facebook.com/underworldcode). High performance, parallel, version of the Ellipsis algorithm developed as a community code with support from Australian infrastructure funding schemes. Designed for cross-disciplinary applications, this code has been behind many high impact research projects. Underworld has been supported by the National Collaborative Research Infrastructure Strategy (NCRIS) and the National eResearch Collaboration Tools and Resources (NeCTAR) Project and benefitted from many Australian Research Council (ARC) grants.
+**Underworld:** Modular geodynamics modeling code based on a particle-in-cellerator finite element formulation  [www.underworldcode.org](http://www.underworldcode.org) and [uw / facebook ](http://www.facebook.com/underworldcode). High performance, parallel, version of the Ellipsis algorithm developed as a community code with support from Australian infrastructure funding schemes. Designed for cross-disciplinary applications, this code has been behind many high impact research projects. Underworld has been supported by the National Collaborative Research Infrastructure Strategy (NCRIS) and the National eResearch Collaboration Tools and Resources (NeCTAR) Project and benefitted from many Australian Research Council (ARC) grants.
 
-**CITCOM:** multigrid, 3D Cartesian Finite Element Code for mantle convection (freely available for researchers on request); Parallel and Spherical version available from http://www.geodynamics.org. Over the past 10 years, the global/spherical version of Citcom has become the mostly widely used community code in computational mantle dynamics.
+**CITCOM:** multigrid, 3D Cartesian Finite Element Code for mantle convection (freely available for researchers on request); Parallel and Spherical version available from [CIG](http://www.geodynamics.org). Over the past 10 years, the global/spherical version of Citcom has become the mostly widely used community code in computational mantle dynamics.
 
 **gLucifer:** Finite element analysis and visualization system with emphasis on particle methods (developed in conjunction with the AuScope and VPAC). Highly efficient transfer of information from simulations running on remote parallel supercomputers, server-based rendering etc.
 
-**Ellipsis** and **Ellipsis3d:** Particle-in-Cell finite element code for geodynamics (prototype, no longer under active development - 2D/3D version distributed through http://www.geodynamics.org )
+**Ellipsis** and **Ellipsis3d:** Particle-in-Cell finite element code for geodynamics (prototype, no longer under active development - 2D/3D version distributed through [CIG](http://www.geodynamics.org) ).
 
 **Badlands:** Badlands is a collection of different codes all of which are intended to work with Underworld. Some of the codes are intended to model detailed stratigraphy in basins at relatively short timescale, others are more focused on broad brush descriptions of the interaction between dynamic topography and surface transport / erosion / deposition. This is a collaboration with the University of Sydney and Caltech.
 
