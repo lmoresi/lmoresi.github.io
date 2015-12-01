@@ -10,7 +10,7 @@ categories: ['underworld','commentary']
 #  credit: Louis Moresi
 ---
 
-The December 2015 issue of [SIAM news](https://sinews.siam.org) has an article which I wrote as a follow up to a plenary talk I gave at the SIAM Geoscience meeting this (northern) summer.
+The December 2015 issue of [SIAM news](https://sinews.siam.org/DetailsPage/tabid/607/ArticleID/685/Computational-Plate-Tectonics-and-the-Geological-Record-in-the-Continents.aspx) has an article which I wrote as a follow up to a plenary talk I gave at the SIAM Geoscience meeting this (northern) summer.
 
 In the article, I make the argument that the current grand challenge of our discipline, a global circulation model for the mantle and plate tectonic system, is the first ingredient that is needed to extend the success of plate tectonics to encompass the geology of the continents. In the light of the  [award this week of the Gordon Bell Prize](http://www.hpcwire.com/off-the-wire/gordon-bell-prize-awarded-to-ibm-and-leading-university-researchers/) to a team working on exactly this kind of global circulation model, we should now set our sights on this next challenge. A key aspect of this is, in my view, linking the large-scale circulation with the typical observables used by geologists to understand the long record of Earth's evolution which resides in the continental record. One obvious example is the connection between internal dynamics, surface topography and the sedimentary record. This is now a well established field, but the challenge of interpreting large datasets, re-assembling the trajectory of the information through time across the globe, and dealing with the lack of uniqueness of these data as constraints is one that will keep us entertained for at least a decade.
 
@@ -53,6 +53,15 @@ Consider, for example, the Himalayan mountain belt. This is the result of the co
 Figure 3 - A low-angle view of a numerical model of continental collision using the Underworld particle-in-cell finite element code. The map (1) shows the how to interpret the model in terms of the India-Eurasia collision. In the movie, the (Indian) indentor heads towards the viewer and crumples the crust into a mountain belt in the foreground. In the background, the crust escapes away from the viewer pulled by the subduction zone in the background. Snapshots from the movie: (2), pre-collision and (3), late in the collision.
 </caption>    
 </figure>
+
+<figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-yCSSvXM5DQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen>
+</iframe>
+<caption>
+	Movie to go with Figure 3.
+</caption>
+</figure>
+
 
 Sedimentary basins are to geologists what rubbish tips are to archeologists: places where the accumulated detritus of an age is safely stashed away, roughly in order from youngest at the top to oldest at the bottom. The difficulty in inverting such a signal to tell us about the history of geological deformation is that the transport of eroded sediment can occur over long distances, is very dependent on the history of the topography, can be very variable in time and space, is sensitive to very small-scale processes and is coupled to the large scale deformation. This is immediately obvious looking at a map of the major rivers which drain the himalayas (Figure 2). The lengthy, tortuous pathways they often take to reach the ocean are very obviously influenced by changes to the topography occurring as the streams and rivers cut their channels. For discussion of the computational and mathematical challenges in coupling global circulation models of the solid Earth with the erosion, transport and deposition of sediment.
 
