@@ -22,5 +22,7 @@ Background notes from the 2015 VIEPS Geodynamics class. We taught the class usin
 ### Computational Methods
 
    * Chapter 1 - [Introduction](/pages/ComputationalGeodynamics/NumericalMethodsPrimer/NumericalMethodsPrimer-1.html)
-
-   * Chapter 2 - [Methods](/pages/ComputationalGeodynamics/NumericalMethodsPrimer/NumericalMethodsPrimer-2.html)
+   * Chapter 2 - [Simple Example](/pages/ComputationalGeodynamics/NumericalMethodsPrimer/NumericalMethodsPrimer-2.html)
+   * Chapter 3 - [Next ](/pages/ComputationalGeodynamics/NumericalMethodsPrimer/NumericalMethodsPrimer-3.html)
+   * Chapter 4 - [Next ](/pages/ComputationalGeodynamics/NumericalMethodsPrimer/NumericalMethodsPrimer-4.html)
+   * Chapter 5 - [Next ](/pages/ComputationalGeodynamics/NumericalMethodsPrimer/NumericalMethodsPrimer-5.html)
