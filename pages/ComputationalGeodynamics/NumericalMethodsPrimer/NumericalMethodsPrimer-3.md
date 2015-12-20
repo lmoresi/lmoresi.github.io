@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Computational Geodynamics: Moving on"
+title: "Computational Geodynamics: Advection"
 date: 2015-09-17
 modified: 2015-09-17
 image:
@@ -19,7 +19,7 @@ image:
 \newcommand{\Emerald }[1]{\textcolor[rgb]{0.0,0.7,0.3}{ #1}}
 \\]
 
-We now move on to look at a different problem which also brings a few surprises when we attempt to find a straightforward numerical treatment.
+We now move on to look at a different problem which also brings a few surprises when we attempt to find a straightforward numerical treatment. Specifically, the equations that govern transport of a quantity by a moving fluid (advection). This seems pretty straightforward as we simply have to account for a concentration being moved around by a velocity vector field. There are multiple tricks involved in doing this accurately.
 
 ## Generalizing from the Simplest Example
 
@@ -59,44 +59,47 @@ Let us follow the usual strategy and consider the simplest imaginable advection 
 \\]
 in which \\(v \\) is a constant velocity. Obviously we need to introduce some notation as a warm-up for solving the problem. We break up the spatial domain into a series of points separated by \\(\delta x \\) as shown above and, as we did in the earlier examples, break up time into a discrete set separated by \\(\delta t \\).
 The values of \\(\phi\\) at various times and places are denoted by
+
 \\[
-\begin{align}
- _ {i-1}\phi _ {n-1} & _ {i}\phi _ {n-1} & _ {i+1}\phi _ {n-1} \\
- _ {i-1}\phi _ {n}   & _ {i}\phi _ {n}   & _ {i+1}\phi _ {n}   \\
- _ {i-1}\phi _ {n+1} & _ {i}\phi _ {n+1} &  _ {i+1}\phi _ {n+1}  \nonumber
-\end{align}
+    \begin{align}
+        \nonumber
+         _ {i-1} & \phi _ {n-1} & _ {i} & \phi _ {n-1} & _ {i+1} & \phi _ {n-1}  \newline \nonumber
+         _ {i-1} & \phi _ {n}   & _ {i} & \phi _ {n}   & _ {i+1} & \phi _ {n}   \nonumber \newline \nonumber
+         _ {i-1} & \phi _ {n+1} & _ {i} & \phi _ {n+1} & _ {i+1} & \phi _ {n+1}
+         \nonumber
+    \end{align}
 \\]
 
-where the \\(i \\) subscript is the \\(x\\) position and \\(n\\) denotes the timestep:
+where the \\(i \\) subscript is the \\(x \\) position and \\(n\\) denotes the timestep:
 \\[
     \phi(x _ i,n\Delta t) = { _ {i}\phi} _ n
 \\]
 
 A simple discretization gives
 \\[
-    \begin{split}
-    _ {i}\phi _ {n+1} &= \frac{\partial \phi}{\partial t} \Delta t + { _ {i}\phi _ n } \\
-                & = -v \frac{ { _ {i+1}\phi _ n} - { _ {i-1}\phi _ n}}{2 \delta x} + { _ {i}\phi _ n}
-    \end{split}
+\begin{split}
+_ {i}\phi _ {n+1} &= \frac{\partial \phi}{\partial t} \Delta t + { _ {i}\phi _ n } \\
+            & = -v \frac{ { _ {i+1}\phi _ n} - { _ {i-1}\phi _ n}}{2 \delta x} + { _ {i}\phi _ n}
+\end{split}
 \\]
 For simplicity, we set \\(v\delta t = \delta x /2\\) and write
 \\[
     { _ {i}\phi} _ {n+1} = \frac{1}{4}\left(  { _ {i+1}\phi} _ n - { _ {i-1}\phi} _ n \right)
 \\]
 
-|  | |  location | | | | | | |
-| -- | -- | -- | -- | -- | -- | -- | -- | -- |
-|            |  time  | i-2 | i-1 | i | i+1 | i+2 | i+3 | \\( \int \phi dx \\) |
+
+|   |  time  | i-2 | i-1 | i | i+1 | i+2 | i+3 | \\( \int \phi dx \\) |
+|:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
 |**Centred** | t=0                 | 1 | 1      | 1     | 0     | 0      | 0     | 3   |
 |            | t=\\(\delta x/2v\\) | 1 | 1      | 1.25  | 0.25  | 0      | 0     | 3.5 |
 |            | t=\\(\delta x/v \\) | 1 | 0.938  | 1.438 | 0.563 | 0.0625 | 0     | 4.0 |
 | **Upwind** | t=0                 | 1 | 1      | 1     | 0     | 0      | 0     | 3   |
 |            | t=\\(\delta x/2v\\) | 1 | 1      | 1     | 0.5   | 0      | 0     | 3.5 |
 |            | t=\\(\delta x/v \\) | 1 | 1      | 1     | 0.75  | 0.25   | 0     | 4.0 |
-[Hand calculation of low order advection schemes][hand-rolled-advection]
 
+Table: _Hand calculation of low order advection schemes_
 
-We compute the first few timesteps for a step function in $\phi$ initially on the location $x_i$ as shown in the diagram. These are written out in the first section of the [Table](#hand-rolled-advection). There are some oddities immediately visible from the table entries. The step has a large overshoot to the left, and its influence gradually propogates in the upstream direction. However, it does preserve the integral value of \\(\phi\\) on the domain (allowing for the fact that the step is advancing into the domain).
+We compute the first few timesteps for a step function in \\(\phi\\) initially on the location \\(x_i\\) as shown in the diagram. These are written out in the first section of the table above. There are some oddities immediately visible from the table entries. The step has a large overshoot to the left, and its influence gradually propogates in the upstream direction. However, it does preserve the integral value of \\(\phi\\) on the domain (allowing for the fact that the step is advancing into the domain).
 
 These effects can be minimized if we use "upwind differencing". This involves replacing the advection term with a non-centred difference scheme instead of the symmetrical term that we used above.
 \\[
@@ -128,3 +131,7 @@ where \\(N \\) is the number of dimensions, and a uniform spacing in all directi
 The exact details of such maximum timestep restrictions for explicit methods vary from problem to problem. It is, however, important to be aware that such restrictions exist so as to be able to search them out before trouble strikes.
 
 One of the ugliest problems from advection appears when viscoelasticity is introduced. In this case we need to track a tensor quantity (stress-rate) without diffusion or other distorting effects.  Obviously this is not easy, especially in a situation where very large deformations are being tracked elsewhere in the system - e.g. the lithosphere floating about on the mantle as it is being stressed and storing elastic stress.
+
+### References
+
+...

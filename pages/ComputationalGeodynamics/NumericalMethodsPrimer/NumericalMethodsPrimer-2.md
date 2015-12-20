@@ -331,3 +331,7 @@ give (eventually)
 \\]
 
 This method is stable although not as accurate as the second order Runge-Kutta Scheme. It is trivial to modify the `Python` script to demonstrate this.
+
+### References
+
+... 
