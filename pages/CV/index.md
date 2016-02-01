@@ -53,6 +53,7 @@ toc: true
   - Research @ Melbourne Accelerator Program (Five year University of Melbourne fellowship)
   - Editor (Multidisciplinary Geoscience) and inaugural editor in chief, Cogent Geoscience
   - National chair,  AuScope Simulation, Analysis, Modelling (Australian national geoscience infrastructure program).
+  - Computational Infrastructure for Geodynamics, Executive Committee, 2016-2018
 
 
 ## Research Experience & Expertise

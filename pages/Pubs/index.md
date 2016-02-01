@@ -13,15 +13,19 @@ image:
 
 ## Overview
 
-June 2015 — 118 publications in journals, books and refereed conference papers.
+January 2016 — 119 publications in journals, books and refereed conference papers.
 
   * h-index 32 from 4000 citations (on 111 items indexed by Web of Science).
-  * [Google scholar](http://scholar.google.com.au/citations?user=f8WWAbgAAAAJ "Google scholar") citation tracking (h index 37 on 5700 citations).
+  * [Google scholar](http://scholar.google.com.au/citations?user=f8WWAbgAAAAJ "Google scholar") citation tracking (h index 38 on 5900 citations).
   * Researchgate: [https://www.researchgate.net/profile/Louis_Moresi](https://www.researchgate.net/profile/Louis_Moresi "Researchgate")
   * ResearcherID: [http://www.researcherid.com/rid/H-1390-2011](https://www.researchgate.net/profile/Louis_Moresi "ResearcherID")
   * Orcid: [http://orcid.org/0000-0003-3685-174X](http://orcid.org/0000-0003-3685-174X "orcid")
 
-## Selected Publications (Chronologically)
+## _Selected_ Publications (Chronologically)
+
+   0. W. Sharples, L. N. Moresi, M Velic, M. A. Jadamec, D. A. May, Transversely Isotropic Rheology in Models of the Earth’s Lithosphere, Submitted to PEPI (accepted, December 2015)
+
+   0. Sharples, W., L. N. Moresi, M. A. Jadamec, and J. Revote (2015), Styles of rifting and fault spacing in numerical models of crustal extension, Journal of Geophysical Research-Solid Earth, 120(6), 4379–4404, doi:10.1002/2014JB011813.
 
    0. P. Betts, L. Moresi, M.S. Miller, D. Willis, Geodynamics of oceanic plateau and plume head accretion and their role in Phanerozoic orogenic systems of China. Geoscience Frontiers, doi: 10.1016/j.gsf.2014.07.002 (2015)
 
@@ -89,3 +93,8 @@ June 2015 — 118 publications in journals, books and refereed conference papers
    0. L. N. Moresi, V. S. Solomatov. Numerical investigation of 2d convection with extremely large viscosity variations. Phys. Fluids, 7:2154–2162, 1995.
 
    0. L. Moresi, B. Parsons. Interpreting gravity, geoid, and topography for convection with temperature-dependent viscosity - application to surface features on Venus. J. Geophys. Res.-Planets, 100:21155–21171, 1995.
+
+
+## Other Scholarly Contributions
+
+   0. L. Moresi. Computational Plate Tectonics and the Geological Record in the Continents, SIAM News, December 2015; [URL](https://sinews.siam.org/DetailsPage/tabid/607/ArticleID/685/Computational-Plate-Tectonics-and-the-Geological-Record-in-the-Continents.aspx)
