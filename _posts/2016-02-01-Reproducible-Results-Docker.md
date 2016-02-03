@@ -2,7 +2,7 @@
 layout: post
 title: 'Reproducible, Reviewable Scientific Code with Docker'
 date: 2016-02-01 # YYYY-MM-DD hh:mm
-published: false # Won't build unless true
+published: true # Won't build unless true
 comments: true
 categories: ['draft','none']
 #image: # default is used if blank. Otherwise use images stored in the _images/posts folder
@@ -30,14 +30,13 @@ This is a venerable idea (see Schwab et al, 2000). The guarantee that Docker pro
 
 To start the ball rolling, I started building a module which makes it easy to bundle up web pages  / files / jupyter notebooks and make a front end to a Docker image. The module contains the jekyll engine to turn markdown files into web pages, example pages / instructions and scripts to set up the jupyter engine to serve the web site and live content correctly.
 
-
 <figure >
 	<a href="/images/posts/KitematicWebEngine/SafariWebInterface.png"><img src="/images/posts/KitematicWebEngine/SafariWebInterface.png"></a>
 	<figcaption> Static landing page to guide you to live notebooks / terminals where you can run wild with a live code installation
     </figcaption>
 </figure>
 
-The idea is to make a simple / familiar landing page for any docker container that provides a stable, immutable return point when exploring the live content. 
+The idea is to make a simple / familiar landing page for any docker container that provides a stable, immutable return point when exploring the live content.
 
 
 ## References
