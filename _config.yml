@@ -8,8 +8,8 @@ port: 4444
 # Jekyll configuration
 
 permalink:   /posts/:title/
-markdown:    kramdown
-highlighter: pygments
+#markdown:    kramdown
+#highlighter: pygments
 sass:
   sass_dir: _sass
   style: compressed
