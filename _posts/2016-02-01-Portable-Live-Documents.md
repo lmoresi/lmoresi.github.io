@@ -52,4 +52,6 @@ The source code is available from [github](https://github.com/lmoresi/docker-web
 
 ## Read this
 
+_Concerning the difficulty of 'passing' a benchmark for a scientific result_
+
 "Geodynamic benchmarking tests in HPC”; Rebecca Farrington, Louis Moresi, Steve Quenette, Robert Turnbull, Patrick Sunter; APAC'05, the APAC Conference and Exhibition on Advanced Computing, Grid Applications and eResearch 2005. [PDF](/images/posts/LiveDocuments/BchmarkDisc.pdf)
