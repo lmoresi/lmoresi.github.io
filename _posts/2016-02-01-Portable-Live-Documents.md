@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Publishing computational science with containers'
+title: 'Publishing Computational Science with Containers'
 date: 2016-02-02 # YYYY-MM-DD hh:mm
 published: true # Won't build unless true
 comments: true
