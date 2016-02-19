@@ -8,6 +8,9 @@ image:
   credit: "Athanasius Kircher, Mundus subterraneus (1664/65)"
 ---
 
+
+
+
 \\[
 \newcommand{\dGamma}{\mathbf{d}\boldsymbol{\Gamma}}
 \newcommand{\erfc}{\mbox{\rm erfc}}
@@ -18,7 +21,9 @@ image:
 \newcommand{\Emerald }[1]{\textcolor[rgb]{0.0,0.7,0.3}{ #1}}
 \\]
 
-
+<!-- TOC / Menu -->
+{% include _numericsTOC.html %}
+<!-- *_ -->
 
 ## Introductory Remarks
 

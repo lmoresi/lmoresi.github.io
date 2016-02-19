@@ -18,6 +18,9 @@ image:
 \newcommand{\Emerald }[1]{\textcolor[rgb]{0.0,0.7,0.3}{ #1}}
 \\]
 
+<!-- TOC / Menu -->
+{% include _numericsTOC.html %}
+<!-- *_ -->
 
 We start with the numerical solution of a very simple differential equation. In fact we choose something simple enough that we already know the answer.
 
@@ -334,4 +337,4 @@ This method is stable although not as accurate as the second order Runge-Kutta S
 
 ### References
 
-... 
+...

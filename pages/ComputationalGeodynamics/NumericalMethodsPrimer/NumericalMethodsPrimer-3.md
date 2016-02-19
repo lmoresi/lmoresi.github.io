@@ -19,6 +19,10 @@ image:
 \newcommand{\Emerald }[1]{\textcolor[rgb]{0.0,0.7,0.3}{ #1}}
 \\]
 
+<!-- TOC / Menu -->
+{% include _numericsTOC.html %}
+<!-- *_ -->
+
 We now move on to look at a different problem which also brings a few surprises when we attempt to find a straightforward numerical treatment. Specifically, the equations that govern transport of a quantity by a moving fluid (advection). This seems pretty straightforward as we simply have to account for a concentration being moved around by a velocity vector field. There are multiple tricks involved in doing this accurately.
 
 ## Generalizing from the Simplest Example

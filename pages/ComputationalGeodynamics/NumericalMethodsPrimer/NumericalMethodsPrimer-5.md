@@ -19,7 +19,9 @@ image:
 \newcommand{\Emerald }[1]{\textcolor[rgb]{0.0,0.7,0.3}{ #1}}
 \\]
 
-
+<!-- TOC / Menu -->
+{% include _numericsTOC.html %}
+<!-- *_ -->
 
 ### Weak Forms of Some Useful Equations
 

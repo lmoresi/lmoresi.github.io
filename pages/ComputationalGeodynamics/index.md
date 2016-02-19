@@ -14,16 +14,16 @@ image:
 
 Background notes from the 2015 VIEPS Geodynamics class. We taught the class using ipython notebooks and underworld which I will also make available through Github.
 
-   * Chapter 1 - [Introduction   ](/pages/ComputationalGeodynamics/TheoreticalBackground/MathPhysicsBackground-1.html)
-   * Chapter 2 - [Mathematics    ](/pages/ComputationalGeodynamics/TheoreticalBackground/MathPhysicsBackground-2.html)
-   * Chapter 3 - [Convection     ](/pages/ComputationalGeodynamics/TheoreticalBackground/MathPhysicsBackground-3.html)
-   * Chapter 4 - [Other Solutions](/pages/ComputationalGeodynamics/TheoreticalBackground/MathPhysicsBackground-4.html)
+   * Chapter 1 - [Introduction   ](/pages/ComputationalGeodynamics/TheoreticalBackground/MathPhysicsBackground-1)
+   * Chapter 2 - [Mathematics    ](/pages/ComputationalGeodynamics/TheoreticalBackground/MathPhysicsBackground-2)
+   * Chapter 3 - [Convection     ](/pages/ComputationalGeodynamics/TheoreticalBackground/MathPhysicsBackground-3)
+   * Chapter 4 - [Other Solutions](/pages/ComputationalGeodynamics/TheoreticalBackground/MathPhysicsBackground-4)
 
 ### Computational Methods
 
-   * Chapter 1 - [Introduction](/pages/ComputationalGeodynamics/NumericalMethodsPrimer/NumericalMethodsPrimer-1.html)
-   * Chapter 2 - [Simple Example](/pages/ComputationalGeodynamics/NumericalMethodsPrimer/NumericalMethodsPrimer-2.html)
-   * Chapter 3 - [Advection Example ](/pages/ComputationalGeodynamics/NumericalMethodsPrimer/NumericalMethodsPrimer-3.html)
-   * Chapter 4 - [Finite Elements 1 ](/pages/ComputationalGeodynamics/NumericalMethodsPrimer/NumericalMethodsPrimer-4.html)
-   * Chapter 5 - [Finite Elements 2 ](/pages/ComputationalGeodynamics/NumericalMethodsPrimer/NumericalMethodsPrimer-5.html)
-   * Chapter 6 - [Finite Elements 3 ](/pages/ComputationalGeodynamics/NumericalMethodsPrimer/NumericalMethodsPrimer-6.html)
+   * Chapter 1 - [Introduction](/pages/ComputationalGeodynamics/NumericalMethodsPrimer/NumericalMethodsPrimer-1)
+   * Chapter 2 - [Simple Example](/pages/ComputationalGeodynamics/NumericalMethodsPrimer/NumericalMethodsPrimer-2)
+   * Chapter 3 - [Advection Example ](/pages/ComputationalGeodynamics/NumericalMethodsPrimer/NumericalMethodsPrimer-3)
+   * Chapter 4 - [Finite Elements 1 ](/pages/ComputationalGeodynamics/NumericalMethodsPrimer/NumericalMethodsPrimer-4)
+   * Chapter 5 - [Finite Elements 2 ](/pages/ComputationalGeodynamics/NumericalMethodsPrimer/NumericalMethodsPrimer-5)
+   * Chapter 6 - [Finite Elements 3 ](/pages/ComputationalGeodynamics/NumericalMethodsPrimer/NumericalMethodsPrimer-6)

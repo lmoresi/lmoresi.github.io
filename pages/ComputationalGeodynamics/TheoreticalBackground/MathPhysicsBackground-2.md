@@ -9,19 +9,7 @@ image:
 ---
 
 <!-- TOC / Menu -->
-<section id="table-of-contents" class="toc">
-  <header>
-    <h3><i class="fa fa-book"></i> Sections </h3>
-  </header>
- <div id="drawer" markdown="1">
-  <ul id="markdown-toc">
-	  <li> <a href="MathPhysicsBackground-1.html"> 1 - Introduction    </a> </li>
-	  <li> <a href="MathPhysicsBackground-2.html"> 2 - Mathematics     </a> </li>
-	  <li> <a href="MathPhysicsBackground-3.html"> 3 - Convection      </a> </li>
-	  <li> <a href="MathPhysicsBackground-4.html"> 4 - Other Solutions </a> </li>
-  </ul>
-</div>
-</section><!-- /#table-of-contents -->
+{% include _mathphysicsTOC.html %}
 
 
 \\[
