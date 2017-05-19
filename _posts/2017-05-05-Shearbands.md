@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Shear Bands with Underworld'
+title: 'Shear Bands with Dilatancy modelled with Underworld'
 date: 2017-05-05 # YYYY-MM-DD hh:mm
 published: true # Won't build unless true
 comments: true
@@ -9,8 +9,6 @@ categories: ['draft','none']
 #  feature: "posts/2015-05-03 10.01.27 HDR.png"
 #  credit: Louis Moresi
 ---
-
-## Shear Bands with Dilantancy
 
 In honour of Hans Mühlhaus' 70th birthday this month, here are some shear band simulations
 made with Underworld. We are investigating the role of dilatancy in the geometry of the shear
