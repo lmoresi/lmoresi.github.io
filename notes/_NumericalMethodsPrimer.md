@@ -1,4 +1,3 @@
-Indent: &nbsp;&nbsp;&nbsp;&nbsp;
 
 
 # Numerical Modeling in Solid Earth Dynamics
