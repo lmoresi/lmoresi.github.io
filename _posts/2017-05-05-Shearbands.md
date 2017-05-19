@@ -16,7 +16,7 @@ In honour of Hans Mühlhaus' 70th birthday this month, here are some shear band 
 made with Underworld. We are investigating the role of dilatancy in the geometry of the shear
 bands for a box of material when a small trapdoor is opened.
 
-The extent to while large-scale deformation is needed to release material through the trapdoor depends
+The extent to which large-scale deformation is needed to release material through the trapdoor depends
 on how much the material dilates when shear bands form. This is a taster:
 
 <figure >
