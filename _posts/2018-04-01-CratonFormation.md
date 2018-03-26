@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 'Untitled'
-date: 3000-01-01 # YYYY-MM-DD hh:mm
-published: false # Won't build unless true
+title: 'Craton Formation and the Onset of Plate Tectonics'
+date: 2018-03-20 # YYYY-MM-DD hh:mm
+published: true # Won't build unless true
 hidden: true
 comments: true
 categories: ['draft','none']
