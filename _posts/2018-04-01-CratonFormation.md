@@ -22,10 +22,11 @@ There is evidence that the deep lithosphere is as ancient as the crust and is an
 
 
 
- ## Background Reading
+## Background Reading
 
-Lithospheres forever ...
+O'Reilly, S. Y., W. L. Griffin, Y. H. P. Djomani, and P. Morgan (2001), Are lithospheres forever? Tracking changes in subcontinental lithospheric mantle through time, GSA Today, 11(4), 4–10, doi:10.1130/1052-5173(2001)011<0004:ALFTCI>2.0.CO;2.
 
-Adam's paper
+Beall, A., Moresi, L. Cooper, C. M. Formation of cratonic lithosphere during the initiation of plate tectonics, Geology, Accepted, March 19, 2017
 
-Cooper Miller paper 2016
+Cooper, C. M., M. S. Miller, and L. Moresi (2016), The structural evolution of the deep continental lithosphere,
+Tectonophysics, 695, 1–89, doi:10.1016/j.tecto.2016.12.004.
