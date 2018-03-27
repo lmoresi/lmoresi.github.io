@@ -22,11 +22,11 @@ FIGURE - CRATON MAP
 
 The theory of plate tectonics describes how rigid plates move on the Earth's
 surface but this really only applies to the oceanic plates. The continental
-crust is generally a great deal more squishy and can crumple or stretch in
+crust is generally a great deal weaker and can crumple or stretch in
 response to movements of the oceanic plates forming mountain belts, rifts and
 low-lying basins.
 
-Many of the oldest parts of the continental crust are an exception to this
+Some of the oldest parts of the continental crust are an exception to this
 generalisation. These are regions that have experienced very little tectonic
 deformation in several billion years of existence. These cratons are thought to
 represent regions of greater strength and this contributes to their longevity.
@@ -38,12 +38,13 @@ and strengthened to the point where they became effectively indestructible.
 The problem with this idea has always been to explain how the hot, weak
 interior of the young Earth could generate enough stress to thicken strong
 lithosphere. Alternatively, if the lithosphere was weak too, what stopped it
-from falling apart while it cooled and 'hardened'.
+from falling apart while it cooled and 'hardened' ?
 
 Recent models of the very early Earth showed that the planet could have been
 cooling rapidly by heat-pipe volcanism (just like Jupiter's moon Io). Massive
 volcanism is enough to prevent plate tectonics from switching on, but when the Earth does cool down enough for the eruptions to slow, a catastrophic transition
-begins and short, violent pulses of lithospheric foundering and overturn occur.
+begins. Short, violent pulses of lithospheric foundering and overturn occur before
+steady plate motions take over.   
 
 Beall and colleagues studied what happens to the strong and buoyant remnants of the heat-pipe lid during these early-Earth hiccups. They found that they became large islands of thick, buckled and very strong lithosphere - exactly like cratons.
 Once the model Earth settled down to a more sedate form of steadily moving
