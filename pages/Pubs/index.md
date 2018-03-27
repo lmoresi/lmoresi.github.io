@@ -13,19 +13,33 @@ image:
 
 ## Overview
 
-January 2016 — 119 publications in journals, books and refereed conference papers.
+February 2018 — 128 publications in journals, books and refereed conference papers.
 
-  * h-index 32 from 4000 citations (on 111 items indexed by Web of Science).
-  * [Google scholar](http://scholar.google.com.au/citations?user=f8WWAbgAAAAJ "Google scholar") citation tracking (h index 38 on 5900 citations).
+  * h-index 38 from 5200 citations (on 118 items indexed by Web of Science).
+  * [Google scholar](http://scholar.google.com.au/citations?user=f8WWAbgAAAAJ "Google scholar") citation tracking (h index 43 on 7500 citations).
   * Researchgate: [https://www.researchgate.net/profile/Louis_Moresi](https://www.researchgate.net/profile/Louis_Moresi "Researchgate")
   * ResearcherID: [http://www.researcherid.com/rid/H-1390-2011](https://www.researchgate.net/profile/Louis_Moresi "ResearcherID")
   * Orcid: [http://orcid.org/0000-0003-3685-174X](http://orcid.org/0000-0003-3685-174X "orcid")
 
 ## _Selected_ Publications (Chronologically)
 
-   0. W. Sharples, L. N. Moresi, M Velic, M. A. Jadamec, D. A. May, Transversely Isotropic Rheology in Models of the Earth’s Lithosphere, Submitted to PEPI (accepted, December 2015)
+   0. Beall, A., Moresi, L. Cooper, C. M. Formation of cratonic lithosphere during the initiation of plate tectonics, Geology, Accepted, March 19, 2017
 
-   0. Sharples, W., L. N. Moresi, M. A. Jadamec, and J. Revote (2015), Styles of rifting and fault spacing in numerical models of crustal extension, Journal of Geophysical Research-Solid Earth, 120(6), 4379–4404, doi:10.1002/2014JB011813.
+   0. B. Mather, S. McLaren, D. Taylor, S. Roy, and L. Moresi (2018), Variations and controls on crustal thermal regimes in Southeastern Australia, Tectonophysics, 723, 261–276, doi:10.1016/j.tecto.2017.12.015.
+
+   0. Mondy, L. S., P. F. Rey, G. Duclaux, and L. Moresi, The role of asthenospheric flow during rift propagation and breakup, Geology, 46(2), 103–106, doi:10.1130/G39674.1,  (2017).
+
+   0. Yang, T., L. Moresi, D. Müller, and M. Gurnis, Oceanic Residual Topography Agrees With Mantle Flow Predictions at Long Wavelengths, Geophys. Res. Lett., 152(3), 566–28, doi:10.1002/2017GL074800,  (2017).
+
+   0. A. Beall, L. Moresi, T. Stern, Dripping or Delamination? A Range of Mechanisms for Removing the Lower Crust or Lithosphere, Geophysical Journal International, 210 (2), 671-692, (2017).
+
+   0. Cooper, C. M., M. S. Miller, and L. Moresi, The structural evolution of the deep continental lithosphere, Tectonophysics, 695, 1–89, doi:10.1016/j.tecto.2016.12.004, (2016).
+
+   0. O'Neill, C., A. Lenardic, M. Weller, L. Moresi, S. Quenette, and S. Zhang (2016), A window for plate tectonics in terrestrial planet evolution? Physics of the Earth and Planetary Interiors, 255, 80–92, doi:10.1016/j.pepi.2016.04.002.
+
+   0. W. Sharples, L. N. Moresi, M Velic, M. A. Jadamec, D. A. May, Simulating faults and plate boundaries with a transversely isotropic plasticity model. Physics of the Earth and Planetary Interiors 252, 77-90  (2016).
+
+   0. Sharples, W., L. N. Moresi, M. A. Jadamec, and J. Revote, Styles of rifting and fault spacing in numerical models of crustal extension, Journal of Geophysical Research-Solid Earth, 120(6), 4379–4404, doi:10.1002/2014JB011813 (2015).
 
    0. P. Betts, L. Moresi, M.S. Miller, D. Willis, Geodynamics of oceanic plateau and plume head accretion and their role in Phanerozoic orogenic systems of China. Geoscience Frontiers, doi: 10.1016/j.gsf.2014.07.002 (2015)
 

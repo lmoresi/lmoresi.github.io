@@ -28,8 +28,8 @@ toc: true
 ##Employment
 
  **2014-Present:**    Professorial Chair of Earth Sciences (Geophysics), University of Melbourne <br>
- **2014-Present:**    Senior Research Scientist (part time), Dept of Earth Sciences, University of Southern California <br>
  **2013-Present:**    Visiting Associate, Seismological Laboratory, California Institute of Technology <br>
+ **2014-2016:**       Senior Research Scientist (part time), Dept of Earth Sciences, University of Southern California <br>
  **2012-2014:**       Australian Research Council College of Experts <br>
  **2008-2013:**       Professor, Computational Mathematics & Geophysics, Monash University <br>
  **2010:**            Erasmus Mundus Visiting Scholar in Computational Mechanics, University of Nantes, France <br>
@@ -55,7 +55,6 @@ toc: true
   - National chair,  AuScope Simulation, Analysis, Modelling (Australian national geoscience infrastructure program).
   - Computational Infrastructure for Geodynamics, Executive Committee, 2016-2018
 
-
 ## Research Experience & Expertise
 
 **Geodynamics:** Application of numerical modelling to the dynamics of planetary mantles including effects of rheological variations, partial melting and porous flow of melt. The geological evolution of the Earth, Venus and Mars. Quantitative models of plate tectonics and other modes of planetary evolution. Modelling the dynamics of subduction zones. The deformation of the continental crust at the basin scale and the interaction of tectonics with erosion/sedimentation.
@@ -67,10 +66,11 @@ toc: true
 ## Honours
 
    Research @ Melbourne Accelerator Program (Five year University of Melbourne fellowship)
+   Fellow, Americal Geophysical Union
 
 ## Learned Society Memberships
+
   - Geological Society of London
-  - Americal Geophysical Union
   - Fellow, Royal Astronomical Society, London
   - Society of Industrial and Applied Mathematics
   - European Geophysical Union
@@ -116,18 +116,25 @@ toc: true
 
 **GLUCIFER** — visualisation toolkit for particle methods which focuses on efficient transfer of information from simulations running on  remote parallel supercomputers.
 
-**BADLANDS** - Badlands is a collection of different codes all of which are intended to work with Underworld. Some of the codes are intended to model detailed stratigraphy in basins at relatively short timescale, others are more focused on broad brush descriptions of the interaction between dynamic topography and surface transport / erosion / deposition.
+**Quagmire** - Quagmire is a collection of parallel algorithms for surface process modelling.
+
 
 ## Invited Presentations
 More than 50 invited presentations in past 12 years, many to cross-disciplinary meetings in mathematical software development, engineering, information science and high performance computing as a representative from the solid earth geophysics community.
 
+
+  - SIAM Conference on Parallel Processing for Scientific Computing, Tokyo, Japan, 2018
+  - Monash University, Computational Mathematics Seminar, 2017
+  - University of Texas, Austin, 2017
+  - CIDER summer program 2017
+  - CIDER summer program 2016, lecturer 
   - Mathematical and Computational Issues in the Geosciences, Stanford, CA 2015, Keynote speaker
   - University of Adelaide, Dept of Earth Sciences, Australia 2015
   -  Comparative Tectonics and Geodynamics of Venus, Earth, and Rocky Exoplanets, Pasadena, CA 2015 
   - American Geophysical Union (AGU) Fall Meeting, San Francisco, CA, 2014 
   - Carnegie Institution for Science, Washington DC, Dept Terrestrial Magnetism, 2014
   - Geological Society of America (GSA) Annual Meeting, Vancouver, BC, Canada, 2014
-  -  Stanford University Geophysics Dept, Stanford, CA, 2014 (†) 
+  -  Stanford University Geophysics Dept, Stanford, CA, 2014
   - Invited Speaker, Global Modeling of the Deep Carbon Cycle Workshop, Washington DC, 2014
   - Australian National University, Research School of Earth Sciences, Canberra, Australia, 2014
   - ASEG/PESA Petroleum Geoscience R&D Forum, Melbourne, Australia, 2014 
