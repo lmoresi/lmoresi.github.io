@@ -23,7 +23,9 @@ February 2018 — 128 publications in journals, books and refereed conference pa
 
 ## _Selected_ Publications (Chronologically)
 
-   0. Beall, A., Moresi, L. Cooper, C. M. Formation of cratonic lithosphere during the initiation of plate tectonics, Geology, Accepted, March 19, 2017
+   0. Yang, T, Moresi, L, Zhao, D., Sandiford, D. Whittaker, J., Cenozoic lithospheric deformation in Northeast Asia and the rapidly-aging Pacific plate, Earth & Planetary Science Letters, Accepted March 30, 2018.
+
+   0. Beall, A., Moresi, L. Cooper, C. M. Formation of cratonic lithosphere during the initiation of plate tectonics, Geology, Accepted, March 19, 2018 
 
    0. B. Mather, S. McLaren, D. Taylor, S. Roy, and L. Moresi (2018), Variations and controls on crustal thermal regimes in Southeastern Australia, Tectonophysics, 723, 261–276, doi:10.1016/j.tecto.2017.12.015.
 
