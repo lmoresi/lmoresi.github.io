@@ -18,7 +18,16 @@ forces for billions of years. How they could be formed in a hot, squishy
 early-Earth has been a long-standing puzzle for geologists. Work by Adam Beall,
 Louis Moresi and Katie Cooper suggests that cratons were made by the catastrophic switching on of plate tectonics: an event so forceful that such immense stresses were never repeated in the following 3 billion years.
 
-FIGURE - CRATON MAP
+<figure >
+	<a href="/images/posts/CratonStability/CratonsLithosphere.png"><img src="/images/posts/CratonStability/CratonsLithosphere.png"></a>
+	<figcaption>
+    (A) Map of the Archean Cratonic crust (dark blue) identified from the Crust 1.0 and paleoproterozoic crust in pale blue. (B) A map of the relative thickness of crust to lithosphere (also from Crust 1.0) which tends to pick stable zones
+    in blue shades from deforming zones in red.
+    dataset.
+    </figcaption>
+</figure>
+
+
 
 The theory of plate tectonics describes how rigid plates move on the Earth's
 surface but this really only applies to the oceanic plates. The continental
@@ -51,9 +60,18 @@ Once the model Earth settled down to a more sedate form of steadily moving
 plates, the stresses never reached a level that could deform these remnants of
 the pre-plate-tectonic state.
 
-FIGURE - MODELS
+<figure >
+	<a href="/images/posts/CratonStability/CratonFormationMovie.mov"><img src="/images/posts/CratonStability/CratonFormationMovieFrames.png"></a>
+	<figcaption>
+      Snapshots from <a href="/images/posts/CratonStability/CratonFormationMovie.mov">
+      this movie </a> that show the initial failure of the cold lid after the
+      heat-pipe mode stops (A), followed by repeated sloughing off of the cold boundary layer in (B) and a slow approach to steady state in (C) where the
+      thick, crumpled lithosphere is shuffled around without deformation.
+  </figcaption>
+</figure>
 
-FIGURE - Some other thing that the models look exactly like but didn't come from our modelling.
+
+FIGURE - Some other thing that the models look exactly like but didn't come from our modelling. E.g. Slices through cratons
 
 
 ## Background Reading
