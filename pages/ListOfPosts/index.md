@@ -15,10 +15,12 @@ image:
 <ul id="markdown-toc">
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <li> <a href="#{{ year }}"> {{year}} </a> </li>
-    {% capture written_year %}{{ year }}{% endcapture %}
+  {% if not post.hidden %}
+    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+    {% if year != written_year %}
+      <li> <a href="#{{ year }}"> {{year}} </a> </li>
+      {% capture written_year %}{{ year }}{% endcapture %}
+    {% endif %}
   {% endif %}
   {% endfor %}
 <li> <a href="{{ site.url }}/pages/ListOfPosts/ByCategory.html"> View posts by topic </a> </li>
@@ -28,6 +30,8 @@ image:
 
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.posts %}
+{% if not post.hidden %}
+
 {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
 {% if year != written_year %}
 <h3 id="{{year}}">{{ year }}</h3>
@@ -43,6 +47,7 @@ image:
       <p style="margin-left:1em;">{{ post.excerpt | strip_html | truncate: 320 }}</p>
 {% endif %}
 </article>
+{% endif %}
 {% endfor %}
 ---
 
