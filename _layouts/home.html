@@ -56,11 +56,13 @@
 
     <div class="article-wrap">
         {% for post in site.posts limit:12 %}
+        {% unless post.hidden %}
           {% if post.link %}
             <p class="link-post"><b><i>Link:</i> <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}" target="_blank">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></b></p>
           {% else %}
             <p> <b> <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> </b> &mdash; {{ post.excerpt | strip_html | truncate: 200 }}</p>
           {% endif %}
+        {% endunless %}
         {% endfor %}
      </div><!-- /.article-wrap -->
     {% if site.owner.disqus-shortname and page.comments == true %}
