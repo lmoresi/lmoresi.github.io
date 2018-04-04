@@ -46,14 +46,16 @@ Moresi, L., Quenette, S., Lemiale, V., Mériaux, C., Appelbe, W., Mühlhaus, 200
 ## Software related Articles
 
 {% for category in site.categories %}
-{% if category[0] == 'underworld' or category[0] == 'geodynamics' or category[0] == 'badlands' or category[0] =='software' %}
+{% if category[0] == 'underworld' or category[0] == 'geodynamics' or category[0] == 'badlands' or category[0] =='software' category[0] =='quagmire' %}
 
 {% for posts in {{category }} %}
  {% for post in posts %}
+ {% unless post.hidden %}
   {% if post.title %}
   <b> <a href="{{ post.url }}">{{ post.title }}</a> </b> &mdash; {{ post.excerpt | strip_html | truncate: 200 }}
 
-  {% endif %}  
+  {% endif %}
+  {% endunless %}  
  {% endfor %}
 {% endfor %}
 
