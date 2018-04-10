@@ -11,7 +11,7 @@ categories: ['geodynamics','underworld','craton']
 #  credit: Louis Moresi
 ---
 
-# They don't make them like they used to ...
+# (they don't make them like they used to ... )
 
 Cratons are anomalously-strong regions of the continents that have largely resisted tectonic forces for billions of years. How such strong zones could be forged in a hot, low-viscosity, low stress,  early-Earth has been a long-standing puzzle for geologists. Adam Beall, Katie Cooper and I have recently proposed that cratons were made by the catastrophic switching on of plate tectonics. An event in which the stresses were larger than they have ever been in the intervening 3 billion years [(Beall et al, 2018)](https://doi.org/10.1130/G39943.1)
 
@@ -46,7 +46,7 @@ and strengthened to the point where they became effectively indestructible.
 The problem with this idea has always been to explain how the hot, weak
 interior of the young Earth could generate enough stress to thicken strong
 lithosphere. Alternatively, if the lithosphere was weak too, what stopped it
-from falling apart while it cooled and 'hardened' ?
+from falling apart by gravitational spreading while it cooled and 'hardened' ?
 
 ## New views
 
