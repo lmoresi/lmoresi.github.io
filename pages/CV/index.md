@@ -25,7 +25,7 @@ toc: true
 
 **Professorial Chair of Earth Sciences (Geophysics), University of Melbourne.** Research in computational geodynamics with application areas in mineral, petroleum and geothermal exploration,  planetary evolution, geology and industrial flows. Expert in finite element software, algorithm design, numerical solvers, parallelism, and efficient implementation.
 
-##Employment
+## Employment
 
  **2014-Present:**    Professorial Chair of Earth Sciences (Geophysics), University of Melbourne <br>
  **2013-Present:**    Visiting Associate, Seismological Laboratory, California Institute of Technology <br>
