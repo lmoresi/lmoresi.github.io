@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Alaska Moho Model'
-date: 2018-09-19 # YYYY-MM-DD hh:mm
+date: 2018-10-12 # YYYY-MM-DD hh:mm
 published: true # Won't build unless true
 hidden: false # Will keep the post from appearing in the index (but can be previewed if the link is known)
 comments: true
@@ -13,7 +13,7 @@ categories: ['geodynamics','stripy','seismology']
 
 # Alaska Moho: an example of reproducible research
 
-![](posts/MillerMoho/MohoSurfaceGradient-ClusteredGrids.png)
+![](/images/posts/MillerMoho/MohoSurfaceGradient-ClusteredGrids.png)
 
 Making your research reproducible means that you provide the entire workflow from data, through software and post-processing freely available. Not only can somebody repeat your experiments and verify them, they can build upon them. In lab-based disciplines, there are many further challenges, but in research that is predominantly based on data processing, this ought to be an achievable goal.
 
