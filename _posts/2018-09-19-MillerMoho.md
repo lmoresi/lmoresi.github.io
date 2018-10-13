@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Alaska Moho Model'
+title: 'Alaska Moho Model (Reproducible)'
 date: 2018-10-12 # YYYY-MM-DD hh:mm
 published: true # Won't build unless true
 hidden: false # Will keep the post from appearing in the index (but can be previewed if the link is known)
@@ -10,8 +10,6 @@ categories: ['geodynamics','stripy','seismology']
 #  feature: "posts/Mill2015-05-03 10.01.27 HDR.png"
 #  credit: Louis Moresi
 ---
-
-# Alaska Moho: an example of reproducible research
 
 ![](/images/posts/MillerMoho/MohoSurfaceGradient-ClusteredGrids.png)
 
