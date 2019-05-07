@@ -11,6 +11,15 @@ Some videos by me or with me in them [updated]
 
 October 2015: Added links to __Elements__ Volume
 September 2015: Added Cogent Video
+April 2019:     Added KITP Video
+
+
+## Non-traditional subduction
+
+A video from the CIDER 2016 workshop at KITB (UCSB)
+
+- [Non Traditional Subduction](http://online.kitp.ucsb.edu/online/earth16/moresi2/rm/jwvideo.html)
+
 
 ## Earth seismicity
 

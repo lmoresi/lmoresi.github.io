@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Louis Moresi CV
-modified: 2015-09-04
+modified: 2019-04-30
 excerpt: "My CV"
 image:
   feature: site/DSC_5374.jpg
@@ -13,22 +13,23 @@ toc: true
 {% include  _toc.html %} <!-- lmth.cot_  grrrrrrr  in syntax highlighting land -->
 
 
-|                            |
-|----------------------------|
-|School of Earth Sciences    |
-|University of Melbourne     |
-|Victoria 3010 AUSTRALIA     |
-|mobile (AU) +61 4 0333 1413 |
-|cell (US): +1 505 349 4425  |
-|louis.moresi@unimelb.edu.au |
+|                                     |
+|-------------------------------------|
+|Research School of Earth Sciences    |
+|Australian National University       |
+|Canberra 2601 AUSTRALIA              |
+|mobile (AU) +61 4 0333 1413          |
+|cell (US): +1 505 349 4425           |
+|louis.moresi@anu.edu.au              |
 
 
-**Professorial Chair of Earth Sciences (Geophysics), University of Melbourne.** Research in computational geodynamics with application areas in mineral, petroleum and geothermal exploration,  planetary evolution, geology and industrial flows. Expert in finite element software, algorithm design, numerical solvers, parallelism, and efficient implementation.
+**Professor (Geophysics / Geodynamics), Australian National University.** Research in computational geodynamics with application areas in mineral, petroleum and geothermal exploration,  planetary evolution, geology and industrial flows. Expert in finite element software, algorithm design, numerical solvers, parallelism, and efficient implementation.
 
 ##Employment
 
- **2014-Present:**    Professorial Chair of Earth Sciences (Geophysics), University of Melbourne <br>
- **2013-Present:**    Visiting Associate, Seismological Laboratory, California Institute of Technology <br>
+ **2014-2019:**       Professor, Research School of Earth Sciences, Australian National University <br>
+ **2014-2019:**       Professorial Chair of Earth Sciences (Geophysics), University of Melbourne <br>
+ **2013-2018:**       Visiting Associate, Seismological Laboratory, California Institute of Technology <br>
  **2014-2016:**       Senior Research Scientist (part time), Dept of Earth Sciences, University of Southern California <br>
  **2012-2014:**       Australian Research Council College of Experts <br>
  **2008-2013:**       Professor, Computational Mathematics & Geophysics, Monash University <br>
@@ -49,11 +50,10 @@ toc: true
 
 ## Current position & Responsibilities
 
-  - Professorial Chair in Earth Sciences (Geophysics), University of Melbourne
-  - Research @ Melbourne Accelerator Program (Five year University of Melbourne fellowship)
-  - Editor (Multidisciplinary Geoscience) and inaugural editor in chief, Cogent Geoscience
+  - Professor, Research School of Earth Sciences, Australian National University
+  - Professor, School of Earth Sciences (Geophysics), University of Melbourne (fractional)
   - National chair,  AuScope Simulation, Analysis, Modelling (Australian national geoscience infrastructure program).
-  - Computational Infrastructure for Geodynamics, Executive Committee, 2016-2018
+  - Computational Infrastructure for Geodynamics, Executive Committee (currently chair), 2016-2020
 
 ## Research Experience & Expertise
 
@@ -66,7 +66,7 @@ toc: true
 ## Honours
 
    Research @ Melbourne Accelerator Program (Five year University of Melbourne fellowship)
-   Fellow, Americal Geophysical Union
+   Fellow, American Geophysical Union
 
 ## Learned Society Memberships
 
@@ -127,7 +127,7 @@ More than 50 invited presentations in past 12 years, many to cross-disciplinary 
   - Monash University, Computational Mathematics Seminar, 2017
   - University of Texas, Austin, 2017
   - CIDER summer program 2017
-  - CIDER summer program 2016, lecturer 
+  - CIDER summer program 2016, lecturer
   - Mathematical and Computational Issues in the Geosciences, Stanford, CA 2015, Keynote speaker
   - University of Adelaide, Dept of Earth Sciences, Australia 2015
   -  Comparative Tectonics and Geodynamics of Venus, Earth, and Rocky Exoplanets, Pasadena, CA 2015 

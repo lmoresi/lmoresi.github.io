@@ -16,11 +16,12 @@ This is a summary of the software tools that I am involved with — a little bit
 
 ## Work in progress
 
-  - Python and iPython enabled version of Underworld (aka [Underworld2](/posts/underworld-2))
+  - Underworld and UWGeodynamics
   - gLucifer in the cloud: webGL rendering version of the standalone app
-  - Badlands surface process code with parallel/matrix formulation
-  - GPlates interface
+  - Quagmire surface process code with parallel/matrix formulation
+  - Stripy
   - Spherical Underworld
+
   - Robust solvers
 
 ## Codes
