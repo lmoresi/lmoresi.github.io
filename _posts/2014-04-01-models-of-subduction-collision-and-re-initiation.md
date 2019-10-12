@@ -34,7 +34,6 @@ The results will also likely provoke significant re-interpretation of some ancie
 
 ##Glossary
 
-
 **Plate tectonics** — the process by which the Earth turns itself inside out, creating new sea-floor at the mid-ocean ridge and swallowing it again at subduction zones.  This process turns the Earth’s internal heat into surface motion of a few centimetres per year and provides the energy for geological change.  
 
 **Continental Drift** — the continents are shuffled, deformed, and dragged around by plate tectonics but are not recycled into the Earth by subduction zones because they are made of generally lighter rocks.  The geological record clearly records the fact that for billions of years continents have migrated continuously around the Earth’s surface: colliding with each other, rifting apart, and drifting to different climatic zones. Modern satellite-based Global Positioning System measurements confirm beyond all doubt that this process continues today.

@@ -11,6 +11,23 @@ image:
 {% include  _toc.html %} <!-- lmth.cot_  grrrrrrr can be heard all across syntax highlighting land -->
 
 
+<script>
+for (let i = 2019; i >= 1995; i--) {
+   document.write(`<h2 > ${i} </h2>` );
+   document.write(`<div id=year${i}>` + `Loading ${i} publications </div>` );
+
+    fetch(`https://api.zotero.org/users/6049345/publications/items?format=bib&style=apa&linkwrap=1&q=${i}`)
+				.then(function (response) {
+					return response.text();
+				})
+				.then(function(body) {
+					document.getElementById("year"+i).innerHTML = body;
+				});
+    document.write("<br/>")
+}
+</script>
+
+
 ## Overview
 
 May 2019 — 128 publications in journals, books and refereed conference papers.
