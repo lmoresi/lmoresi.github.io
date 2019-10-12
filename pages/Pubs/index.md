@@ -15,7 +15,7 @@ image:
 <!-- May 2019 — 128 publications in journals, books and refereed conference papers. -->
 
   <!-- * h-index 38 from 5200 citations (on 118 items indexed by Web of Science). -->
-  - [Google scholar](http://scholar.google.com.au/citations?user=f8WWAbgAAAAJ "Google scholar") citation tracking (h index 43 on 7500 citations).
+  - [Google scholar](http://scholar.google.com.au/citations?user=f8WWAbgAAAAJ "Google scholar") citation tracking (h index 45 on 8500 citations).
   - Researchgate: [https://www.researchgate.net/profile/Louis_Moresi](https://www.researchgate.net/profile/Louis_Moresi "Researchgate")
   - ResearcherID: [http://www.researcherid.com/rid/H-1390-2011](https://www.researchgate.net/profile/Louis_Moresi "ResearcherID")
   - Orcid: [http://orcid.org/0000-0003-3685-174X](http://orcid.org/0000-0003-3685-174X "orcid")
@@ -24,7 +24,7 @@ image:
 
 ## Publicationos
 
-Note: this bibliography is automatically populated from my [zotero](http://www.zotero.org/lmoresi) page
+_Note: this bibliography is automatically populated from my [zotero](http://www.zotero.org/lmoresi) page and may take a few moments to update._
 
 <script>
 for (let i = 2019; i >= 1995; i--) {

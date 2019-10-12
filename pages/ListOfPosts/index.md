@@ -7,6 +7,23 @@ image:
   credit: "Louis Moresi"
 ---
 
+<!-- This is how to grab a medium blog -->
+
+<div id="retainable-rss-embed"
+data-rss="https://medium.com/feed/retainable,
+https://medium.com/feed/vue-mastery"
+data-maxcols="3"
+data-layout="grid"
+data-poststyle="inline"
+data-readmore="Read the rest"
+data-buttonclass="btn btn-primary"
+data-offset="-100"></div>
+
+<script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
+
+
+
+
 <section id="table-of-contents" class="toc">
 <header>
   <h3>Year</h3>
