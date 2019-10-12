@@ -19,12 +19,12 @@ image:
   - Researchgate: [https://www.researchgate.net/profile/Louis_Moresi](https://www.researchgate.net/profile/Louis_Moresi "Researchgate")
   - ResearcherID: [http://www.researcherid.com/rid/H-1390-2011](https://www.researchgate.net/profile/Louis_Moresi "ResearcherID")
   - Orcid: [http://orcid.org/0000-0003-3685-174X](http://orcid.org/0000-0003-3685-174X "orcid")
-
+  - Zotero: [http://www.zotero.org/lmoresi](http://www.zotero.org/lmoresi)
 
 
 ## Publicationos
 
-Note: this bibliography is automatically populated from my [zotero](http://www.zotero.com/lmoresi) page
+Note: this bibliography is automatically populated from my [zotero](http://www.zotero.org/lmoresi) page
 
 <script>
 for (let i = 2019; i >= 1995; i--) {
