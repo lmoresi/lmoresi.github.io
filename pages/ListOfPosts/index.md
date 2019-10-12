@@ -12,7 +12,7 @@ image:
 ---
 
 <div id="retainable-rss-embed"
-data-rss="https://medium.com/feed/@lmoresi, https://medium.com/feed/retainable"
+data-rss="https://medium.com/feed/@lmoresi,https://medium.com/feed/retainable"
 data-maxcols="3"
 data-layout="slider"
 data-poststyle="inline"
@@ -20,6 +20,8 @@ data-readmore="Read on"
 data-buttonclass="btn btn-primary"
 data-offset="-100">
 </div>
+
+<script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
 
 ---
 
