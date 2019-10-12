@@ -10,7 +10,7 @@ image:
 <!-- This is how to grab a medium blog -->
 
 <div id="retainable-rss-embed"
-data-rss="https://medium.com/feed/lmoresi,https://medium.com/feed/underworldcode"
+data-rss="https://medium.com/feed/@lmoresi,https://medium.com/feed/underworldcode"
 data-maxcols="3"
 data-layout="grid"
 data-poststyle="inline"
