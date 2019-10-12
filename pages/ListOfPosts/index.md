@@ -9,18 +9,19 @@ image:
 
 <!-- This is how to grab a medium blog -->
 
+---
+
 <div id="retainable-rss-embed"
-data-rss="https://medium.com/feed/@lmoresi"
+data-rss="https://medium.com/feed/@lmoresi, https://medium.com/feed/retainable"
 data-maxcols="3"
-data-layout="grid"
+data-layout="slider"
 data-poststyle="inline"
 data-readmore="Read on"
 data-buttonclass="btn btn-primary"
-data-offset="-100"></div>
+data-offset="-100">
+</div>
 
-
-
-
+---
 
 <section id="table-of-contents" class="toc">
 <header>
