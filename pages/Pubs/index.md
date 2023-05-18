@@ -12,7 +12,7 @@ image:
 
 ## Overview
 
-  - [Google scholar](http://scholar.google.com.au/citations?user=f8WWAbgAAAAJ "Google scholar") citation tracking (h index 47 on 9000 citations).
+  - [Google scholar](http://scholar.google.com.au/citations?user=f8WWAbgAAAAJ "Google scholar") citation tracking (h index 51 on 11600 citations).
   - Researchgate: [https://www.researchgate.net/profile/Louis_Moresi](https://www.researchgate.net/profile/Louis_Moresi "Researchgate")
   - ResearcherID: [http://www.researcherid.com/rid/H-1390-2011](https://www.researchgate.net/profile/Louis_Moresi "ResearcherID")
   - Orcid: [http://orcid.org/0000-0003-3685-174X](http://orcid.org/0000-0003-3685-174X "orcid")
@@ -24,7 +24,7 @@ image:
 _Note: this bibliography is automatically populated from my [zotero](http://www.zotero.org/lmoresi) page and may take a few moments to update._
 
 <script>
-for (let i = 2020; i >= 1995; i--) {
+for (let i = 2023; i >= 1995; i--) {
    document.write(`<h2 > ${i} </h2>` );
    document.write(`<div id=year${i}>` + `Loading ${i} publications </div>` );
 
