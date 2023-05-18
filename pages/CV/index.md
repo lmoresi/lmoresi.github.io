@@ -18,8 +18,8 @@ toc: true
 |Research School of Earth Sciences    |
 |Australian National University       |
 |Canberra 2601 AUSTRALIA              |
+|office: +61 2 6125 5590.             |
 |mobile (AU) +61 4 0333 1413          |
-|cell (US): +1 505 349 4425           |
 |louis.moresi@anu.edu.au              |
 
 
@@ -27,7 +27,7 @@ toc: true
 
 ##Employment
 
- **2014-2019:**       Professor, Research School of Earth Sciences, Australian National University <br>
+ **2020-:**       Professor, Research School of Earth Sciences, Australian National University <br>
  **2014-2019:**       Professorial Chair of Earth Sciences (Geophysics), University of Melbourne <br>
  **2013-2018:**       Visiting Associate, Seismological Laboratory, California Institute of Technology <br>
  **2014-2016:**       Senior Research Scientist (part time), Dept of Earth Sciences, University of Southern California <br>
@@ -53,7 +53,7 @@ toc: true
   - Professor, Research School of Earth Sciences, Australian National University
   - Professor, School of Earth Sciences (Geophysics), University of Melbourne (fractional)
   - National chair,  AuScope Simulation, Analysis, Modelling (Australian national geoscience infrastructure program).
-  - Computational Infrastructure for Geodynamics, Executive Committee (currently chair), 2016-2020
+  - Computational Infrastructure for Geodynamics, Executive Committee, 2016-2020; 2023-
 
 ## Research Experience & Expertise
 
@@ -65,7 +65,7 @@ toc: true
 
 ## Honours
 
-   Research @ Melbourne Accelerator Program (Five year University of Melbourne fellowship)
+   Research @ Melbourne Accelerator Program (University of Melbourne fellowship)
    Fellow, American Geophysical Union
 
 ## Learned Society Memberships
